@@ -1,5 +1,5 @@
 {
-  "name": "neonhgroup",
+  "name": "bizorax",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.1"
+    "@next/third-parties": "^15.0.3",
+    "axios": "^1.7.8",
+    "formik": "^2.4.6",
+    "framer-motion": "^11.11.17",
+    "next": "15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-parallax": "^3.5.1",
+    "react-phone-input-2": "^2.15.1",
+    "react-select": "^5.8.3",
+    "sass": "^1.81.0",
+    "swiper": "^11.1.15",
+    "yup": "^1.4.0"
   }
 }
