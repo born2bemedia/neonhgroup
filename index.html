@@ -1,69 +1,39 @@
-<footer class="footer">
-  <div class="footer__container _container">
-    <div class="footer__body">
-      <div class="footer__row-01">
-        <div class="footer__col-01">
-          <Link href="/" class="footer__logo">
-            <LogoWhite />
-            <div class="wrapper">
-              <span class="title">NEON HR GROUP</span>
-              <span class="subtitle">Flexible. Scalable. HR That Works for You.</span>
+<section class="home-how">
+  <div class="home-how__container _container">
+    <div class="home-how__body">
+      <h2 class="home-how__title">How We Can Help</h2>
+      <div class="home-how__content">
+        <div class="home-how__col-01">
+          {accordionData.map((item, index) => (
+            <div
+              key={index}
+              class="home-how__accordion-item"
+              onClick={() => handleAccordionToggle(index)}
+            >
+              <div class="home-how__accordion-header">
+                <span>{item.title}</span>
+                <img
+                  class={`accordion-icon ${activeIndex === index ? "active" : ""}`}
+                  src="/images/home/home-arrow-01.svg" 
+                  alt="toggle-icon"
+                />
+              </div>
+              <motion.div
+                class="home-how__accordion-content"
+                initial={{ height: 0 }}
+                animate={{ height: activeIndex === index ? "auto" : 0 }}
+                transition={{ duration: 0.3 }}
+                style={{ overflow: "hidden" }}
+              >
+                <p>{item.content}</p>
+              </motion.div>
             </div>
-          </Link>
+          ))}
         </div>
-        <div class="footer__col-02">
-          <div class="footer__col">
-            <h3 class="footer__title">Company</h3>
-            <ul class="footer__list">
-              <li class="footer__item"><Link href="#" class="footer__link">Our Expertise</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Cases</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">FAQ</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Contact Us</Link></li>
-            </ul>
-          </div>
-          <div class="footer__col">
-            <h3 class="footer__title">Services</h3>
-            <ul class="footer__list">
-              <li class="footer__item"><Link href="#" class="footer__link">Recruitment & Hiring Services</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">HR Consulting & Strategy</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Employee Assessment & Development</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">HR Operations & Outsourcing</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Legal & Compliance Services</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Employee Engagement & Well-being</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Industry-Specific HR Services</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Complex Solutions</Link></li>
-            </ul>
-          </div>
-          <div class="footer__col">
-            <h3 class="footer__title">Legal</h3>
-            <ul class="footer__list">
-              <li class="footer__item"><Link href="#" class="footer__link">Terms of Use</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Privacy Policy</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Cookie Policy</Link></li>
-              <li class="footer__item"><Link href="#" class="footer__link">Refund Policy</Link></li>
-            </ul>
-          </div>
-          <div class="footer__col">
-            <h3 class="footer__title">Contact us</h3>
-            <ul class="footer__list">
-              <li class="footer__item">
-                <Link href="mainto:example@gmail.com" class="footer__link">example@gmail.com</Link>
-              </li>
-              <li class="footer__item">
-                <Link href="tel:+1000000000" class="footer__link">+1 000 000 000</Link>
-              </li>
-              <li class="footer__item _socials">
-                <Link href="#" class="_facebook"><Facebook /></Link>
-                <Link href="#" class="_instagram"><Instagram /></Link>
-                <Link href="#" class="_linkedin"><Linkedin /></Link>
-              </li>
-            </ul>
-          </div>
+        <div class="home-how__col-02">
+            <img src="/images/home/home-img-06.png" alt="image" />
         </div>
-      </div>
-      <div class="footer__row-02">
-        <div class="footer__copy">© {currentYear} Neonhire LTD. All rights reserved.</div>
       </div>
     </div>
   </div>
-</footer>
+</section>
