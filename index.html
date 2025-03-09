@@ -1,39 +1,12 @@
-<section class="home-how">
-  <div class="home-how__container _container">
-    <div class="home-how__body">
-      <h2 class="home-how__title">How We Can Help</h2>
-      <div class="home-how__content">
-        <div class="home-how__col-01">
-          {accordionData.map((item, index) => (
-            <div
-              key={index}
-              class="home-how__accordion-item"
-              onClick={() => handleAccordionToggle(index)}
-            >
-              <div class="home-how__accordion-header">
-                <span>{item.title}</span>
-                <img
-                  class={`accordion-icon ${activeIndex === index ? "active" : ""}`}
-                  src="/images/home/home-arrow-01.svg" 
-                  alt="toggle-icon"
-                />
-              </div>
-              <motion.div
-                class="home-how__accordion-content"
-                initial={{ height: 0 }}
-                animate={{ height: activeIndex === index ? "auto" : 0 }}
-                transition={{ duration: 0.3 }}
-                style={{ overflow: "hidden" }}
-              >
-                <p>{item.content}</p>
-              </motion.div>
-            </div>
-          ))}
-        </div>
-        <div class="home-how__col-02">
-            <img src="/images/home/home-img-06.png" alt="image" />
-        </div>
+<section class="home-see">
+  <div class="home-see__container _container">
+      <div class="home-see__body">
+          <h2 class="home-see__title">See HR Solutions in Action</h2>
+          <p class="home-see__text">Discover how expert HR strategies drive real business success. <br /> Have Questions? Find quick answers to common HR challenges.</p>
+          <div class="home-see__buttons">
+              <Link href="#" class="home-see__link">Explore Market Cases</Link>
+              <Link href="#" class="home-see__link">Visit Our FAQ</Link>
+          </div>
       </div>
-    </div>
   </div>
 </section>
