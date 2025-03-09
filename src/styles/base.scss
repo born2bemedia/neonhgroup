@@ -88,7 +88,7 @@ h6 {
 */
 
 body {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-size: 16px;
   color: #0f0f0f;
   line-height: normal;
@@ -122,16 +122,9 @@ body {
 ._container {
   max-width: $maxWidthContainer + px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 16px;
 }
 
-.container {
-  max-width: 100%;
-  padding: 0 64px;
-  @media (max-width: 1650px) {
-    padding: 0 16px;
-  }
-}
 
 .site {
   position: relative;
@@ -221,13 +214,13 @@ body {
     line-height: normal;
     color: #0f0f0f;
     font-weight: 500;
-    font-family: "Urbanist", sans-serif;
+    font-family: "Gilroy", sans-serif;
   }
 
   &__subtitle {
     font-size: 16px;
     line-height: 19px;
-    font-family: "Urbanist", sans-serif;
+    font-family: "Gilroy", sans-serif;
   }
 
   &__close {
@@ -272,7 +265,7 @@ body {
       .wrapper {
         .success-message {
           background-color: #fff;
-          font-family: "Urbanist", sans-serif;
+          font-family: "Gilroy", sans-serif;
           span {
             margin-right: 5px;
             display: inline-block;
@@ -465,7 +458,7 @@ body {
 
               .selected-dial-code {
                 color: #959595;
-                font-family: "Urbanist", sans-serif;
+                font-family: "Gilroy", sans-serif;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 300;
@@ -494,7 +487,7 @@ body {
 
               li {
                 color: var(--6, #0b1d20);
-                font-family: "Urbanist", sans-serif;
+                font-family: "Gilroy", sans-serif;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
@@ -519,7 +512,7 @@ body {
           font-weight: 500;
           font-size: 16px;
           line-height: 19px;
-          font-family: "Urbanist", sans-serif;
+          font-family: "Gilroy", sans-serif;
           transition: all 0.3s ease 0s;
 
           &::placeholder {
@@ -553,7 +546,7 @@ body {
         color: #ffffff;
         font-size: 16px;
         line-height: normal;
-        font-family: "Urbanist", sans-serif;
+        font-family: "Gilroy", sans-serif;
         transition: all 0.3s ease 0s;
 
         &:hover {
@@ -585,7 +578,7 @@ body {
         color: #ffffff;
         font-size: 16px;
         line-height: normal;
-        font-family: "Urbanist", sans-serif;
+        font-family: "Gilroy", sans-serif;
         transition: all 0.3s ease 0s;
 
         &:hover {
@@ -662,7 +655,7 @@ body {
               font-size: 16px;
               line-height: normal;
               font-weight: 500;
-              font-family: "Urbanist", sans-serif;
+              font-family: "Gilroy", sans-serif;
             }
 
             &::after { 
@@ -673,7 +666,7 @@ body {
               width: 83px;
               height: 100%;
               text-align: center;
-              font-family: "Urbanist", sans-serif;
+              font-family: "Gilroy", sans-serif;
               font-size: 16px;
               line-height: normal;
               color: #fff;
@@ -729,7 +722,7 @@ body {
               font-weight: 500;
               font-size: 16px;
               line-height: 19px;
-              font-family: "Urbanist", sans-serif;
+              font-family: "Gilroy", sans-serif;
               transition: all 0.3s ease 0s;
               height: 80px;
               resize: none;
@@ -775,7 +768,7 @@ body {
               font-size: 16px;
               line-height: normal;
               font-weight: 500;
-              font-family: "Urbanist", sans-serif;
+              font-family: "Gilroy", sans-serif;
             }
 
             &::after { 
@@ -786,7 +779,7 @@ body {
               width: 83px;
               height: 100%;
               text-align: center;
-              font-family: "Urbanist", sans-serif;
+              font-family: "Gilroy", sans-serif;
               font-size: 16px;
               line-height: normal;
               color: #fff;

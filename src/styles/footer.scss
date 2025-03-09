@@ -1,5 +1,140 @@
 @import "mixin";
 
-.footer { 
-  
+.footer {
+    background-color: #020514;
+    padding: 48px 0 12px 0;
+    &__container {
+    }
+
+    &__body {
+
+    }
+
+    &__row-01 {
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        padding: 0 0 48px 0;
+
+        @media(max-width: 767px) { 
+            flex-direction: column;
+        }
+    }
+
+    &__col-01 {
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            .title {
+                color: #fff;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .subtitle {
+                color: #fff;
+                font-family: "Gilroy", sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+                @media(max-width: 767px) { 
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &__col-02 {
+        display: flex;
+        @include adaptiv-value('gap', 48, 0, 1);
+
+        @media(max-width: 767px) { 
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 16px;
+            row-gap: 48px;
+        }
+    }
+
+    &__col {
+        
+    }
+
+    &__title {
+        color: #FFF;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0 0 16px 0;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__item {
+
+        &._socials { 
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            a { 
+                svg { 
+                    path { 
+                        transition: all 0.3s ease 0s;
+                        fill: #9DA3BB;
+                    }
+                }
+
+                &:hover {
+                    svg { 
+                        path { 
+                            fill: #FF5900;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__link {
+        color: #9DA3BB;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: all 0.3s ease 0s;
+        &:hover { 
+            color: #FF5900;
+        }
+    }
+
+    &__row-02 {
+    }
+
+    &__copy {
+        color: #FFF;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        padding: 12px 0 0 0;
+    }
 }
