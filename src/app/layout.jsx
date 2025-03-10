@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${urbanist.className} ${roboto.className} ${gilroy.variable}`}>
 
-        {/* <GoogleAnalytics gaId="" /> */}
+        <GoogleAnalytics gaId="G-3MY5QN7V8N" />
         <PopupsProvider>
           {/* <Preloader /> */}
           <Header />
