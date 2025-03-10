@@ -7,13 +7,18 @@ export async function POST(request) {
     const bodyJSON = JSON.parse(requestBody);
     const {
       yourName,
-      company,
       email,
       phone,
-      activity,
-      website,
-      challenge,
-      urgency,
+      message,
+      are,
+      company,
+      eventName,
+      eventLink,
+      industry,
+      eventLocation,
+      eventDate,
+      eventTopic,
+      participationType
     } = bodyJSON;
 
     const transporter = nodemailer.createTransport({
@@ -28,59 +33,72 @@ export async function POST(request) {
     });
 
     const mailOptionsRecipient = {
-      from: '"Nexoria" <noreply@nexoria.ai>',
-      to: "noreply@nexoria.ai", //
+      from: '"Neonhrgroup" <noreply@neonhrgroup.com>',
+      to: "noreply@neonhrgroup.com",
       subject: "Consultation Request",
       text: `Name: ${yourName}
-Company: ${company}
 Email: ${email}
 Phone: ${phone}
-Activity: ${activity}
-Website: ${website}
-Challenge: ${challenge}
-Urgency: ${urgency}`,
+Message: ${message}
+Are: ${are}
+Company: ${company}
+Event Name: ${eventName}
+Event Link: ${eventLink}
+Industry: ${industry}
+Event Location: ${eventLocation}
+Event Date: ${eventDate}
+Event Topic: ${eventTopic}
+Type of Participation: ${participationType}`,
     };
 
     const mailOptionsClient = {
-      from: '"Nexoria" <noreply@nexoria.ai>',
+      from: '"Neonhrgroup" <noreply@neonhrgroup.com>',
       to: email,
-      subject: "Your Consultation Request Has Been Received",
+      subject: "Neonhrgroup: Your Application Received",
       html: `
-            <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif; border-right: 1px solid #222222; border-left: 1px solid #222222;">
-            <thead>
-                <tr>
-                    <th style="background-image: url('https://nexoria.ai/images/letter-top.jpg'); background-size: cover;background-position: center center; background-repeat: no-repeat; height: 117px;"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="padding: 50px 40px; font-family: Roboto, sans-serif; color:#0A0A0A;">
-                        <h2 style="text-align: left; font-size: 20px;">Dear ${yourName},</h2>
-                        <p style="font-size: 16px; line-height: 19px;">Thank you for submitting your request for a consultation with Nexoria. We appreciate your interest in discussing how we can help your business grow.</p>
-                        <p style="font-size: 16px; line-height: 19px;">Our team is currently reviewing your request and will reach out to you soon to discuss your specific challenges and how we can address them. Your urgency level has been noted as <span style="color: #008967; font-weight: 600;">${urgency}</span>, and we will prioritise your inquiry accordingly.</p>
-                        <p style="font-size: 16px; line-height: 19px;">If you have any immediate questions or additional information to share, please don't hesitate to contact us at <a href="mailto:info@nexoria.ai" style="color: #008967; font-weight: 600;text-decoration: underline;">info@nexoria.ai</a>.</p>
-                        <p style="font-size: 16px; line-height: 19px;">Thank you for choosing Nexoria. We look forward to connecting with you!</p>
-                        <p style="font-size: 16px; line-height: 19px; font-weight: 600;">
-                            Best regards,
-                            <br>
-                            The Nexoria Team
-                        </p>
+        <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif;">
+          <thead>
+            <tr>
+              <th style="background-image: url('https://neonhrgroup.com/images/email-header.jpg'); background-size: contain; background-position: center center; background-repeat: no-repeat; height: 102px;"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 50px 40px; font-family: Roboto, sans-serif; color:#0A0A0A;">
+                <h2 style="text-align: left; font-size: 20px;">Dear ${yourName},</h2>
+                <p style="font-size: 16px; line-height: 19px;">Thank you for your interest in joining Neonhrgroup. We’re pleased to confirm that we have received your application.</p>
+                <p style="font-size: 16px; line-height: 19px;">Our team is currently reviewing the details and will be in touch with you shortly to discuss the next steps. In the meantime, feel free to reach out to us if you have any questions or need assistance.</p>
+                <p style="font-size: 16px; line-height: 19px;">Thank you for choosing Neonhrgroup, and we look forward to connecting with you soon.</p>
+                <p style="font-size: 16px; line-height: 19px; font-weight: 600;">
+                  Best regards,<br>
+                  The Neonhrgroup Team
+                </p>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2" style="width: 50%; background-image: url('https://neonhrgroup.com/images/email-footer.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; height: 102px; text-align: center; padding: 0;">
+                <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+                  <tr>
+                    <td></td>
+                    <td style="width: 50%; text-align: start; vertical-align: middle;">
+                      <ul style="margin:0;padding:0;">
+                        <li style="list-style: disc; color: #1E40AF; font-size: 10px; line-height: 12px;"><b>Registration:</b> <span style="color: #000000;">86-90 Paul Street, London, <br> Greater London, England, EC2A 4NE</span></li>
+                        <li style="list-style: disc; color: #1E40AF; font-size: 10px; line-height: 12px;"><b>Email:</b> <a href="mailto:info@neonhrgroup.com" style="color: #000;">info@neonhrgroup.com</a></li>
+                        <li style="list-style: disc; color: #1E40AF; font-size: 10px; line-height: 12px;"><b>Phone:</b> <a href="tel:+447482191976" style="color: #000;">+447482191976</a></li>
+                      </ul>
                     </td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td style="background-color: #222222; font-weight: 600; font-family: Roboto, sans-serif;padding: 24px 0;">
-                        <p style="font-size: 20px; line-height: 24px; color: #ffffff; text-align: center;margin: 0;">Thanks for using <a href="https://nexoria.ai/" style="color: #008967; text-decoration: none;">Nexoria</a></p>
-                    </td>
-                </tr>
-            </tfoot>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tfoot>
         </table>
       `,
     };
 
     await transporter.sendMail(mailOptionsRecipient);
-
     await transporter.sendMail(mailOptionsClient);
 
     return NextResponse.json({ message: "Success: emails were sent" });
