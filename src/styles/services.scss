@@ -1,0 +1,64 @@
+@import "mixin";
+
+.services-hero {
+    &__container {
+    }
+
+    &__body {
+        @include adaptiv-value("padding-top", 100, 32, 1);
+        @include adaptiv-value("padding-bottom", 100, 32, 1);
+    }
+
+    &__title {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 32, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+
+    &__text {
+        margin: 12px 0 0 0;
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+
+    &__link {
+        @include adaptiv-value("margin-top", 48, 24, 1);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 16px 32px;
+        background: #ff5900;
+        transition: all 0.3s ease 0s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+
+        color: #fff;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        &:hover {
+            background-color: #c14300;
+        }
+    }
+
+    &__image {
+        img {
+            @include adaptiv-value("height", 350, 90, 1);
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
