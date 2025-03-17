@@ -7,6 +7,10 @@
     &__body {
         @include adaptiv-value("padding-top", 100, 32, 1);
         @include adaptiv-value("padding-bottom", 100, 32, 1);
+        background-image: url("/images/services/img-back.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     &__title {
@@ -265,6 +269,8 @@
             height: 16px;
             min-width: 16px;
             min-height: 16px;
+            position: relative;
+            top: 2px;
         }
         &._white {
             color: #fff;
@@ -413,7 +419,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 32px;
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             flex-direction: column;
         }
     }
@@ -423,7 +429,7 @@
         @media (max-width: 767px) {
             width: 100%;
         }
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -433,12 +439,12 @@
 
     &__title {
         color: #020513;
-        font-family: 'Gilroy', sans-serif;
-        @include adaptiv-value('font-size', 64, 38, 1);
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 38, 1);
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             text-align: center;
         }
     }
@@ -446,12 +452,12 @@
     &__text {
         margin: 12px 0 0 0;
         color: #020513;
-        font-family: 'Gilroy', sans-serif;
+        font-family: "Gilroy", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             text-align: center;
         }
     }
@@ -484,9 +490,106 @@
             width: 100%;
         }
 
-        img { 
+        img {
             width: 100%;
             object-fit: cover;
         }
+    }
+}
+
+.services-how {
+    @include adaptiv-value("padding-top", 100, 32, 1);
+    @include adaptiv-value("padding-bottom", 222, 32, 1);
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 38, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    &__items {
+        margin: 48px 0 0 0;
+        display: flex;
+        align-items: stretch;
+        gap: 24px;
+
+        @media (max-width: 992px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 767px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        width: 20%;
+        background-color: #f6f6f6;
+        border-bottom: 6px solid #ff8000;
+        padding: 0 0 24px 0;
+
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+        &:nth-child(1),
+        &:nth-child(5) {
+            position: relative;
+            top: 61px;
+
+            @media (max-width: 992px) {
+                top: 0;
+            }
+        }
+
+        &:nth-child(3) {
+            position: relative;
+            top: 128px;
+            @media (max-width: 992px) {
+                top: 0;
+            }
+        }
+    }
+
+    &__image {
+        width: 100%;
+        height: 264px;
+        object-fit: cover;
+    }
+
+    &__wrapper {
+        padding: 24px 24px 0 24px;
+    }
+
+    &__label {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__text {
+        margin: 8px 0 0 0;
+        color: #4f515a;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 }
