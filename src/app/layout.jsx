@@ -8,8 +8,8 @@ import Preloader from "@/components/Preloader";
 /* import RequestPopup from "@/components/RequestPopup"; */
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { PopupsProvider } from "@/context/PopupsContext";
-/* import OrderPopup from "@/components/OrderPopup";
-import ServicePopup from "@/components/ServicePopup"; */
+/* import OrderPopup from "@/components/OrderPopup"; */
+import ServicePopup from "@/components/ServicePopup";
 
 
 const gilroy = localFont({
@@ -56,8 +56,8 @@ export default function RootLayout({ children }) {
           <Header />
           <main className="site">{children}</main>
           <Footer />
-          {/* <OrderPopup />
-          <ServicePopup /> */}
+          {/* <OrderPopup /> */}
+          <ServicePopup />
         </PopupsProvider>
       </body>
     </html>
