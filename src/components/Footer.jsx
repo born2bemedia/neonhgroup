@@ -60,18 +60,30 @@ const Footer = () => {
               <div className="footer__col">
                 <h3 className="footer__title">Contact us</h3>
                 <ul className="footer__list">
-                  <li className="footer__item">
+                  {/* <li className="footer__item">
                     <Link href="mainto:example@gmail.com" className="footer__link">example@gmail.com</Link>
                   </li>
                   <li className="footer__item">
                     <Link href="tel:+1000000000" className="footer__link">+1 000 000 000</Link>
-                  </li>
+                  </li> */}
                   <li className="footer__item _socials">
                     <Link href="#" className="_facebook"><Facebook /></Link>
                     <Link href="#" className="_instagram"><Instagram /></Link>
                     <Link href="#" className="_linkedin"><Linkedin /></Link>
                   </li>
                 </ul>
+                <div className="footer__address">
+                  <h4 className="title">Registered address:</h4>
+                  <p className="text">128 City Road, <br /> London, United <br /> Kingdom, EC1V 2NX</p>
+                </div>
+                {/* <div className="footer__address">
+                  <h4 className="title">Office address:</h4>
+                  <p className="text"></p>
+                </div> */}
+                <div className="footer__address">
+                  <h4 className="title">Registered number:</h4>
+                  <p className="text">16264350</p>
+                </div>
               </div>
             </div>
           </div>

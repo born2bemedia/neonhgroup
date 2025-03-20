@@ -7,7 +7,6 @@
     }
 
     &__body {
-
     }
 
     &__row-01 {
@@ -16,7 +15,7 @@
         gap: 32px;
         padding: 0 0 48px 0;
 
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             flex-direction: column;
         }
     }
@@ -47,7 +46,7 @@
                 font-weight: 400;
                 line-height: normal;
 
-                @media(max-width: 767px) { 
+                @media (max-width: 767px) {
                     display: none;
                 }
             }
@@ -56,9 +55,9 @@
 
     &__col-02 {
         display: flex;
-        @include adaptiv-value('gap', 48, 0, 1);
+        @include adaptiv-value("gap", 48, 0, 1);
 
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             column-gap: 16px;
@@ -67,12 +66,11 @@
     }
 
     &__col {
-        
     }
 
     &__title {
-        color: #FFF;
-        font-family: 'Gilroy', sans-serif;
+        color: #fff;
+        font-family: "Gilroy", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -87,23 +85,22 @@
     }
 
     &__item {
-
-        &._socials { 
+        &._socials {
             display: flex;
             align-items: center;
             gap: 12px;
-            a { 
-                svg { 
-                    path { 
+            a {
+                svg {
+                    path {
                         transition: all 0.3s ease 0s;
-                        fill: #9DA3BB;
+                        fill: #9da3bb;
                     }
                 }
 
                 &:hover {
-                    svg { 
-                        path { 
-                            fill: #FF5900;
+                    svg {
+                        path {
+                            fill: #ff5900;
                         }
                     }
                 }
@@ -112,15 +109,15 @@
     }
 
     &__link {
-        color: #9DA3BB;
-        font-family: 'Gilroy', sans-serif;
+        color: #9da3bb;
+        font-family: "Gilroy", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         transition: all 0.3s ease 0s;
-        &:hover { 
-            color: #FF5900;
+        &:hover {
+            color: #ff5900;
         }
     }
 
@@ -128,13 +125,35 @@
     }
 
     &__copy {
-        color: #FFF;
-        font-family: 'Gilroy', sans-serif;
+        color: #fff;
+        font-family: "Gilroy", sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         text-align: center;
         padding: 12px 0 0 0;
+    }
+
+    &__address {
+        margin: 16px 0 0 0;
+        .title {
+            color: #505467;
+            font-family: "Gilroy", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .text {
+            margin: 8px 0 0 0;
+            color: #9da3bb;
+            font-family: 'Gilroy', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
     }
 }
