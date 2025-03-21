@@ -9,6 +9,7 @@ import Linkedin from "@/icons/social/Linkedin";
 import { usePathname } from "next/navigation";
 import LogoWhite from "@/icons/other/LogoWhite";
 import Menu from "@/icons/other/Menu";
+import Submenu from "@/icons/other/Submenu";
 
 
 const Header = () => {
@@ -76,7 +77,76 @@ const Header = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="header__col-04"></div>
+                <div className="header__col-04">
+                  <nav className="header__menu">
+                    <ul className="header__menu-list">
+                      <li className="header__menu-item _sublist">
+                        <span>Services <Submenu /></span>
+                        <ul className="header__submenu">
+                          <div className="wrapper">
+                            <li className="header__submenu-item">
+                              <Link href="/recruitment-hiring-services" className="header__submenu-link">
+                                <img src="/images/menu-icon-01.svg" alt="icon" />
+                                Recruitment & Hiring Services
+                              </Link>
+                            </li>
+                            <li className="header__submenu-item">
+                              <Link href="/hr-consulting-strategy" className="header__submenu-link">
+                                <img src="/images/menu-icon-02.svg" alt="icon" />
+                                HR Consulting & Strategy
+                              </Link>
+                            </li>
+                            <li className="header__submenu-item">
+                              <Link href="/employee-assessment-development" className="header__submenu-link">
+                                <img src="/images/menu-icon-03.svg" alt="icon" />
+                                Employee Assessment & Development
+                              </Link>
+                            </li>
+                            <li className="header__submenu-item">
+                              <Link href="/hr-operations-outsourcing" className="header__submenu-link">
+                                <img src="/images/menu-icon-04.svg" alt="icon" />
+                                HR Operations & Outsourcing
+                              </Link>
+                            </li>
+                            <li className="header__submenu-item">
+                              <Link href="/legal-compliance-services" className="header__submenu-link">
+                                <img src="/images/menu-icon-05.svg" alt="icon" />
+                                Legal & Compliance Services
+                              </Link>
+                            </li>
+                            <li className="header__submenu-item">
+                              <Link href="/employee-engagement-well-being" className="header__submenu-link">
+                                <img src="/images/menu-icon-06.svg" alt="icon" />
+                                Employee Engagement & Well-being
+                              </Link>
+                            </li>
+                            <li className="header__submenu-item">
+                              <Link href="#" className="header__submenu-link">
+                                <img src="/images/menu-icon-07.svg" alt="icon" />
+                                Industry-Specific HR Services
+                              </Link>
+                            </li>
+                          </div>
+                        </ul>
+                      </li>
+                      <li className="header__menu-item">
+                        <Link href="/solutions" className="header__menu-link">Solutions</Link>
+                      </li>
+                      <li className="header__menu-item">
+                        <Link href="/cases" className="header__menu-link">Cases</Link>
+                      </li>
+                      <li className="header__menu-item">
+                        <Link href="/our-expertise" className="header__menu-link">Our Expertise</Link>
+                      </li>
+                      <li className="header__menu-item">
+                        <Link href="/faq" className="header__menu-link">FAQ</Link>
+                      </li>
+                      <li className="header__menu-item">
+                        <Link href="/contact-us" className="header__menu-link">Contact Us</Link>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
                 <div className="header__col-05">
                   <button className="header__menu-btn">
                     <Menu />

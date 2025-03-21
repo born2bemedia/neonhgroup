@@ -12,7 +12,7 @@
         background-color: #f2f1f6;
         padding: 12px 0;
 
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             display: none;
         }
     }
@@ -106,7 +106,7 @@
                 font-weight: 400;
                 line-height: normal;
 
-                @media(max-width: 767px) { 
+                @media (max-width: 767px) {
                     display: none;
                 }
             }
@@ -119,14 +119,14 @@
     &__col-05 {
     }
 
-    &__menu-btn { 
+    &__menu-btn {
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
         width: 24px;
         height: 24px;
-        @media(min-width: 768px) { 
+        @media (min-width: 768px) {
             display: none;
         }
     }
@@ -139,19 +139,131 @@
         gap: 4px;
         background-color: #ff5900;
 
-        color: #FFF;
-        font-family: 'Gilroy', sans-serif;
+        color: #fff;
+        font-family: "Gilroy", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         transition: all 0.3s ease 0s;
-        &:hover { 
-            background-color: #C14300;
+        &:hover {
+            background-color: #c14300;
         }
 
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             display: none;
+        }
+    }
+
+    &__menu {
+        @media (max-width: 1200px) {
+            display: none;
+        }
+    }
+
+    &__menu-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    &__menu-item {
+        position: relative;
+
+        &._sublist {
+            span {
+                position: relative;
+                transition: all 0.3s ease 0s;
+                cursor: pointer;
+                color: #020513;
+                font-family: 'Gilroy', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                svg {
+                    path {
+                        transition: all 0.3s ease 0s;
+                    }
+                }
+
+                &:hover {
+                    color: #ff5900;
+                    svg {
+                        path {
+                            fill: #ff5900;
+                        }
+                    }
+                }
+            }
+
+            &:hover .header__submenu,
+            .header__submenu:hover {
+                display: block;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+
+    &__submenu {
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        display: none;
+        position: absolute;
+        z-index: 99;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        min-width: 400px;
+        padding: 40px 0 0 0;
+        opacity: 0;
+        visibility: hidden;
+        transition:
+            opacity 0.3s ease,
+            visibility 0.3s ease;
+
+        &-item {
+            white-space: nowrap;
+        }
+    }
+
+    &__submenu-item {
+    }
+
+    &__submenu-link {
+        display: flex;
+        gap: 12px;
+        padding: 12px 16px;
+
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-bottom: 1px solid #ececee;
+        transition: all 0.3s ease 0s;
+        &:hover {
+            background-color: #f3f3f3;
+        }
+    }
+
+    &__menu-link {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: all 0.3s ease 0s;
+        &:hover {
+            color: #ff5900;
         }
     }
 }
