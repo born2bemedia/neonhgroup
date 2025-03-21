@@ -12,11 +12,29 @@ const ServicesNeed = () => {
             <div className="services-need__container _container">
                 <div className="services-need__body">
                     <div className="services-need__col-01">
-                        <h2 className="services-need__title">Need Expert <br /> Guidance?</h2>
-                        <p className="services-need__text">Our HR specialists are ready to assist. Get a personalized consultation to streamline your HR operations and outsourcing strategy.</p>
+                        <motion.h2
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            variants={fadeInUp}
+                            custom={0.2}
+                            className="services-need__title">Need Expert <br /> Guidance?</motion.h2>
+                        <motion.p
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            variants={fadeInUp}
+                            custom={0.3}
+                            className="services-need__text">Our HR specialists are ready to assist. Get a personalized consultation to streamline your HR operations and outsourcing strategy.</motion.p>
                         <Link href="#" className="services-need__link">Contact Us</Link>
                     </div>
-                    <div className="services-need__col-02"><img src="/images/services/img-08.png" alt="image" /></div>
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInUp}
+                        custom={0.4}
+                        className="services-need__col-02"><img src="/images/services/img-08.png" alt="image" /></motion.div>
                 </div>
             </div>
         </section>

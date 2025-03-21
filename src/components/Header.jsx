@@ -121,7 +121,7 @@ const Header = () => {
                               </Link>
                             </li>
                             <li className="header__submenu-item">
-                              <Link href="#" className="header__submenu-link">
+                              <Link href="/industry-specific-hr-services" className="header__submenu-link">
                                 <img src="/images/menu-icon-07.svg" alt="icon" />
                                 Industry-Specific HR Services
                               </Link>

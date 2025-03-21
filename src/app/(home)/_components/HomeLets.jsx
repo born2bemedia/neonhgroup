@@ -12,13 +12,37 @@ const HomeLets = () => {
         <section className="home-lets">
             <div className="home-lets__container _container">
                 <div className="home-lets__body">
-                    <h2 className="home-lets__title">Let’s Solve Your HR Challenge</h2>
-                    <p className="home-lets__text">Tell us what you need, and we’ll craft a tailored solution for your business.</p>
+                    <motion.h2
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInUp}
+                        custom={0.2}
+                        className="home-lets__title">Let’s Solve Your HR Challenge</motion.h2>
+                    <motion.p
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInUp}
+                        custom={0.3}
+                        className="home-lets__text">Tell us what you need, and we’ll craft a tailored solution for your business.</motion.p>
                     <div className="home-lets__content">
-                        <div className="home-lets__col-01">
+                        <motion.div
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            variants={fadeInUp}
+                            custom={0.4}
+                            className="home-lets__col-01">
                             <RequestForm />
-                        </div>
-                        <div className="home-lets__col-02"><img src="/images/home/home-img-11.png" alt="image" /></div>
+                        </motion.div>
+                        <motion.div
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            variants={fadeInUp}
+                            custom={0.5}
+                            className="home-lets__col-02"><img src="/images/home/home-img-11.png" alt="image" /></motion.div>
                     </div>
                 </div>
             </div>

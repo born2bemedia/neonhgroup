@@ -856,27 +856,26 @@
             flex-direction: column-reverse;
             height: fit-content;
             h3,
-            p { 
+            p {
                 color: #fff;
             }
         }
         &:nth-child(2) {
             background-color: #f6f6f6;
 
-            @media(max-width: 767px) { 
-                .services-well__col-02 { 
-                    img { 
+            @media (max-width: 767px) {
+                .services-well__col-02 {
+                    img {
                         height: 340px;
                     }
                 }
             }
-            
         }
         &:nth-child(3) {
             background-color: #f6f6f6;
-            @media(max-width: 767px) { 
-                .services-well__col-02 { 
-                    img { 
+            @media (max-width: 767px) {
+                .services-well__col-02 {
+                    img {
                         height: 340px;
                     }
                 }
@@ -887,7 +886,7 @@
             flex-direction: column-reverse;
             height: fit-content;
             h3,
-            p { 
+            p {
                 color: #fff;
             }
         }
@@ -925,5 +924,154 @@
             height: 100%;
             object-fit: cover;
         }
+    }
+}
+
+.services-why {
+    @include adaptiv-value("padding-top", 100, 32, 1);
+    @include adaptiv-value("padding-bottom", 100, 32, 1);
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 32, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+        margin: 48px 0 0 0;
+
+        @media (max-width: 767px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        background-color: #f6f6f6;
+        border-bottom: 4px solid #ff5900;
+        display: flex;
+        padding: 24px 24px 20px 24px;
+        gap: 24px;
+
+        &:nth-child(odd) {
+            flex-direction: column;
+        }
+
+        &:nth-child(even) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    &__col-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    &__label {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__text {
+        color: #4f515a;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__col-02 {
+        height: 100%;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.services-industries {
+    @include adaptiv-value("padding-top", 100, 32, 1);
+    @include adaptiv-value("padding-bottom", 100, 32, 1);
+    background-color: #020514;
+    background-image: url("/images/services/img-back-01.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        color: #fff;
+        text-align: center;
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 32, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__items {
+        @include adaptiv-value("margin-top", 48, 32, 1);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        @include adaptiv-value("gap", 48, 16, 1);
+        @media (max-width: 767px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        background-color: #fff;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__icon {
+        width: 48px;
+        object-fit: cover;
+    }
+
+    &__label {
+        margin: 24px 0 8px 0;
+        color: #020513;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__text {
+        color: #4F515A;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 }

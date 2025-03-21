@@ -12,11 +12,23 @@ const ServicesNeed = () => {
             <div className="services-need__container _container">
                 <div className="services-need__body">
                     <div className="services-need__col-01">
-                        <h2 className="services-need__title">Need Hiring Support?</h2>
+                        <motion.h2
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            variants={fadeInUp}
+                            custom={0.2}
+                            className="services-need__title">Need Hiring Support?</motion.h2>
                         <p className="services-need__text">Our recruitment experts are ready to assist. Get a tailored hiring strategy to build the workforce your business needs.</p>
                         <Link href="#" className="services-need__link">Contact Us</Link>
                     </div>
-                    <div className="services-need__col-02"><img src="/images/services/img-02.png" alt="image" /></div>
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInUp}
+                        custom={0.3}
+                        className="services-need__col-02"><img src="/images/services/img-02.png" alt="image" /></motion.div>
                 </div>
             </div>
         </section>

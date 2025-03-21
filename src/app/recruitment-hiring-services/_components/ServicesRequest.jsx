@@ -11,8 +11,20 @@ const ServicesRequest = () => {
         <section className="services-request">
             <div className="services-request__container _container">
                 <div className="services-request__body">
-                    <h2 className="services-request__title">Request Our <br /> Full Pricing Details</h2>
-                    <p className="services-request__text">Get a detailed breakdown of our Recruitment & Hiring Services and discover the best solution for your workforce needs.</p>
+                    <motion.h2
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInUp}
+                        custom={0.2}
+                        className="services-request__title">Request Our <br /> Full Pricing Details</motion.h2>
+                    <motion.p
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInUp}
+                        custom={0.3}
+                        className="services-request__text">Get a detailed breakdown of our Recruitment & Hiring Services and discover the best solution for your workforce needs.</motion.p>
                     <Link href="#" download className="services-request__link">
                         Download Full Price List
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

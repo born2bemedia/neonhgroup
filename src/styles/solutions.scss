@@ -1,0 +1,283 @@
+@import "mixin";
+
+.solutions-hero {
+    @include adaptiv-value("padding-top", 100, 38, 1);
+    @include adaptiv-value("padding-bottom", 100, 38, 1);
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__col-01 {
+    }
+
+    &__title {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 48, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        @media (max-width: 767px) {
+            max-width: 80%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
+    &__text {
+        margin: 12px 0 0 0;
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    &__buttons {
+        @include adaptiv-value("margin-top", 48, 24, 1);
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease 0s;
+        padding: 16px 32px;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+
+        &:nth-child(1) {
+            color: #fff;
+            background-color: #ff5900;
+            &:hover {
+                background-color: #c14300;
+            }
+        }
+    }
+
+    &__col-02 {
+        img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+
+            @media (max-width: 992px) {
+                width: 100%;
+                height: 100%;
+                min-height: 358px;
+            }
+        }
+    }
+}
+
+.solutions-design {
+    @include adaptiv-value("padding-top", 100, 32, 1);
+    @include adaptiv-value("padding-bottom", 100, 32, 1);
+    background-color: #020514;
+    background-image: url("/images/services/img-back-01.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        color: #fff;
+        text-align: center;
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 32, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__items {
+        @include adaptiv-value("margin-top", 48, 32, 1);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        @include adaptiv-value("gap", 48, 0, 1);
+        @media (max-width: 767px) {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+
+    &__item {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: #f6f6f6;
+        padding: 24px;
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    &__icon {
+        width: 48px;
+        object-fit: cover;
+    }
+
+    &__package {
+        margin: 24px 0 8px 0;
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        &._white {
+            color: #fff;
+        }
+    }
+
+    &__text {
+        color: #4f515a;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        &:first-of-type {
+            padding: 0 0 24px 0;
+            margin: 8px 0 24px 0;
+            border-bottom: 1px solid #dedee0;
+        }
+        &:last-of-type {
+            margin: 0 0 24px 0;
+        }
+        &._white {
+            color: #fff;
+        }
+
+        &._orange {
+            color: #ff5900;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        padding: 0 0 24px 0;
+        margin: 0 0 24px 0;
+        border-bottom: 1px solid #dedee0;
+    }
+
+    &__li {
+        display: flex;
+        gap: 8px;
+        color: #4f515a;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        svg {
+            width: 16px;
+            height: 16px;
+            min-width: 16px;
+            min-height: 16px;
+            position: relative;
+            top: 2px;
+        }
+        &._white {
+            color: #fff;
+        }
+    }
+
+    &__price {
+        margin: 0px 0 24px 0;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        .price {
+            color: #020513;
+            font-family: "Gilroy", sans-serif;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .from {
+            color: #4f515a;
+            font-family: "Gilroy", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        &._white {
+            .price {
+                color: #fff;
+            }
+
+            .from {
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+    }
+
+    &__link {
+        margin: auto auto 0 auto;
+        padding: 16px 32px;
+        background: #ff5900;
+        transition: all 0.3s ease 0s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        color: #fff;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        &:hover {
+            background-color: #c14300;
+        }
+
+        &._white {
+            background-color: #f2f1f6;
+            color: #ff5900;
+
+            &:hover {
+                background-color: #dcdae4;
+            }
+        }
+    }
+}

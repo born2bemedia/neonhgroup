@@ -1,13 +1,14 @@
 "use client";
 import React, { useState } from "react";
 import "@/styles/home/home.scss";
+import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 
 const HomeHow = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleAccordionToggle = (index) => {
-    setActiveIndex(activeIndex === index ? null : index); 
+    setActiveIndex(activeIndex === index ? null : index);
   };
 
   const accordionData = [
@@ -22,9 +23,21 @@ const HomeHow = () => {
     <section className="home-how">
       <div className="home-how__container _container">
         <div className="home-how__body">
-          <h2 className="home-how__title">How We Can Help</h2>
+          <motion.h2
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeInUp}
+            custom={0.2}
+            className="home-how__title">How We Can Help</motion.h2>
           <div className="home-how__content">
-            <div className="home-how__col-01">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              custom={0.3}
+              className="home-how__col-01">
               {accordionData.map((item, index) => (
                 <div
                   key={index}
@@ -35,7 +48,7 @@ const HomeHow = () => {
                     <span>{item.title}</span>
                     <img
                       className={`accordion-icon ${activeIndex === index ? "active" : ""}`}
-                      src="/images/home/home-arrow-01.svg" 
+                      src="/images/home/home-arrow-01.svg"
                       alt="toggle-icon"
                     />
                   </div>
@@ -50,10 +63,16 @@ const HomeHow = () => {
                   </motion.div>
                 </div>
               ))}
-            </div>
-            <div className="home-how__col-02">
-                <img src="/images/home/home-img-06.png" alt="image" />
-            </div>
+            </motion.div>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              custom={0.4}
+              className="home-how__col-02">
+              <img src="/images/home/home-img-06.png" alt="image" />
+            </motion.div>
           </div>
         </div>
       </div>

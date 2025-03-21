@@ -27,16 +27,40 @@ const HomeHero = () => {
       <div className="home-hero__container _container">
         <div className="home-hero__body">
           <div className="home-hero__col-01">
-            <h1 className="home-hero__title">NEON HR GROUP</h1>
-            <p className="home-hero__text">Scalable HR solutions to meet every workforce challenge.</p>
-            <div className="home-hero__buttons">
+            <motion.h1
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              custom={0.1}
+              className="home-hero__title">NEON HR GROUP</motion.h1>
+            <motion.p
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              custom={0.2} 
+              className="home-hero__text">Scalable HR solutions to meet every workforce challenge.</motion.p>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              custom={0.3}
+              className="home-hero__buttons">
               <Link href="#" className="home-hero__link">Explore Services</Link>
               <Link href="#" className="home-hero__link">Book a Consultation</Link>
-            </div>
+            </motion.div>
           </div>
-          <div className="home-hero__col-02">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeInUp}
+            custom={0.4}
+            className="home-hero__col-02">
             <img src={bgImage} alt="image" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
