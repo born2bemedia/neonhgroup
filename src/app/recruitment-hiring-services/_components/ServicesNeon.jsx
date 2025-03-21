@@ -52,8 +52,8 @@ const ServicesNeon = () => {
                                 </li>
                             </ul>
                             <div className="services-neon__price">
-                                <div className="price">€10 000</div>
                                 <div className="from">/from</div>
+                                <div className="price">€10 000</div>
                             </div>
                             <OrderButton
                                 className={"services-neon__link"}
@@ -100,8 +100,8 @@ const ServicesNeon = () => {
                                 </li>
                             </ul>
                             <div className="services-neon__price _white">
-                                <div className="price">€15 000</div>
                                 <div className="from">/from</div>
+                                <div className="price">€15 000</div>
                             </div>
                             <OrderButton
                                 className={"services-neon__link _white"}
@@ -137,8 +137,8 @@ const ServicesNeon = () => {
                                 </li>
                             </ul>
                             <div className="services-neon__price">
-                                <div className="price">€20 000</div>
                                 <div className="from">/from</div>
+                                <div className="price">€20 000</div>
                             </div>
                             <OrderButton
                                 className={"services-neon__link"}

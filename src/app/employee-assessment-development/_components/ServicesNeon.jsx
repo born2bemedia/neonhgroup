@@ -51,8 +51,8 @@ const ServicesNeon = () => {
                                 </li>
                             </ul>
                             <div className="services-neon__price">
-                                <div className="price">€9 900</div>
                                 <div className="from">/from</div>
+                                <div className="price">€9 900</div>
                             </div>
                             <OrderButton
                                 className={"services-neon__link"}
@@ -95,8 +95,8 @@ const ServicesNeon = () => {
                                 </li>
                             </ul>
                             <div className="services-neon__price _white">
-                                <div className="price">€13 900</div>
                                 <div className="from">/from</div>
+                                <div className="price">€13 900</div>
                             </div>
                             <OrderButton
                                 className={"services-neon__link _white"}
@@ -116,11 +116,11 @@ const ServicesNeon = () => {
                             <ul className="services-neon__list">
                                 <li className="services-neon__li">
                                     <MarkDark />
-                                   <span><b>Leadership & Management Development</b> – Preparing the next generation of business leaders.</span>
+                                    <span><b>Leadership & Management Development</b> – Preparing the next generation of business leaders.</span>
                                 </li>
                                 <li className="services-neon__li">
                                     <MarkDark />
-                                   <span><b>Industry-Specific Benchmarking</b> – Comparing employee skills against market standards.</span>
+                                    <span><b>Industry-Specific Benchmarking</b> – Comparing employee skills against market standards.</span>
                                 </li>
                                 <li className="services-neon__li">
                                     <MarkDark />
@@ -128,8 +128,8 @@ const ServicesNeon = () => {
                                 </li>
                             </ul>
                             <div className="services-neon__price">
-                                <div className="price">€13 900</div>
                                 <div className="from">/from</div>
+                                <div className="price">€13 900</div>
                             </div>
                             <OrderButton
                                 className={"services-neon__link"}
