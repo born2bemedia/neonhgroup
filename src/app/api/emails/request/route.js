@@ -13,7 +13,7 @@ export async function POST(request) {
       email,
       phone,
       message,
-      are, 
+      are,
       company,
       website,
       industry,
@@ -54,38 +54,39 @@ Industry: ${industry}`,
         <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif;">
           <thead>
             <tr>
-              <th style="background-image: url('https://neonhrgroup.com/images/email-header.jpg'); background-size: contain; background-position: center center; background-repeat: no-repeat; height: 102px;"></th>
+              <th style="background-image: url('https://neonhrgroup.com/images/letter-top.jpg'); background-size: contain; background-position: center center; background-repeat: no-repeat; height: 102px;"></th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td style="padding: 50px 40px; font-family: Roboto, sans-serif; color:#0A0A0A;">
+              <p style="font-size:24px;color:#FF5900;font-weight:700;">Request Received </p>
+              <br>
+              <br>
                 <h2 style="text-align: left; font-size: 20px;">Dear ${yourName},</h2>
-                <p style="font-size: 16px; line-height: 19px;">Thank you for your interest in joining Neonhrgroup. We’re pleased to confirm that we have received your application.</p>
-                <p style="font-size: 16px; line-height: 19px;">Our team is currently reviewing the details and will be in touch with you shortly to discuss the next steps. In the meantime, feel free to reach out to us if you have any questions or need assistance.</p>
-                <p style="font-size: 16px; line-height: 19px;">Thank you for choosing Neonhrgroup, and we look forward to connecting with you soon.</p>
-                <p style="font-size: 16px; line-height: 19px; font-weight: 600;">
+                <p style="font-size: 16px; line-height: 19px;">Thank you for submitting your HR consultation request at Neon HR Group. We have received your inquiry, and our team is already reviewing it.</p>
+                <br>
+                <br>
+                <p style="font-size: 16px; line-height: 19px;">We will contact you via your preferred method of communication as soon as possible. If you have any urgent questions, feel free to contact us.</p>
+                <br>
+                <br>
+                <p style="font-size: 16px; line-height: 19px;">Looking forward to assisting you.</p>
+                <br>
+                <br>
+                <p style="font-size: 24px; line-height: 28px; font-weight: 700;">
                   Best regards,<br>
-                  The Neonhrgroup Team
+                  <span color: #FF5900;font-size: 24px; line-height: 28px; font-weight: 700;>The Neonhrgroup Team</span>
                 </p>
               </td>
             </tr>
           </tbody>
           <tfoot>
             <tr>
-              <td colspan="2" style="width: 50%; background-image: url('https://neonhrgroup.com/images/email-footer.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; height: 102px; text-align: center; padding: 0;">
-                <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
-                  <tr>
-                    <td></td>
-                    <td style="width: 50%; text-align: start; vertical-align: middle;">
-                      <ul style="margin:0;padding:0;">
-                        <li style="list-style: disc; color: #1E40AF; font-size: 10px; line-height: 12px;"><b>Registration:</b> <span style="color: #000000;">86-90 Paul Street, London, <br> Greater London, England, EC2A 4NE</span></li>
-                        <li style="list-style: disc; color: #1E40AF; font-size: 10px; line-height: 12px;"><b>Email:</b> <a href="mailto:info@neonhrgroup.com" style="color: #000;">info@neonhrgroup.com</a></li>
-                        <li style="list-style: disc; color: #1E40AF; font-size: 10px; line-height: 12px;"><b>Phone:</b> <a href="tel:+447482191976" style="color: #000;">+447482191976</a></li>
-                      </ul>
-                    </td>
-                  </tr>
-                </table>
+              <td colspan="2" style="width: 50%; background-image: url('https://neonhrgroup.com/images/letter-bottom.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; height: 102px; text-align: center; padding: 0;">
+                <ul style="margin:0;padding:0;display: flex; align-items:center;">
+                  <li style="list-style: disc; color: #9DA3BB; font-size: 12px; line-height: 14px;">Phone: <br> <a href="tel:+10000000000">+1(000) 000-0000</a></li>
+                  <li style="list-style: disc; color: #9DA3BB; font-size: 12px; line-height: 14px;">Email: <br> <a href="mailto:info@neonhrgroup.com" style="color: #ffffff; font-size:12px;line-height:14px;">info@neonhrgroup.com</a></li>
+                </ul>
               </td>
             </tr>
           </tfoot>
