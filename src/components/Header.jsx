@@ -44,7 +44,7 @@ const Header = () => {
                 <div className="header__col-01">
                   <ul className="header__contacts">
                     <li className="header__contact">
-                      <Link href="mailto:example@gmail.com" className="header__contact-link">example@gmail.com</Link>
+                      <Link href="mailto:info@neonhrgroup.com" className="header__contact-link">info@neonhrgroup.com</Link>
                     </li>
                     <li className="header__contact">
                       <Link href="tel:+1000000000" className="header__contact-link">+1 000 000 000</Link>

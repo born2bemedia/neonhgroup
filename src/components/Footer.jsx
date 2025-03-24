@@ -60,10 +60,10 @@ const Footer = () => {
               <div className="footer__col">
                 <h3 className="footer__title">Contact us</h3>
                 <ul className="footer__list">
-                  {/* <li className="footer__item">
-                    <Link href="mainto:example@gmail.com" className="footer__link">example@gmail.com</Link>
-                  </li>
                   <li className="footer__item">
+                    <Link href="mainto:info@neonhrgroup.com" className="footer__link">info@neonhrgroup.com</Link>
+                  </li>
+                  {/* <li className="footer__item">
                     <Link href="tel:+1000000000" className="footer__link">+1 000 000 000</Link>
                   </li> */}
                   <li className="footer__item _socials">
@@ -76,10 +76,10 @@ const Footer = () => {
                   <h4 className="title">Registered address:</h4>
                   <p className="text">128 City Road, <br /> London, United <br /> Kingdom, EC1V 2NX</p>
                 </div>
-                {/* <div className="footer__address">
+                <div className="footer__address">
                   <h4 className="title">Office address:</h4>
-                  <p className="text"></p>
-                </div> */}
+                  <p className="text">132A Boundary Road, <br /> St John’s Wood, <br /> London, NW8 0RH</p>
+                </div>
                 <div className="footer__address">
                   <h4 className="title">Registered number:</h4>
                   <p className="text">16264350</p>
