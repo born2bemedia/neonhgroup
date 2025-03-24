@@ -161,6 +161,20 @@
         }
     }
 
+    &__menu-mobile { 
+        display: none !important;
+        @media(min-width: 768px) { 
+            display: none;
+        }
+        position: absolute;
+        left: 0;
+        top: 78px;
+        background-color: red;
+        width: 50%;
+        height: 100%;
+        z-index: 99;
+    }
+
     &__menu-list {
         display: flex;
         align-items: center;
