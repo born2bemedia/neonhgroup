@@ -1,5 +1,8 @@
-import { NextResponse, NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 const nodemailer = require("nodemailer");
+
+const formatArray = (arr) =>
+  Array.isArray(arr) ? arr.map((item) => item?.value || item).join(", ") : arr || "Not specified";
 
 export async function POST(request) {
   try {
@@ -10,16 +13,13 @@ export async function POST(request) {
       email,
       phone,
       message,
-      are,
+      are, 
       company,
-      eventName,
-      eventLink,
+      website,
       industry,
-      eventLocation,
-      eventDate,
-      eventTopic,
-      participationType
     } = bodyJSON;
+
+    const formattedAre = formatArray(are);
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -34,21 +34,16 @@ export async function POST(request) {
 
     const mailOptionsRecipient = {
       from: '"Neonhrgroup" <noreply@neonhrgroup.com>',
-      to: "noreply@neonhrgroup.com",
+      to: process.env.RECIPIENT_EMAIL || "noreply@neonhrgroup.com",
       subject: "Consultation Request",
       text: `Name: ${yourName}
 Email: ${email}
 Phone: ${phone}
 Message: ${message}
-Are: ${are}
+Are: ${formattedAre} 
 Company: ${company}
-Event Name: ${eventName}
-Event Link: ${eventLink}
-Industry: ${industry}
-Event Location: ${eventLocation}
-Event Date: ${eventDate}
-Event Topic: ${eventTopic}
-Type of Participation: ${participationType}`,
+Event Name: ${website}
+Industry: ${industry}`,
     };
 
     const mailOptionsClient = {
@@ -98,6 +93,7 @@ Type of Participation: ${participationType}`,
       `,
     };
 
+    // Отправка писем
     await transporter.sendMail(mailOptionsRecipient);
     await transporter.sendMail(mailOptionsClient);
 

@@ -218,7 +218,7 @@ function RequestForm() {
                             {status && status.success && (
                                 <div className="success-message">
                                     <div className="success-message__wrapper">
-                                        <span className="icon"><img src="/images/icon-popup.svg" alt="icon" /></span>
+                                        <span className="icon"><img src="/images/icon-form.svg" alt="icon" /></span>
                                         <span className="title">Thank you for reaching out to Neon HR Group!</span>
                                         <span className="text">Your request has been successfully submitted. Our team will review your inquiry and get back to you shortly. </span>
                                         <button
@@ -236,7 +236,7 @@ function RequestForm() {
             ) : (
                 <div className="success-message">
                     <div className="success-message__wrapper">
-                        <span className="icon"><img src="/images/icon-popup.svg" alt="icon" /></span>
+                        <span className="icon"><img src="/images/icon-form.svg" alt="icon" /></span>
                         <span className="title">Thank you for reaching out to Neon HR Group!</span>
                         <span className="text">Your request has been successfully submitted. Our team will review your inquiry and get back to you shortly. </span>
                         <button
