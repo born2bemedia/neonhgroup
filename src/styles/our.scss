@@ -1,0 +1,203 @@
+@import "mixin";
+
+.our-hero {
+    @include adaptiv-value("padding-top", 100, 38, 1);
+    @include adaptiv-value("padding-bottom", 100, 38, 1);
+    background-image: url("/images/home/home-img-03.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__col-01 {
+    }
+
+    &__title {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 48, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        @media (max-width: 767px) {
+            max-width: 80%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
+    &__text {
+        margin: 12px 0 0 0;
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    &__buttons {
+        @include adaptiv-value("margin-top", 48, 24, 1);
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease 0s;
+        padding: 16px 32px;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+
+        &:nth-child(1) {
+            color: #fff;
+            background-color: #ff5900;
+            &:hover {
+                background-color: #c14300;
+            }
+        }
+    }
+
+    &__col-02 {
+        img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+
+            @media (max-width: 992px) {
+                width: 100%;
+                height: 100%;
+                min-height: 358px;
+            }
+        }
+    }
+}
+
+.out-what {
+    @include adaptiv-value("padding-top", 100, 32, 1);
+    @include adaptiv-value("padding-bottom", 100, 32, 1);
+    background: #020513;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Gilroy', sans-serif;
+        @include adaptiv-value('font-size', 64, 32, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__items {
+        margin: 48px auto 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+
+        @media (max-width: 992px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        padding: 24px;
+        background-color: #f6f6f6;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+
+        &:nth-child(2) {
+            margin: 100px 0 0 0;
+            @media(max-width: 992px) { 
+                margin: 0;
+            }
+        }
+        &:nth-child(3) {
+            margin: -132px 0 0 0;
+            @media(max-width: 992px) { 
+                margin: 0;
+            }
+        }
+    }
+
+    &__label {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__text {
+        color: #4f515a;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__list {
+        margin: 24px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &__li {
+        position: relative;
+        padding: 0 0 0 20px;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 6px;
+            left: 0;
+            width: 8px;
+            height: 8px;
+            border-radius: 100px;
+            background-color: #ff5900;
+        }
+    }
+
+    &__image {
+        margin: 44px 0 0 0;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+}

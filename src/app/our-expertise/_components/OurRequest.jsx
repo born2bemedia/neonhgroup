@@ -5,7 +5,7 @@ import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-const ServicesRequest = () => {
+const OurRequest = () => {
 
     return (
         <section className="services-request">
@@ -17,18 +17,18 @@ const ServicesRequest = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.2}
-                        className="services-request__title">Want to Know More About <br /> How We Work?</motion.h2>
+                        className="services-request__title">Request Our <br /> Full Pricing Details</motion.h2>
                     <motion.p
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="services-request__text">Visit our FAQ section for quick answers to common questions about our services, process, and approach.</motion.p>
-                    <Link href="/Neon_hr_group_price_list.pdf" target="_blank" download className="services-request__link">
-                        Download Full Price List
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM4 20V15H6V18H18V15H20V20H4Z" fill="white" />
+                        className="services-request__text">Get a detailed breakdown of our Employee Engagement & Well-being services and discover the best strategies to enhance workplace satisfaction and retention.</motion.p>
+                    <Link href="/faq" className="services-request__link">
+                        Go to FAQ
+                        <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.8015 10.7918L3.16536 10.7918L3.16536 9.20845L12.8015 9.20845L8.55503 4.96195L9.67445 3.84253L15.832 10.0001L9.67445 16.1577L8.55503 15.0383L12.8015 10.7918Z" fill="white" />
                         </svg>
                     </Link>
                 </div>
@@ -37,4 +37,4 @@ const ServicesRequest = () => {
     );
 };
 
-export default ServicesRequest;
+export default OurRequest;

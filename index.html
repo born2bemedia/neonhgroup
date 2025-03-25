@@ -1,47 +1,36 @@
-<section class="case-main">
-    <div class="case-main__container _container">
-        <div class="case-main__body">
-            <motion.h2
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeInUp}
-                custom={0.2}
-                class="case-main__title">The HR Decision</motion.h2>
-            <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeInUp}
-                custom={0.3}
-                class="case-main__text">
-                1998, Apple was struggling—its product line was bloated, inventory was piling up, and operational inefficiencies were draining the company. That same year, Steve Jobs made a critical HR move: he hired Tim Cook as Senior Vice President of Worldwide Operations.
-                <br />
-                Cook wasn’t a flashy designer or visionary product leader—he was a logistics and operations expert. But that’s exactly what Apple needed. He came from Compaq and deeply understood supply chain management and scalable production models.
-            </motion.div>
-            <motion.h2
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeInUp}
-                custom={0.3}
-                class="case-main__title">What Changed</motion.h2>
-            <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeInUp}
-                custom={0.3}
-                class="case-main__text">
-                Within months of joining, Cook overhauled Apple’s supply chain, implementing a lean, just-in-time inventory system, closing underperforming factories, and reducing the number of suppliers. He shifted Apple from a company trying to do everything to one that relied on strategic outsourcing and operational excellence.
-                <ul>
-                    <li>Inventory turnover improved dramatically</li>
-                    <li>Production costs were cut without sacrificing quality</li>
-                    <li>Product delivery became faster and more reliable</li>
-                    <li>The company became scalable without ballooning overhead</li>
-                </ul>
-                These operational improvements freed up resources for Apple to focus on design, innovation, and customer experience—what the world knows it for today.
-            </motion.div>
-        </div>
+<section class="faq-main">
+    <div class="faq-main__container _container">
+        {faqData.map((section, sectionIndex) => (
+            <div key={sectionIndex} class="faq-main__row">
+                <h2 class="faq-main__title">{section.title}</h2>
+                <div class="faq-main__content">
+                    {section.items.map((item, itemIndex) => {
+                        const index = `${sectionIndex}-${itemIndex}`;
+                        const isOpen = openIndexes[index];
+
+                        return (
+                            <div key={index} class="faq-main__accordion">
+                                <button 
+                                    class={`faq-main__accordion-btn ${isOpen ? "_active" : ""}`} 
+                                    onClick={() => toggleAccordion(index)}
+                                >
+                                    {item.question}
+                                    <ArrowDown style={{ transform: isOpen ? "rotate(180deg)" : "rotate(0deg)", transition: "transform 0.3s ease" }} />
+                                </button>
+                                
+                                <motion.div 
+                                    initial={{ height: 0, opacity: 0 }} 
+                                    animate={{ height: isOpen ? "auto" : 0, opacity: isOpen ? 1 : 0 }} 
+                                    transition={{ duration: 0.4, ease: "easeInOut" }}
+                                    style={{ overflow: "hidden" }}
+                                >
+                                    <div class="faq-main__wrapper">{item.answer}</div>
+                                </motion.div>
+                            </div>
+                        );
+                    })}
+                </div>
+            </div>
+        ))}
     </div>
 </section>
