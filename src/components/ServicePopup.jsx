@@ -10,11 +10,15 @@ import ArrowRight from "@/icons/slider/ArrowRight";
 import CloseIcon from "@/icons/other/CloseIcon";
 import Snipper from "@/icons/loading/Snipper";
 import Link from "next/link";
+/* import clsx from "clsx"; */
 
 const ServicePopup = () => {
   const { servicePopupDisplay, setServicePopupDisplay, currentService } = usePopup();
   const countryCode = useCountryCode();
   const [isSuccess, setIsSuccess] = useState(false);
+
+  const [checkedPhone, setCheckedPhone] = useState(false);
+  const [checkedEmail, setCheckedEmail] = useState(false);
 
   if (!servicePopupDisplay) return null;
 
@@ -22,11 +26,12 @@ const ServicePopup = () => {
     firstName: Yup.string().required("The field is required."),
     company: Yup.string().required("The field is required."),
     website: Yup.string().required("The field is required."),
-    activity: Yup.string().required("The field is required."),
+    industry: Yup.string().required("The field is required."),
     email: Yup.string()
       .email("Please enter a valid email address.")
       .required("The field is required."),
     phone: Yup.string().required("The field is required."),
+    message: Yup.string(),
     agreeToPolicy: Yup.boolean().oneOf([true], "You must agree to the privacy policy."),
   });
 
@@ -34,9 +39,10 @@ const ServicePopup = () => {
     firstName: "",
     company: "",
     website: "",
-    activity: "",
+    industry: "",
     email: "",
-    phone: "", 
+    phone: "",
+    message: "",
     agreeToPolicy: false,
     service: `${currentService} Request`,
   };
@@ -85,6 +91,15 @@ const ServicePopup = () => {
     }
   };
 
+
+  const handlePhoneChange = () => {
+    setCheckedPhone((prev) => !prev);
+  };
+
+  const handleEmailChange = () => {
+    setCheckedEmail((prev) => !prev);
+  };
+
   return (
     <div className={`request-popup-wrap ${servicePopupDisplay ? "opened" : ""}`}>
       <div className="overlay" onClick={() => closePopup(null)}></div>
@@ -92,7 +107,7 @@ const ServicePopup = () => {
         <div className="order-popup">
           <div className="order-popup__content">
             <div className="order-popup__top">
-              <h2 className="order-popup__title">{currentService} Request</h2>
+              <h2 className="order-popup__title">Request Form</h2>
               <button
                 className="order-popup__close"
                 onClick={() => closePopup(null)}
@@ -126,6 +141,7 @@ const ServicePopup = () => {
                           value={`${currentService} Request`}
                         />
                         <div className="row">
+                          <div className="label">Full Name</div>
                           <Field
                             name="firstName"
                             type="text"
@@ -135,6 +151,7 @@ const ServicePopup = () => {
                         </div>
 
                         <div className="row">
+                          <div className="label">Company</div>
                           <Field
                             name="company"
                             type="text"
@@ -144,6 +161,7 @@ const ServicePopup = () => {
                         </div>
 
                         <div className="row">
+                          <div className="label">Website</div>
                           <Field
                             name="website"
                             type="text"
@@ -153,24 +171,17 @@ const ServicePopup = () => {
                         </div>
 
                         <div className="row">
+                          <div className="label">Industry</div>
                           <Field
-                            name="activity"
+                            name="industry"
                             type="text"
-                            placeholder="Activity"
-                            className={touched.activity && errors.activity ? "invalid" : ""}
+                            placeholder="industry"
+                            className={touched.industry && errors.industry ? "invalid" : ""}
                           />
                         </div>
 
                         <div className="row">
-                          <Field
-                            name="email"
-                            type="email"
-                            placeholder="Email"
-                            className={touched.email && errors.email ? "invalid" : ""}
-                          />
-                        </div>
-
-                        <div className="row">
+                          <div className="label">Phone</div>
                           <PhoneInput
                             country={countryCode}
                             value={values.phone} // Обратите внимание на это
@@ -178,8 +189,54 @@ const ServicePopup = () => {
                             placeholder="Your phone"
                             className={touched.phone && errors.phone ? "invalid" : ""}
                           />
+                          <label
+                            className={`checkbox-label ${checkedPhone ? "_active" : ""}`}
+                          >
+                            <input
+                              type="checkbox"
+                              checked={checkedPhone}
+                              onChange={handlePhoneChange}
+                              className="hidden"
+                            />
+                            Prefferable
+                          </label>
                         </div>
 
+                        <div className="row">
+                          <div className="label">Email</div>
+                          <Field
+                            name="email"
+                            type="email"
+                            placeholder="Email"
+                            className={touched.email && errors.email ? "invalid" : ""}
+                          />
+                          <label
+                            className={`checkbox-label ${checkedEmail ? "_active" : ""}`}
+                          >
+                            <input
+                              type="checkbox"
+                              checked={checkedEmail}
+                              onChange={handleEmailChange}
+                              className="hidden"
+                            />
+                            Prefferable
+                          </label>
+                        </div>
+                        <div className="row _textarea">
+                          <div className="textarea-container">
+                            <label>Case Description</label>
+                            <Field name="message">
+                              {({ field, form }) => (
+                                <textarea
+                                  {...field}
+                                  placeholder="Explain why you want to join our team."
+                                  className={form.touched.message && form.errors.message ? "invalid" : ""}
+                                />
+                              )}
+                            </Field>
+                          </div>
+
+                        </div>
                         <div className="row _policy">
                           <Field name="agreeToPolicy">
                             {({ field, form }) => (
@@ -201,9 +258,7 @@ const ServicePopup = () => {
                                     }
                                   />
                                   <span>
-                                    I agree to be contacted by Nexoria regarding my inquiry and
-                                    understand that my data will be handled in accordance with
-                                    the <Link href="/privacy-policy">Privacy Policy</Link>.
+                                    I agree to the processing of my data in accordance with the <Link href="/privacy-policy">Privacy Policy</Link> and <Link href="/terms-of-use">Terms of Use</Link>.
                                   </span>
                                 </label>
                               </div>
@@ -222,8 +277,7 @@ const ServicePopup = () => {
                           className="button"
                           disabled={isSubmitting}
                         >
-                          Submit Request
-                          <ArrowRight />
+                          Submit
                         </button>
                         {isSubmitting && (
                           <div className="loading-icon">
@@ -243,7 +297,6 @@ const ServicePopup = () => {
               </div>
             </div>
           </div>
-          <img className="order-popup__image" src="/images/popup/popup-img-01.webp" />
         </div>
       </div>
     </div>

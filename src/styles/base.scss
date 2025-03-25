@@ -161,7 +161,7 @@ body {
 
   .popup-inner {
     transition: all 0.5s;
-    max-width: 900px;
+    max-width: 600px;
     width: 100%;
     padding: 0 16px;
     /* padding: rem(40); */
@@ -188,7 +188,7 @@ body {
 
 .order-popup {
   width: 100%;
-  background: #f5f5f5;
+  background: #fff;
   position: relative;
 
   @media (max-width: 992px) {
@@ -196,9 +196,9 @@ body {
   }
 
   &__content {
-    padding: 40px 80px;
+    padding: 32px;
     @media (max-width: 992px) {
-      padding: 80px 24px 40px 24px;
+      padding: 16px;
     }
   }
 
@@ -214,6 +214,7 @@ body {
     color: #0f0f0f;
     font-weight: 500;
     font-family: "Gilroy", sans-serif;
+    text-align: center;
   }
 
   &__subtitle {
@@ -224,15 +225,13 @@ body {
 
   &__close {
     position: absolute;
-    top: 40px;
-    right: 80px;
+    top: 24px;
+    right: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 51px;
-    border: 1px solid #6d6d6d4d;
-    border-radius: 8px;
+    width: 24px;
+    height: 24px;
     background-color: transparent;
     transition: all 0.3s ease 0s;
 
@@ -422,7 +421,7 @@ body {
                   .react-select__multi-value__remove {
                     padding: 0;
 
-                    svg { 
+                    svg {
                       fill: #fff;
                     }
                   }
@@ -450,36 +449,92 @@ body {
           grid-column-start: span 2;
           display: flex;
           flex-direction: column;
-          .label {
-            color: #020513;
-            font-family: "Gilroy", sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            margin: 0 0 8px 0;
-          }
 
-          textarea {
-            background: #f6f6f6;
-            resize: none;
-            height: 150px;
-            padding: 16px;
+          .textarea-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
 
-            color: #808289;
-            font-family: "Gilroy", sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
+            .label {
+              color: #020513;
+              font-family: "Gilroy", sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              margin: 0 0 8px 0;
+            }
 
-            &::placeholder {
+            textarea {
+              background: #f6f6f6;
+              resize: none;
+              height: 150px;
+              padding: 16px;
+
               color: #808289;
               font-family: "Gilroy", sans-serif;
               font-size: 16px;
               font-style: normal;
               font-weight: 500;
               line-height: normal;
+
+              &::placeholder {
+                color: #808289;
+                font-family: "Gilroy", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+
+        .checkbox-label {
+          cursor: pointer;
+          position: relative;
+          padding: 0 0 0 30px;
+          display: flex;
+          color: #020513;
+          font-family: 'Gilroy', sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          max-width: 100%;
+          margin: 8px 0 0 0;
+          a {
+            color: #ff5900;
+            transition: all 0.3s ease 0s;
+            &:hover {
+              color: #c14300;
+              text-decoration: underline;
+            }
+          }
+          input {
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            z-index: -1;
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            top: -1px;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            background-color: transparent;
+            border: 2px solid #ff5900;
+            transition: all 0.3s ease 0s;
+          }
+
+          &._active {
+            &::before {
+              background: url("/images/checkbox.svg");
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
             }
           }
         }
