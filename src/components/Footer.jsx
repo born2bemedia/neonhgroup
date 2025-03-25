@@ -63,9 +63,9 @@ const Footer = () => {
                   <li className="footer__item">
                     <Link href="mainto:info@neonhrgroup.com" className="footer__link">info@neonhrgroup.com</Link>
                   </li>
-                  {/* <li className="footer__item">
-                    <Link href="tel:+1000000000" className="footer__link">+1 000 000 000</Link>
-                  </li> */}
+                  <li className="footer__item">
+                    <Link href="tel:+447450610056" className="footer__link">+447450610056</Link>
+                  </li>
                   <li className="footer__item _socials">
                     <Link href="#" className="_facebook"><Facebook /></Link>
                     <Link href="#" className="_instagram"><Instagram /></Link>

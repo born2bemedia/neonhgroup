@@ -51,7 +51,7 @@ const Header = () => {
                       <Link href="mailto:info@neonhrgroup.com" className="header__contact-link">info@neonhrgroup.com</Link>
                     </li>
                     <li className="header__contact">
-                      <Link href="tel:+1000000000" className="header__contact-link">+1 000 000 000</Link>
+                      <Link href="tel:447450610056" className="header__contact-link">+447450610056</Link>
                     </li>
                   </ul>
                 </div>
@@ -226,7 +226,7 @@ const Header = () => {
                             <Link href="mailto:info@neonhrgroup.com" className="header__mobile-contact-link">info@neonhrgroup.com</Link>
                           </li>
                           <li className="header__mobile-contact">
-                            <Link href="tel:+1000000000" className="header__mobile-contact-link">+1 000 000 000</Link>
+                            <Link href="tel:+447450610056" className="header__mobile-contact-link">+447450610056</Link>
                           </li>
                         </ul>
                         <ul className="header__mobile-socials">
