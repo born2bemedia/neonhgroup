@@ -117,6 +117,9 @@
     }
 
     &__col-05 {
+        display: flex;
+        align-items: center;
+        gap: 16px;
     }
 
     &__menu-btn {

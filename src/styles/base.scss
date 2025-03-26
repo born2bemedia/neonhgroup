@@ -95,6 +95,7 @@ body {
   font-weight: 400;
   margin: 0;
   background-color: #fff;
+  top: 0 !important;
   &::-webkit-scrollbar {
     background: transparent;
     width: 10px;
@@ -117,6 +118,10 @@ body {
 			padding-right: 0;
 		} */
   }
+}
+
+.skiptranslate { 
+  display: none !important;
 }
 
 ._container {

@@ -10,6 +10,7 @@ import { usePathname } from "next/navigation";
 import LogoWhite from "@/icons/other/LogoWhite";
 import Menu from "@/icons/other/Menu";
 import Submenu from "@/icons/other/Submenu";
+import LangSwitcher from "@/components/LangSwitcher";
 
 
 const Header = () => {
@@ -257,6 +258,7 @@ const Header = () => {
                   </nav>
                 </div>
                 <div className="header__col-05">
+                  <LangSwitcher />
                   <button className={`header__menu-btn ${isActive ? '_active' : ''}`} onClick={toggleMenu}>
                     <Menu />
                   </button>
