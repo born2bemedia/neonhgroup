@@ -26,7 +26,7 @@ const HomeImpact = () => {
             variants={fadeInUp}
             custom={0.2}
             className="home-impact__text">Scalable HR solutions to meet every workforce challenge.</motion.p>
-          <Link href="#" className="home-impact__link">Explore Our Expertise</Link>
+          <Link href="/our-expertise" className="home-impact__link">Explore Our Expertise</Link>
           <div className="home-impact__items">
             <motion.div
               initial="hidden"

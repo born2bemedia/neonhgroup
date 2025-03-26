@@ -4,6 +4,7 @@ import "@/styles/home/home.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import OrderButton from "@/components/OrderButton";
 
 const HomeHero = () => {
 
@@ -39,7 +40,7 @@ const HomeHero = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
-              custom={0.2} 
+              custom={0.2}
               className="home-hero__text">Scalable HR solutions to meet every workforce challenge.</motion.p>
             <motion.div
               initial="hidden"
@@ -48,8 +49,12 @@ const HomeHero = () => {
               variants={fadeInUp}
               custom={0.3}
               className="home-hero__buttons">
-              <Link href="#" className="home-hero__link">Explore Services</Link>
-              <Link href="#" className="home-hero__link">Book a Consultation</Link>
+              <Link href="/solutions" className="home-hero__link">Explore Services</Link>
+              <OrderButton
+                className={"home-hero__link"}
+                text={"Book a Consultation"}
+                service={"Book a Consultation"}
+              />
             </motion.div>
           </div>
           <motion.div

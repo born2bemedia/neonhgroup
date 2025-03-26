@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "@/styles/home/home.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import OrderButton from "@/components/OrderButton";
 
 const HomeHave = () => {
 
@@ -19,7 +19,11 @@ const HomeHave = () => {
                         custom={0.1}
                         className="home-have__col-01">
                         <h2 className="home-have__title">Have an HR challenge? Submit your issue, and we’ll craft a tailored solution.</h2>
-                        <Link href="#" className="home-have__link">Get HR Assistance</Link>
+                        <OrderButton
+                            className={"home-have__link"}
+                            text={"Get HR Assistance"}
+                            service={"Get HR Assistance"}
+                        />
                     </motion.div>
                     <div className="home-have__col-02">
                         <img src="/images/home/home-img-07.png" alt="image" />

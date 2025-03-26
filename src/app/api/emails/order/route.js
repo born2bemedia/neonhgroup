@@ -39,17 +39,21 @@ export async function POST(request) {
           <tbody>
             <tr>
               <td style="padding: 50px 40px; font-family: Roboto, sans-serif; color:#0A0A0A;">
-              <p style="font-size:24px;color:#FF5900;font-weight:700;margin:0;">Request Received </p>
+              <p style="font-size:24px;color:#FF5900;font-weight:700;margin:0;">Your Service Request Received</p>
               <br>
               <br>
                 <h2 style="text-align: left; font-size: 20px;margin:0;">Dear ${firstName},</h2>
-                <p style="font-size: 16px; line-height: 19px;margin:0;">Thank you for submitting your HR consultation request at Neon HR Group. We have received your inquiry, and our team is already reviewing it.</p>
+                <p style="font-size: 16px; line-height: 19px;margin:0;">Thank you for submitting your request for a <b>${service}</b> via our online form.</p>
                 <br>
                 <br>
-                <p style="font-size: 16px; line-height: 19px;margin:0;">We will contact you via your preferred method of communication as soon as possible. If you have any urgent questions, feel free to contact us.</p>
+                <p style="font-size: 16px; line-height: 19px;margin:0;">We have successfully received your inquiry and our team is already reviewing the details.</p>
                 <br>
                 <br>
-                <p style="font-size: 16px; line-height: 19px;margin:0;">Looking forward to assisting you.</p>
+                <p style="font-size: 16px; line-height: 19px;margin:0;">
+                You can expect to be contacted shortly via your preferred communication method to discuss your needs and next steps.
+                <br>
+                If you have any additional information to share in the meantime, feel free to reply to this email or contact us directly at <a href="mailto:info@neonhrgroup.com" style="color:#FF5900;text-decoration: underline;">info@neonhrgroup.com</a>
+                </p>
                 <br>
                 <br>
                 <p style="font-size: 24px; line-height: 28px; font-weight: 700;margin:0;">

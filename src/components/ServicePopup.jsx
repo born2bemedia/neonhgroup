@@ -289,8 +289,17 @@ const ServicePopup = () => {
                   </Formik>
                   {isSuccess && (
                     <div className="success-message">
-                      <span>Thank you!</span>
-                      Your request has been successfully received. Our team will review your information and contact you shortly to discuss your marketing challenges and the solutions we can provide.
+                      <div className="success-message__wrapper">
+                        <span className="icon"><img src="/images/icon-form.svg" alt="icon" /></span>
+                        <span className="title">Thank you for reaching out to Neon HR Group!</span>
+                        <span className="text">Your request has been successfully submitted. Our team will review your inquiry and get back to you shortly. </span>
+                        <button
+                          className="button"
+                          onClick={() => window.location.reload()}
+                        >
+                          Back to Home
+                        </button>
+                      </div>
                     </div>
                   )}
                 </div>

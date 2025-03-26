@@ -227,7 +227,7 @@ function RequestForm() {
                                             className="button"
                                             onClick={() => window.location.reload()}
                                         >
-                                            Back to Home
+                                            Back
                                         </button>
                                     </div>
                                 </div>

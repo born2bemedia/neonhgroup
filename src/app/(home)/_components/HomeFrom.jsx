@@ -31,7 +31,7 @@ const HomeFrom = () => {
               </div>
               <h3 className="home-from__label">Recruitment & Hiring</h3>
               <p className="home-from__text">Find top talent fast with expert sourcing and seamless hiring.</p>
-              <Link href="#" className="home-from__link">Find Talents</Link>
+              <Link href="/recruitment-hiring-services" className="home-from__link">Find Talents</Link>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -45,7 +45,7 @@ const HomeFrom = () => {
               </div>
               <h3 className="home-from__label">HR Consulting & Strategy</h3>
               <p className="home-from__text">Optimize workforce planning and build strong HR foundations.</p>
-              <Link href="#" className="home-from__link">Optimize HR</Link>
+              <Link href="/hr-consulting-strategy" className="home-from__link">Optimize HR</Link>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -59,7 +59,7 @@ const HomeFrom = () => {
               </div>
               <h3 className="home-from__label">Employee Assessment & Development</h3>
               <p className="home-from__text">Elevate performance with skills testing and leadership training.</p>
-              <Link href="#" className="home-from__link">Improve Skills</Link>
+              <Link href="/employee-assessment-development" className="home-from__link">Improve Skills</Link>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -73,7 +73,7 @@ const HomeFrom = () => {
               </div>
               <h3 className="home-from__label">HR Operations & Outsourcing</h3>
               <p className="home-from__text">Streamline payroll, contracts, and day-to-day HR tasks.</p>
-              <Link href="#" className="home-from__link">Streamline HR</Link>
+              <Link href="/hr-operations-outsourcing" className="home-from__link">Streamline HR</Link>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -87,7 +87,7 @@ const HomeFrom = () => {
               </div>
               <h3 className="home-from__label">Legal & <br /> Compliance Services</h3>
               <p className="home-from__text">Ensure full labor law compliance and mitigate risks.</p>
-              <Link href="#" className="home-from__link">Stay Compliant</Link>
+              <Link href="/legal-compliance-services" className="home-from__link">Stay Compliant</Link>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -101,7 +101,7 @@ const HomeFrom = () => {
               </div>
               <h3 className="home-from__label">Employee Engagement & Well-being</h3>
               <p className="home-from__text">Boost retention with culture strategies and wellness programs.</p>
-              <Link href="#" className="home-from__link">Engage Team</Link>
+              <Link href="/employee-engagement-well-being" className="home-from__link">Engage Team</Link>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -115,7 +115,7 @@ const HomeFrom = () => {
               </div>
               <h3 className="home-from__label">Flexible HR Package Solutions</h3>
               <p className="home-from__text">Scalable plans to match your business growth and workforce needs.</p>
-              <Link href="#" className="home-from__link">Explore Packages</Link>
+              <Link href="/solutions" className="home-from__link">Explore Packages</Link>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -129,7 +129,7 @@ const HomeFrom = () => {
               </div>
               <h3 className="home-from__label">Industry-Specific HR Services</h3>
               <p className="home-from__text">Customized hiring and HR solutions for your sector.</p>
-              <Link href="#" className="home-from__link">Explore Solutions</Link>
+              <Link href="/industry-specific-hr-services" className="home-from__link">Explore Solutions</Link>
             </motion.div>
           </div>
         </div>
