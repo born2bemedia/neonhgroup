@@ -4,14 +4,14 @@ import OurWhat from "./_components/OurWhat";
 
 
 export const metadata = {
-    title: "",
+    title: "Our Expertise in HR Services | Neon HR Group",
     description:
-        "",
+        "Discover how our expert-led, data-driven HR solutions support businesses across all HR functions and industries.",
     openGraph: {
-        title: "",
+        title: "Our Expertise in HR Services | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Discover how our expert-led, data-driven HR solutions support businesses across all HR functions and industries.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

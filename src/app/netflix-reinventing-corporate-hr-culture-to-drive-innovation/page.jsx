@@ -4,14 +4,14 @@ import CaseNeed from "./_components/CaseNeed";
 
 
 export const metadata = {
-    title: "",
+    title: "Culture-Driven HR That Powered Netflix Growth | Neon HR Group",
     description:
-        "",
+        "How Netflix transformed its workplace culture through bold HR strategies that fueled innovation and global expansion.",
     openGraph: {
-        title: "",
+        title: "Culture-Driven HR That Powered Netflix Growth | Neon HR Group",
         description:
-            "",
-        images: "",
+            "How Netflix transformed its workplace culture through bold HR strategies that fueled innovation and global expansion.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

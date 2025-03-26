@@ -4,14 +4,14 @@ import FaqNeed from "./_components/FaqNeed";
 
 
 export const metadata = {
-    title: "",
+    title: "FAQ | Neon HR Group",
     description:
-        "",
+        "Learn how our HR services work, what to expect, and how we support your business with expert-led solutions.",
     openGraph: {
-        title: "",
+        title: "FAQ | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Learn how our HR services work, what to expect, and how we support your business with expert-led solutions.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

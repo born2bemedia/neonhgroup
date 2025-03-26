@@ -6,14 +6,14 @@ import ServicesRequest from "./_components/ServicesRequest";
 
 
 export const metadata = {
-    title: "",
+    title: "HR Consulting & Strategy | Neon HR Group",
     description:
-        "",
+        "Explore expert HR consulting services to align your workforce with business goals and build a scalable HR strategy.",
     openGraph: {
-        title: "",
+        title: "HR Consulting & Strategy | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Explore expert HR consulting services to align your workforce with business goals and build a scalable HR strategy.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

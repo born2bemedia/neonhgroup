@@ -4,14 +4,14 @@ import CasesMain from "./_components/CasesMain";
 
 
 export const metadata = {
-    title: "",
+    title: "HR Success Stories & Case Studies | Neon HR Group",
     description:
-        "",
+        "Identify how strategic HR decisions have transformed real businesses through talent, leadership, and workforce optimization.",
     openGraph: {
-        title: "",
+        title: "HR Success Stories & Case Studies | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Identify how strategic HR decisions have transformed real businesses through talent, leadership, and workforce optimization.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

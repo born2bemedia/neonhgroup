@@ -6,14 +6,14 @@ import ServicesRequest from "./_components/ServicesRequest";
 
 
 export const metadata = {
-    title: "",
+    title: "Employee Assessment & Development | Neon HR Group",
     description:
-        "",
+        "Learn how to evaluate employee performance and develop leadership potential with our tailored assessment and training solutions.",
     openGraph: {
-        title: "",
+        title: "Employee Assessment & Development | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Learn how to evaluate employee performance and develop leadership potential with our tailored assessment and training solutions.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

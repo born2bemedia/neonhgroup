@@ -6,14 +6,14 @@ import ServicesRequest from "./_components/ServicesRequest";
 
 
 export const metadata = {
-    title: "",
+    title: "Recruitment & Hiring Services | Neon HR Group",
     description:
-        "",
+        "Find out how our recruitment experts help you hire the right talent faster with scalable, end-to-end hiring solutions.",
     openGraph: {
-        title: "",
+        title: "Recruitment & Hiring Services | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Find out how our recruitment experts help you hire the right talent faster with scalable, end-to-end hiring solutions.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

@@ -5,14 +5,14 @@ import ServicesOur from "./_components/ServicesOur";
 
 
 export const metadata = {
-    title: "",
+    title: "Industry-Specific HR Services | Neon HR Group",
     description:
-        "",
+        "Explore tailored HR solutions designed for your industry to ensure compliance, efficiency, and workforce alignment.",
     openGraph: {
-        title: "",
+        title: "Industry-Specific HR Services | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Explore tailored HR solutions designed for your industry to ensure compliance, efficiency, and workforce alignment.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

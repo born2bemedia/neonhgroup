@@ -5,14 +5,14 @@ import SolutionsNeed from "./_components/SolutionsNeed";
 
 
 export const metadata = {
-    title: "",
+    title: "HR Solutions for Business Challenges | Neon HR Group",
     description:
-        "",
+        "Explore strategic HR solutions to set up, optimize, or transform your workforce operations based on real business needs.",
     openGraph: {
-        title: "",
+        title: "HR Solutions for Business Challenges | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Explore strategic HR solutions to set up, optimize, or transform your workforce operations based on real business needs.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

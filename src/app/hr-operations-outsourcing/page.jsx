@@ -6,14 +6,14 @@ import ServicesRequest from "./_components/ServicesRequest";
 
 
 export const metadata = {
-    title: "",
+    title: "HR Operations & Outsourcing | Neon HR Group",
     description:
-        "",
+        "Discover how to streamline HR processes and reduce overhead with fully managed HR operations and outsourcing solutions.",
     openGraph: {
-        title: "",
+        title: "HR Operations & Outsourcing | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Discover how to streamline HR processes and reduce overhead with fully managed HR operations and outsourcing solutions.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

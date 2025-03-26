@@ -6,14 +6,14 @@ import ServicesRequest from "./_components/ServicesRequest";
 
 
 export const metadata = {
-    title: "",
+    title: "Legal & Compliance Services | Neon HR Group",
     description:
-        "",
+        "Get expert legal HR support to ensure compliance, reduce risk, and protect your business across every employment process.",
     openGraph: {
-        title: "",
+        title: "Legal & Compliance Services | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Get expert legal HR support to ensure compliance, reduce risk, and protect your business across every employment process.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

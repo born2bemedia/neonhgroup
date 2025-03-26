@@ -6,14 +6,14 @@ import ServicesRequest from "./_components/ServicesRequest";
 
 
 export const metadata = {
-    title: "",
+    title: "Employee Engagement & Well-being | Neon HR Group",
     description:
-        "",
+        "Find out how to improve employee satisfaction, boost retention, and create a thriving workplace with tailored engagement strategies.",
     openGraph: {
-        title: "",
+        title: "Employee Engagement & Well-being | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Find out how to improve employee satisfaction, boost retention, and create a thriving workplace with tailored engagement strategies.",
+        images: "/images/cta-banner.jpg",
     },
 };
 

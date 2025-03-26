@@ -4,14 +4,14 @@ import CaseNeed from "./_components/CaseNeed";
 
 
 export const metadata = {
-    title: "",
+    title: "Strategic Hiring That Transformed Apple | Neon HR Group",
     description:
-        "",
+        "Learn how a single HR decision at Apple reshaped its future and drove long-term business growth through operational excellence.",
     openGraph: {
-        title: "",
+        title: "Strategic Hiring That Transformed Apple | Neon HR Group",
         description:
-            "",
-        images: "",
+            "Learn how a single HR decision at Apple reshaped its future and drove long-term business growth through operational excellence.",
+        images: "/images/cta-banner.jpg",
     },
 };
 
