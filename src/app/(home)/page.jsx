@@ -7,14 +7,14 @@ import HomeLets from "./_components/HomeLets";
 import HomeSee from "./_components/HomeSee";
 
 export const metadata = {
-  title: "",
+  title: "HR Solutions for Business | Neon HR Group",
   description:
-    "",
+    " Explore tailored HR services to improve retention, streamline operations, and build a high-performing workforce.",
   openGraph: {
-    title: "",
+    title: "HR Solutions for Business | Neon HR Group",
     description:
-      "",
-    images: "",
+      " Explore tailored HR services to improve retention, streamline operations, and build a high-performing workforce.",
+    images: "/images/cta-banner.jpg",
   },
 };
 
