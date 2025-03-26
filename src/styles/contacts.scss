@@ -1,0 +1,202 @@
+@import "mixin";
+
+.contacts-hero {
+    @include adaptiv-value("padding-top", 100, 32, 1);
+    @include adaptiv-value("padding-bottom", 100, 32, 1);
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        @include adaptiv-value("gap", 48, 0, 1);
+        @media (max-width: 992px) {
+            gap: 72px;
+            flex-direction: column;
+        }
+    }
+
+    &__col-01 {
+        width: 50%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 48, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__text {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 12px 0 0 0;
+    }
+
+    &__contacts {
+        margin: 48px 0;
+        display: flex;
+        gap: 24px;
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__col {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    &__label {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__subtext {
+        color: #4f515a;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__link {
+        color: #ff5900;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: underline;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    &__socials {
+        margin: 12px 0 0 0;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    &__social {
+    }
+
+    &__social-link {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        color: #4f515a;
+        text-align: center;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: all 0.3s ease 0s;
+        svg {
+            path {
+                transition: all 0.3s ease 0s;
+            }
+        }
+
+        &:hover {
+            color: #ff5900;
+            svg {
+                path {
+                    fill: #ff5900;
+                }
+            }
+        }
+    }
+
+    &__maps {
+        margin: 48px 0 0 0;
+        display: flex;
+        gap: 12px;
+        @media(max-width: 992px) { 
+            flex-direction: column;
+        }
+    }
+
+    &__map {
+        width: 50%;
+        @media(max-width: 992px) { 
+            width: 100%;
+        }
+
+        .title { 
+            color: #020513;
+            font-family: 'Gilroy', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .address { 
+            color: #4F515A;
+            font-family: 'Gilroy', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin: 12px 0;
+        }
+
+        iframe { 
+            height: 262px;
+            object-fit: cover;
+        }
+    }
+
+    &__col-02 {
+        width: 50%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__subtitle {
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0 0 12px 0;
+    }
+
+    &__desc {
+        color: #4f515a;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 0 24px 0;
+        .request-form {
+        }
+    }
+}

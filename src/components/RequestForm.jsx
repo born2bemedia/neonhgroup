@@ -183,10 +183,12 @@ function RequestForm() {
                                 </div>
 
                                 <div className="row _textarea">
-                                    <span className="label">Case Description</span>
-                                    <Field name="message">
-                                        {({ field }) => <textarea {...field} placeholder="Please specify..." />}
-                                    </Field>
+                                    <div className="textarea-container">
+                                        <span className="label">Case Description</span>
+                                        <Field name="message">
+                                            {({ field }) => <textarea {...field} placeholder="Please specify..." />}
+                                        </Field>
+                                    </div>
                                 </div>
 
                                 <div className={`row _policy ${touched.agreeToPolicy && errors.agreeToPolicy ? "invalid" : ""}`}>
