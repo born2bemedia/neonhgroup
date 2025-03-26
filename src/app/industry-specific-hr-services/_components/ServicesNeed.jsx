@@ -26,7 +26,7 @@ const ServicesNeed = () => {
                             variants={fadeInUp}
                             custom={0.3}
                             className="services-need__text">Submit your issue, and we’ll craft a tailored solution.</motion.p>
-                        <Link href="#" className="services-need__link">Contact Us</Link>
+                        <Link href="/contacts" className="services-need__link">Contact Us</Link>
                     </div>
                     <motion.div
                         initial="hidden"

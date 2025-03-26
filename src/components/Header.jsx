@@ -217,7 +217,7 @@ const Header = () => {
                             <Link href="/faq" className="header__mobile-link">FAQ</Link>
                           </li>
                           <li className="header__mobile-item">
-                            <Link href="/contact-us" className="header__mobile-link">Contact Us</Link>
+                            <Link href="/contacts" className="header__mobile-link">Contact Us</Link>
                           </li>
                         </ul>
                       </nav>
@@ -262,7 +262,7 @@ const Header = () => {
                   <button className={`header__menu-btn ${isActive ? '_active' : ''}`} onClick={toggleMenu}>
                     <Menu />
                   </button>
-                  <Link href="#" className="header__sssistance">Assistance</Link>
+                  <Link href="/contacts" className="header__sssistance">Assistance</Link>
                 </div>
               </div>
             </div>

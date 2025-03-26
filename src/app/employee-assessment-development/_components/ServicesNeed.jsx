@@ -26,7 +26,7 @@ const ServicesNeed = () => {
                             variants={fadeInUp}
                             custom={0.3}
                             className="services-need__text">Our HR specialists are ready to assist. Get a personalized consultation to optimize employee assessment and development for your business</motion.p>
-                        <Link href="#" className="services-need__link">Contact Us</Link>
+                        <Link href="/contacts" className="services-need__link">Contact Us</Link>
                     </div>
                     <motion.div
                         initial="hidden"

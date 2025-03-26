@@ -29,23 +29,23 @@ const Footer = () => {
               <div className="footer__col">
                 <h3 className="footer__title">Company</h3>
                 <ul className="footer__list">
-                  <li className="footer__item"><Link href="#" className="footer__link">Our Expertise</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">Cases</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">FAQ</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">Contact Us</Link></li>
+                  <li className="footer__item"><Link href="/our-expertise" className="footer__link">Our Expertise</Link></li>
+                  <li className="footer__item"><Link href="/cases" className="footer__link">Cases</Link></li>
+                  <li className="footer__item"><Link href="/faq" className="footer__link">FAQ</Link></li>
+                  <li className="footer__item"><Link href="/contacts" className="footer__link">Contact Us</Link></li>
                 </ul>
               </div>
               <div className="footer__col">
                 <h3 className="footer__title">Services</h3>
                 <ul className="footer__list">
-                  <li className="footer__item"><Link href="#" className="footer__link">Recruitment & Hiring Services</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">HR Consulting & Strategy</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">Employee Assessment & Development</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">HR Operations & Outsourcing</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">Legal & Compliance Services</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">Employee Engagement & Well-being</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">Industry-Specific HR Services</Link></li>
-                  <li className="footer__item"><Link href="#" className="footer__link">Complex Solutions</Link></li>
+                  <li className="footer__item"><Link href="/recruitment-hiring-services" className="footer__link">Recruitment & Hiring Services</Link></li>
+                  <li className="footer__item"><Link href="/hr-consulting-strategy" className="footer__link">HR Consulting & Strategy</Link></li>
+                  <li className="footer__item"><Link href="/employee-assessment-development" className="footer__link">Employee Assessment & Development</Link></li>
+                  <li className="footer__item"><Link href="/hr-operations-outsourcing" className="footer__link">HR Operations & Outsourcing</Link></li>
+                  <li className="footer__item"><Link href="/legal-compliance-services" className="footer__link">Legal & Compliance Services</Link></li>
+                  <li className="footer__item"><Link href="/employee-engagement-well-being" className="footer__link">Employee Engagement & Well-being</Link></li>
+                  <li className="footer__item"><Link href="/industry-specific-hr-services" className="footer__link">Industry-Specific HR Services</Link></li>
+                  <li className="footer__item"><Link href="/solutions" className="footer__link">Complex Solutions</Link></li>
                 </ul>
               </div>
               <div className="footer__col">

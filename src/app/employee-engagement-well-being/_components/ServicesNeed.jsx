@@ -20,7 +20,7 @@ const ServicesNeed = () => {
                             custom={0.2}
                             className="services-need__title">Need Employee <br /> Engagement & <br /> Well-being <br /> Support?</motion.h2>
                         <p className="services-need__text">Our HR specialists are ready to help. Get a personalized consultation to improve retention, enhance workplace culture, and boost employee satisfaction.</p>
-                        <Link href="#" className="services-need__link">Contact Us</Link>
+                        <Link href="/contacts" className="services-need__link">Contact Us</Link>
                     </div>
                     <motion.div
                         initial="hidden"

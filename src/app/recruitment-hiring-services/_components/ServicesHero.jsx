@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "@/styles/services.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import OrderButton from "@/components/OrderButton";
 
 const ServicesHero = () => {
 
@@ -26,7 +26,11 @@ const ServicesHero = () => {
             variants={fadeInUp}
             custom={0.3}
             className="services-hero__text">Find. Hire. Grow. Build your workforce with the right talent, every time.</motion.p>
-          <Link href="#" className="services-hero__link">Book a Consultation</Link>
+          <OrderButton
+            className={"services-hero__link"}
+            text={"Book a Consultation"}
+            service={"Book a Consultation"}
+          />
         </div>
       </div>
       <motion.div

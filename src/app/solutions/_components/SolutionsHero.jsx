@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "@/styles/home/home.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import OrderButton from "@/components/OrderButton";
 
 const SolutionsHero = () => {
 
@@ -33,7 +33,11 @@ const SolutionsHero = () => {
                             variants={fadeInUp}
                             custom={0.3}
                             className="solutions-hero__buttons">
-                            <Link href="#" className="solutions-hero__link">Book a Consultation</Link>
+                            <OrderButton
+                                className={"solutions-hero__link"}
+                                text={"Book a Consultation"}
+                                service={"Book a Consultation"}
+                            />
                         </motion.div>
                     </div>
                     <motion.div

@@ -26,7 +26,7 @@ const SolutionsNeed = () => {
                             variants={fadeInUp}
                             custom={0.2}
                             className="services-need__text">Our HR experts are ready to assist. Get a personalized consultation to find the right HR strategy, optimization plan, or workforce solution for your business.</motion.p>
-                        <Link href="#" className="services-need__link">Contact Us</Link>
+                        <Link href="/contacts" className="services-need__link">Contact Us</Link>
                     </div>
                     <motion.div
                         initial="hidden"
