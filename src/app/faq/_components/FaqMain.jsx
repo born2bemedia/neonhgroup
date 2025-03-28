@@ -8,25 +8,33 @@ const faqData = [
     {
         title: "Service Delivery & Approach",
         items: [
-            { question: "How do you deliver services?", answer: "We follow a structured approach..." },
-            { question: "What is your response time?", answer: "Our typical response time is 24 hours..." },
-            { question: "Do you provide custom solutions?", answer: "Yes, we tailor solutions to each client..." }
+            { question: "How do you deliver your HR services—on-site or remotely?", answer: "We operate fully remotely, allowing us to support clients across regions without compromising quality or responsiveness." },
+            { question: "Are your services customized or based on pre-set templates?", answer: "All our solutions are tailored to each client’s business needs, industry specifics, and workforce structure." },
+            { question: "What is the typical timeline for implementing a full HR solution?", answer: "Depending on scope, delivery takes between 3 to 8 weeks, with clear milestones communicated throughout the process." }
         ]
     },
     {
-        title: "Pricing & Payment",
+        title: "Communication & Support",
         items: [
-            { question: "What payment methods do you accept?", answer: "We accept PayPal, credit cards, and bank transfers..." },
-            { question: "Do you offer refunds?", answer: "Yes, refunds are available under certain conditions..." },
-            { question: "Are there any hidden fees?", answer: "No, we maintain transparency in pricing..." }
+            { question: "Will I have a dedicated contact or team during the service period?", answer: "Yes, you’ll have a dedicated HR expert or project manager assigned to oversee your solution from start to finish." },
+            { question: "How do we communicate during the project—calls, emails, or tools?", answer: "We work through email, scheduled video calls, and project management tools as preferred by the client." },
+            { question: "Do you offer post-project support or follow-ups?", answer: "Yes, all major solutions include a post-delivery check-in and optional ongoing support packages." }
         ]
     },
     {
-        title: "Support & Assistance",
+        title: "Deliverables & Documentation",
         items: [
-            { question: "How can I contact support?", answer: "You can reach us via email or live chat..." },
-            { question: "Do you offer 24/7 support?", answer: "Yes, our support team is available 24/7..." },
-            { question: "Can I upgrade my plan anytime?", answer: "Yes, you can upgrade at any time..." }
+            { question: "What kind of documentation do we receive after service completion?", answer: "You can reach us via email or live chat..." },
+            { question: "Are the HR policies and documents legally compliant?", answer: "Yes, all deliverables are built in accordance with local labor laws and best practice standards." },
+            { question: "Can you provide documentation in multiple languages?", answer: "Yes, we offer multilingual documentation upon request, depending on your operational regions." }
+        ]
+    },
+    {
+        title: "Processes & Workflow",
+        items: [
+            { question: "How do you start the collaboration process?", answer: "It begins with a consultation and brief analysis of your current HR state, followed by a detailed service proposal." },
+            { question: "Can I combine multiple services into one project?", answer: "Absolutely. We often combine several services into custom-built solutions based on your company’s needs." },
+            { question: "Do you work with businesses in all industries?", answer: "Yes, our expertise spans over 10+ sectors, and all services are adjusted to industry-specific requirements." }
         ]
     }
 ];
