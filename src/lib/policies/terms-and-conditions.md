@@ -3,113 +3,125 @@ title: "Terms and Conditions"
 ---
 
 
-These Terms and Conditions ("Terms") apply to your use of the website owned by Nexoria, operated by Acceptance Solutions Group LLC, with a registered address at Hamilton Development, Unit B, Charlestown, Nevis, West Indies and an operational address at [Operational Address], accessible at [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). By using this website, you agree to these Terms. If you do not agree with these Terms, please do not use the website.
-
-If you comply with these Terms, Nexoria grants you a personal, non-exclusive, non-transferable, and limited right to access and use the website. Nexoria reserves the right, at its sole discretion, to change, modify, add, or remove parts of these Terms at any time. It is your responsibility to review these Terms for updates periodically. Continued website use following any changes constitutes your acceptance of the updated Terms.
-
-Nexoria also reserves the right to do the following at any time without prior notice:
-
-- Modify, suspend, or terminate the website's operation or any portion thereof for any reason;
-- Alter the website, or any section of it, as well as related policies or terms;
-- Interrupt the website's operation, or any part of it, to perform maintenance, error correction, or other necessary changes.
-
-Nexoria reserves all rights not expressly granted herein. Additionally, your use of the Nexoria website for informational purposes is subject to other policies and guidelines incorporated by reference into these Terms.
-
-## General Use Guidelines
-All the content and materials available on this website, including but not limited to information, documents, text, services, logos, graphics, photographs, sounds, images, videos, trademarks, interfaces, music, software, computer code, user interfaces, visual interfaces, and the overall design, arrangement, selection, expression, and "look and feel" of the site (collectively referred to as "Content"), are owned, controlled, or licensed by Nexoria, its affiliates, subsidiaries, or third-party partners, authors, developers, and vendors (collectively, "Third-Party Providers").
-Any unauthorised use of this Content may violate intellectual property laws and other legal protections, including copyright, trademark, privacy, publicity rights, and communication regulations.
-
-Unless explicitly permitted in these Terms or under a formal agreement with Nexoria, you may not copy, reproduce, republish, distribute, download, upload, post, display, encode, translate, or transmit any portion of the Content without obtaining Nexoria's prior written consent.
-Unless expressly indicated otherwise by Nexoria, nothing on this website should be construed as granting any licence or rights to use Nexoria's or any Third-Party Provider's intellectual property, whether by implication, estoppel, or otherwise. You are solely responsible for acquiring such licences. Please refer to the contact information below for questions about obtaining such licences. Materials from Third-Party Providers on this website have not been independently reviewed, tested, certified, or authenticated in whole or in part by Nexoria. Therefore, Nexoria does not guarantee or provide any warranties for these materials.
-
-You are allowed to use informational materials related to Nexoria products and services that are expressly provided for download from the website (such as data sheets, white papers, and similar materials) under the following conditions:
-
-- You may not alter the materials in any way.
-- The copyright notice and this permission notice must be included in the materials.
-- The materials may only be used for personal, non-commercial, and informational purposes. They must not be copied or posted on any networked computer, broadcast in any media, or used for commercial advantage. This permission will automatically end without notice if you violate these Terms.
-
-Nexoria strictly prohibits the following activities:
-
-Gaining or attempting to gain unauthorised access to the website (or any part of it), to any software or services featured on the website, or to any systems or networks connected to the website or Nexoria's servers.
-Obtaining or attempting to obtain any Content or proprietary materials of Nexoria through any means not explicitly made available by Nexoria.
-Interfering with or attempting to disrupt the website's functionality or its use by others.
-Probing, scanning, or testing the website's vulnerabilities or attempting to breach its security measures.
-Attempting to access any portion or feature of the website, any systems or networks connected to the website, any Nexoria server, or any products or services offered on or through the website by hacking, password mining, or any other illegitimate means.
-Using any "deep-link," "page-scrape," "robot," "spider," or other automated device, bot, program, algorithm, or methodology, or any similar process to access, acquire, copy, or monitor any part of the website or its Content.
-Engaging in activities that impose an unreasonable or disproportionately large load on the website's infrastructure, Nexoria's servers, systems, networks, or any systems or networks connected to the website or Nexoria.
-Using the website or its Content for illegal activities or promoting unlawful or infringing actions.
-Using, exporting, or re-exporting the Content violates applicable laws or regulations, including export laws.
 
 
-## Breach of Terms 
+## General Terms of Service
+By accessing and using any part of the website or services provided by Neon HR Group, you agree to be bound by the terms and conditions set forth herein. These Terms govern your interaction with the entire <a href="/">neonhrgroup.com</a> website and any communication between you and **Neonhire LTD**, including but not limited to email, digital submissions, and support inquiries. **Neonhire LTD** accepts no liability for any direct, indirect, incidental, special, or consequential damages arising from your use of, or inability to use, materials or services made available through this website. 
 
-By using this website, you acknowledge and accept that Nexoria has the right, at any time and in its sole discretion, to terminate and restrict your present or future access to the website if it finds that you have violated these Terms or any other Nexoria policies or guidelines related to your use of the website.
+This includes—but is not limited to—data loss, business interruption, or financial losses. This limitation applies even if **Neonhire LTD** or its representatives have been advised of the possibility of such damages. All costs associated with any required repair, servicing, or correction from using the website remain your responsibility.
 
-Additionally, you understand that breaching these Terms will be considered unlawful and unfair conduct, causing Nexoria irreparable damage that cannot be adequately compensated with monetary damages.
 
-You also agree that Nexoria may seek any injunctive or equitable remedies it considers necessary or appropriate. These remedies are in addition to any other legal actions or remedies available to Nexoria.
+## Usage Agreement
+These Terms & Conditions constitute a legally binding agreement between you and **Neonhire LTD**(hereafter referred to as "Neon HR Group," "we," "us," or "our"). By accessing the **Neon HR Group** website or using any of its services (collectively referred to as the "Neon HR Group Service"), you confirm that you have read, understood, and agree to comply with all of the provisions outlined herein.
 
-You agree that Nexoria may terminate your access to the website without prior notice, at its discretion, for reasons including but not limited to:
+If you do not fully accept these Terms, you are not authorized to access or use the Neon HR Group Service. "You" refers to the individual using the service and any legal entity that person represents. In cases of misuse or violation of these terms, Neon HR Group reserves the right to suspend or permanently terminate access to its services without prior notice.
 
-- Requests from law enforcement or other governmental bodies;
-- A request by you (e.g., voluntary account deletion);
-- Discontinuation or significant alteration of the website or any services offered through the website; or
-Unforeseen technical difficulties or issues.
+## Definitions and Interpretations
+For this agreement, the following definitions shall apply:
 
-If Nexoria initiates legal proceedings against you due to a breach of these Terms, it is entitled to recover all reasonable legal fees and expenses incurred, in addition to any other relief granted. You acknowledge that Nexoria shall not be held liable to you or any third party for terminating your access to the website due to any breach of these Terms.
+- **Cookies**: Small files placed on your device by a website, used to store preferences, analytics data, login credentials, or session state.
+- Company: Refers to Neonhire LTD, registered at 128 City Road, London, United Kingdom, EC1V 2NX, with its principal office at 132A Boundary Road, St John's Wood, London, NW8 0RH, and company registration number 16264350.
+- **Country**: The United Kingdom is the legal jurisdiction under which Neonhire LTD is incorporated and operates.
+- **Device**: Any web-enabled device such as a computer, tablet, or smartphone used to access the Neon HR Group website or services.
+- **Service**: Refers to all services offered by Neon HR Group, including but not limited to HR consulting, staffing, compliance advisory, and workforce development.
+- **Third-Party Services**: Refers to any external providers, marketing partners, advertisers, or linked platforms accessible via our website.
+- **Website**: The official Neon HR Group website is accessible at <a href="/">https://neonhrgroup.com</a>.
+- **You**: The user of the website and/or client representative interacting with Neon HR Group services, whether as an individual or as a legally registered business entity.
 
-Nexoria reserves the right to disclose your information as necessary to comply with laws, regulations, or legal requests. In the event of an investigation or complaint regarding your use of the website, Nexoria may release information about you. Additionally, Nexoria may disclose your personal information to identify, contact, or take legal action against anyone causing harm or interfering with the rights of Nexoria, its clients, or other website users.
 
-## Privacy
+## Usage Restrictions
+By using the Neon HR Group website or services, you agree to strictly follow these Terms & Conditions and all applicable laws and regulations. You agree not to and will not permit others to:
 
-By accessing this website, you acknowledge that online communications are not entirely secure or private. Any information or messages you transmit to the website may be subject to interception or access by others.
-Furthermore, you agree that Nexoria has the right to retain any communication or data you send through the website or any related services. Nexoria may disclose this information if legally required or if it reasonably believes such actions are necessary to:
+- Remove, obscure, or alter any copyright, trademark, or proprietary notices found on the Neon HR Group website or within its content.
+- Resell, license, lease, assign, distribute, host, disclose, or otherwise commercially exploit the website, its services, or any related content to third parties without written authorization.
+- Reverse engineer, decompile, disassemble, modify, or create derivative works based on any part of the website or its infrastructure.
 
-- Comply with legal obligations or processes;
-- Enforce these Terms;
-- Address claims that your communications infringe on the rights of others; or
-- Safeguard the rights, property, or personal safety of Nexoria, its employees, users, website visitors, and the general public.
+## Age and Legal Capacity Verification
+By accessing or using the Neon HR Group website and services, you confirm that you are of legal age to enter into binding agreements in your jurisdiction. In all cases, this requires you to be at least 18. Neonhire LTD reserves the right to verify age and eligibility requirements anytime. If you fail to meet the applicable minimum age or provide falsified information, Neon HR Group may immediately suspend or terminate your access without notice.
 
-## Disclaimer
+## Ownership of Feedback and Suggestions
+All feedback, suggestions, comments, or other input (collectively “Suggestions”) submitted by you to Neon HR Group shall become the sole and exclusive property of Neonhire LTD. By providing such Suggestions, you waive any rights or claims to compensation or recognition. Without further notice or consent, Neon HR Group reserves the right to use, implement, publish, or redistribute any such content for commercial or operational purposes.
 
-Unless explicitly stated by Nexoria, all content provided on this website is offered "as is." Nexoria makes no express or implied warranties, guarantees, or assurances of any kind, including but not limited to implied warranties of merchantability, suitability for a specific purpose, title, or non-infringement, unless such disclaimers are legally unenforceable. Nexoria does not guarantee the accuracy, quality, suitability, or completeness of any information or materials available on the site.
+## Consent to Terms
+By using the Neon HR Group website, submitting a service request, or engaging with our team in any capacity, you acknowledge that you have read, understood, and agreed to be bound by these Terms & Conditions. These terms define how your data is handled, how services are delivered, and what rights and obligations apply to using our platform.
 
-This disclaimer covers any harm, liability, or loss arising from failures in performance, errors, omissions, interruptions, deletions, defects, operational delays, transmission issues, computer viruses, communication breakdowns, theft, destruction, unauthorised access, alterations, or any other type of malfunction, whether they stem from a breach of contract, negligence, tort, or any other legal theory.
+## Modifications to Terms & Conditions
+Neonhire LTD reserves the right to modify, update, or discontinue any aspect of the website or services at its sole discretion and without prior notice. Updates to these Terms & Conditions may be made periodically, and your continued use of the website or services constitutes acceptance of the revised terms. If you do not agree with any changes, you must cease use of the site and services immediately.
 
-## Intellectual Property Notices
+## Website Updates and Functional Changes
+Neon HR Group may deploy updates, enhancements, or modifications to the website anytime. These may include, but are not limited to, technical patches, performance improvements, added features, or removal of obsolete functionalities. Neonhire LTD is not obligated to maintain any specific feature or provide notice of such updates.
 
-The website and its content are protected by copyright and other applicable laws. They may not be copied, transmitted, reproduced, repurposed, or imitated, in whole or in part, without express permission from Nexoria.  
+## Third-Party Content and Links
+Our website may reference or link to content, products, or services from external third parties. While such integrations are provided for user convenience, Neon HR Group does not control or assume responsibility for third-party content's accuracy, legality, or relevance. Your interaction with third-party services is governed solely by their terms and policies.
+
+## Duration and Termination
+These Terms & Conditions remain in effect until terminated by either party. Neonhire LTD reserves the right to suspend or permanently revoke access to the website or services at any time, with or without cause or notice. You may terminate this Agreement by discontinuing the use of the website and deleting any materials obtained from it. Any violation of these terms may result in immediate termination without further notice or obligation.
+
+## Disclaimer of Warranties
+The Neon HR Group website and all related services are provided strictly "as is" and "as available" without express or implied warranties. To the fullest extent permitted by applicable UK and EU law, Neonhire LTD disclaims all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, non-infringement, system integration, or data accuracy.
+
+We do not warrant that the website's functionality will meet your requirements or operate uninterrupted, secure, or error-free. Neonhire LTD offers no guarantees regarding the timeliness, reliability, or availability of any service or content.
+Some jurisdictions may limit the exclusion of implied warranties. In such cases, the exclusions above may not fully apply to you.
+
+## Limitation of Liability
+To the maximum extent permitted by law, Neonhire LTD, its affiliates, directors, employees, and partners shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages arising from or related to your use of the Neon HR Group website or services. This includes—but is not limited to—loss of profits, loss of business data, loss of opportunities, or system interruptions, even if Neonhire LTD has been advised of the possibility of such damages.
+
+In any case, the total cumulative liability of Neonhire LTD shall not exceed the total amount paid by you for access to or use of the service, if applicable. Certain jurisdictions do not permit the exclusion or limitation of liability for consequential damages. Therefore, some limitations above may not apply to you.
+
+## Indemnification
+You agree to fully indemnify, defend, and hold harmless Neonhire LTD, its officers, employees, contractors, and agents from and against any claims, liabilities, damages, losses, or expenses—including reasonable legal fees—arising out of or in connection with:
+
+- Your use or misuse of the website or services
+- Your violation of these Terms & Conditions
+- Any infringement by you or a third party acting on your behalf of any intellectual property or privacy rights
+
+## Severability
+If any provision within these Terms & Conditions is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, the remainder of the Terms shall remain in full force and effect. The unenforceable provision shall be modified to the minimum extent necessary to ensure enforceability while maintaining the original intent.
+
+## No Waiver
+Failure by Neonhire LTD to enforce any right or provision of these Terms & Conditions shall not constitute a waiver of such right or provision. Any waiver of any breach shall not be deemed a waiver of any subsequent or continuing breach.
+
+## Entire Agreement
+These Terms & Conditions, our Privacy Policy, and any additional service-specific terms constitute the entire agreement between you and Neonhire LTD regarding using the website and services. This Agreement supersedes all prior or contemporaneous understandings, communications, and agreements—whether oral or written.
+Additional terms may apply to individual services and will be communicated at purchase or engagement.
+
+## Amendments to Terms
+Neonhire LTD reserves the right to revise or replace these Terms & Conditions at its sole discretion. In the case of significant changes, we will provide at least 30 days' notice before the new terms take effect. Continued website use after such updates shall constitute your acceptance of the modified terms. If you do not agree to the updated terms, you must discontinue use of the services and website immediately.
 
 ## Intellectual Property Rights
+All content, design, software, text, images, graphics, videos, and other materials on the Neon HR Group website are either the property of Neonhire LTD or licensed for its use. These materials are protected under copyright, trademark, and intellectual property laws. You may not reproduce, distribute, publish, modify, or create derivative works from this content without the express written consent of Neonhire LTD.
 
-The content and materials on this website are safeguarded by copyright and other applicable laws. You may not copy, reproduce, modify, or distribute any part of the content without explicit authorization from Innosphere.
+## Dispute Resolution and Arbitration
+Any dispute, claim, or controversy arising from or relating to these Terms & Conditions or your use of Neon HR Group services (excluding claims related to intellectual property enforcement) shall be resolved through binding arbitration. You expressly waive your right to pursue claims in court or participate in a class action.
 
-## Terms of Use Agreement
-By accessing and using this website, you confirm that you understand and agree to these Terms and Conditions. If you do not agree with any part of these terms, you should discontinue using this website immediately.
+Arbitration shall be conducted by the rules of the London Court of International Arbitration (LCIA). Either party may seek interim or injunctive relief from a UK court to protect its rights during arbitration proceedings. The prevailing party shall be entitled to recover its reasonable legal fees and associated costs.
 
-## Changes to Terms
+## Notice of Dispute
+If a dispute arises, you agree to first attempt to resolve the issue informally by providing Neonhire LTD with a written Notice of Dispute. The notice must include your full name, address, contact details, and issue description. Neonhire LTD will respond in writing and attempt to resolve the dispute within 60 days. If the matter remains unresolved, either party may initiate formal arbitration.
 
-Innosphere reserves the right to revise these Terms and Conditions without prior notice. Modifications become effective upon their posting on the website. You are responsible for regularly reviewing these terms. Continued website use after posting changes signifies your acceptance of the new terms.
+## Content Submissions and Privacy
+Any submissions you make to Neon HR Group—whether suggestions, documents, creative materials, or other content—shall be treated as non-confidential and non-proprietary. Neonhire LTD shall have full ownership of all rights to these submissions and may use them without limitation, restriction, or compensation to the originator.
 
-## Linking Guidelines
+## Promotions and Contests
+From time to time, Neonhire LTD may offer promotional activities, contests, or incentive campaigns via the Neon HR Group website. Participation in such promotions may require submitting personal or business information and will be governed by separate terms and conditions specific to each promotion. You agree to review and comply with those terms and all applicable laws and regulatory requirements before participation.
 
-You may link to Innosphere's website, provided that your link is established in a lawful and non-damaging manner that does not harm Innosphere's reputation. However, you must not create a link implying endorsement or association without our permission. Innosphere retains the right to withdraw linking permission at any time without notice.
+## Errors and Corrections
+While Neon HR Group strives to maintain accurate, up-to-date information on its website, typographical errors, technical inaccuracies, or outdated content may occasionally occur. Neonhire LTD reserves the right to correct any such errors and to cancel, modify, or refuse any orders or engagements based on inaccurate listings or descriptions. A full refund will be issued promptly if a payment has already been processed for an incorrectly listed product or service.
 
-## Liability Disclaimer
+## Disclaimer of Responsibility
+The Neon HR Group website and its contents are provided strictly “as is” and “as available.” While reasonable efforts are made to ensure accuracy, Neonhire LTD makes no guarantees or warranties regarding the correctness, completeness, or reliability of any content or code found on the website. Neonhire LTD reserves the right to modify or remove any content, features, or functionalities without prior notice.
 
-Innosphere, including its affiliates, employees, and partners, will not be liable for any direct, indirect, incidental, or consequential damages arising from your website use or inability to access it. This limitation of liability applies to the fullest extent permitted by law.
+## Contact Information
 
-## User Indemnification
+<div class="contacts">
+    
+- **Phone**  
+  <span><img src="/images/phone-icon.svg" alt="phone-icon"> [+447450610056](tel:+447450610056)</span>
 
-Using this website, you agree to indemnify and hold harmless Innosphere, its employees, officers, and agents from any claims, losses, or expenses, including attorney's fees, resulting from your use of the website or breach of these Terms and Conditions.
+- **Email**  
+  <span><img src="/images/mail-icon.svg" alt="phone-icon"> [info@neonhrgroup.com](mailto:info@neonhrgroup.com)</span>
 
-## Governing Law
+- **Website**  
+  <span><img src="/images/website-icon.svg" alt="phone-icon"> [https://neonhrgroup.com](https://neonhrgroup.com)</span>
 
-The laws of Nevis, West Indies, will govern these Terms. In the event of a dispute, the laws of Nevis, West Indies, will apply, without regard to conflict of law principles.
-Contact Information
-
-For any inquiries regarding these Terms or to request permission to use any content, please contact us:
-
-- Email: info@nexoria.ai 
-- Phone <a href="tel:+48573587868">+48573587868</a>
-- Website: https://nexoria.ai 
+</div>

@@ -1,5 +1,211 @@
 @import "mixin";
 
 .policy {
-  
+    @include adaptiv-value("padding-top", 100, 50, 1);
+    @include adaptiv-value("padding-bottom", 100, 50, 1);
+    &__container {
+        max-width: 650px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+    &__body {
+    }
+
+    &__title {
+        color: #020513;
+        text-align: center;
+        font-family: "Gilroy", sans-serif;
+        @include adaptiv-value("font-size", 64, 38, 1);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__date {
+        margin: 12px 0 0 0;
+        color: #020513;
+        font-family: "Gilroy", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+
+    &__content {
+        @include adaptiv-value("margin-top", 128, 64, 1);
+        h2 {
+            color: #020513;
+            font-family: "Gilroy", sans-serif;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 24px;
+            &:not(:first-of-type) {
+                margin-top: 64px;
+            }
+        }
+        p {
+            color: #4f515a;
+            font-family: "Gilroy", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            &:not(:last-child) {
+                margin: 0 0 16px 0;
+            }
+
+            a {
+                color: #ff5900;
+                text-align: center;
+                font-family: "Gilroy", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-skip-ink: auto;
+                text-decoration-thickness: auto;
+                text-underline-offset: auto;
+                text-underline-position: from-font;
+            }
+        }
+
+        .top {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                margin: 0 0 64px 0;
+                li {
+                    list-style: none;
+                    color: #020513;
+                    font-family: "Gilroy", sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    b {
+                        color: #020513;
+                        font-family: "Gilroy", sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+
+                    a {
+                        color: #ff5900;
+                        text-align: center;
+                        font-family: "Gilroy", sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        text-decoration-line: underline;
+                        text-decoration-style: solid;
+                        text-decoration-skip-ink: auto;
+                        text-decoration-thickness: auto;
+                        text-underline-offset: auto;
+                        text-underline-position: from-font;
+                    }
+                }
+            }
+        }
+        ul {
+            margin: 0 0 16px 20px;
+            li {
+                list-style: disc;
+
+                color: #4f515a;
+                font-family: "Gilroy", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                a {
+                    color: #ff5900;
+                    text-align: center;
+                    font-family: "Gilroy", sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration-line: underline;
+                    text-decoration-style: solid;
+                    text-decoration-skip-ink: auto;
+                    text-decoration-thickness: auto;
+                    text-underline-offset: auto;
+                    text-underline-position: from-font;
+                }
+            }
+        }
+        .contacts {
+            display: flex;
+            margin: 24px 0 0 0;
+            &._wrap {
+                ul {
+                    flex-direction: column;
+                    gap: 24px;
+                }
+            }
+            ul {
+                display: flex;
+                width: 100%;
+                margin: 0;
+                @media (max-width: 767px) {
+                    flex-direction: column;
+                    gap: 24px;
+                }
+                li {
+                    width: 33.3333%;
+                    list-style: none;
+                    p {
+                        strong {
+                            color: #020513;
+                            font-family: "Gilroy", sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            display: flex;
+                        }
+
+                        span {
+                            display: flex;
+                            align-items: center;
+                            gap: 6px;
+
+                            a {
+                                color: #ff5900;
+                                text-align: center;
+                                font-family: "Gilroy", sans-serif;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                text-decoration-line: underline;
+                                text-decoration-style: solid;
+                                text-decoration-skip-ink: auto;
+                                text-decoration-thickness: auto;
+                                text-underline-offset: auto;
+                                text-underline-position: from-font;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottom { 
+            margin: 64px 0 0 0;
+            padding: 24px;
+            background-color: #F6F6F6;
+        }
+    }
 }

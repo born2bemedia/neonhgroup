@@ -2,43 +2,110 @@
 title: "Cookie policy"
 ---
 
-Nexoria uses cookies and similar tracking technologies to enhance the browsing experience, analyze site traffic, and understand user preferences. This Cookie Policy explains what cookies are, how we use them, and your choices regarding their use.
+<div class="top">
+    <ul>
+        <li><b>Website:</b> <a href="https://neonhrgroup.com">https://neonhrgroup.com</a></li>
+        <li><b>Operated by:</b> Neonhire LTD</li>
+    </ul>
+</div>
+
+## Introduction
+This Cookie Policy explains how Neonhire LTD (“Neon HR Group,” “we,” “us,” or “our”) uses cookies and similar technologies when you visit our website. It outlines what cookies are, why we use them, and your rights to control them.
+
+By continuing to browse or use our website, you agree that we can store and access cookies as described in this policy.
 
 ## What Are Cookies?
-Cookies are small text files placed on your device by websites you visit. They are widely used to make websites work more efficiently and to provide information to the site owners. Cookies can be categorized into different types based on their purpose:
+Cookies are small data files stored on your browser or device when you visit a website. They serve various functions, such as enabling technical performance, remembering user preferences, enhancing navigation, and supporting analytics and advertising.
 
-- **Essential Cookies:** These cookies are necessary for the website to function and cannot be disabled. They allow you to navigate the site and use its features.
-- **Performance Cookies:** These cookies collect information about how visitors use our website, such as which pages are visited most often. This data helps us improve our site’s performance and user experience.
-- **Functionality Cookies:** These cookies allow our website to remember your choices (such as your username, language, or region) and provide enhanced features and personalization.
-- **Targeting Cookies:** Our advertising partners may set these cookies through our site. They may be used to build a profile of your interests and show you relevant ads on other sites.
+Cookies can be either:
+
+- **First-party cookies** – set directly by our website
+- **Third-party cookies** – set by third-party service providers (e.g., Google, LinkedIn)
+
+Cookies are also classified by duration:
+
+- **Session cookies** – deleted when you close your browser
+- **Persistent cookies** – remain stored until expiry or manual deletion
+
+## Types of Cookies We Use
+We use the following categories of cookies on neonhrgroup.com:
+
+**Strictly Necessary Cookies**
+
+These cookies are essential for core site functionality, such as secure login, form submissions, and navigation. They do not store personally identifiable information and cannot be disabled via our cookie banner.
+
+**Examples:**
+
+- Session management cookies
+- CSRF protection tokens
+
+**Performance and Analytics Cookies**
+
+These cookies collect anonymous data on how visitors use the website (e.g., page visits, bounce rates, traffic sources) to help us improve user experience and site performance.
+
+- **Providers:** Google Analytics, Microsoft Clarity
+- **Collected Data:** Device information, pages visited, time spent, actions taken
+
+**Functionality Cookies**
+
+These cookies allow the website to remember your preferences, such as language, region, or previously filled forms. They improve usability but are not strictly necessary.
+
+**Marketing and Targeting Cookies**
+
+These cookies are used to deliver relevant ads based on your interests and to track campaign effectiveness across platforms.
+
+- **Providers:** LinkedIn Ads, Google Ads, Meta Pixel
+- **Purpose:** Remarketing, audience segmentation, campaign analytics
 
 ## How We Use Cookies
-We use cookies for various purposes, including:
 
-- To ensure the proper functioning of our website and its services.
-- To analyze website usage and enhance user experience.
-Remember your preferences and settings.
-- To deliver targeted advertisements and track the effectiveness of our marketing efforts.
+We use cookies to:
 
-## Your Choices Regarding Cookies
-You have several options to manage your cookie preferences:
+- Maintain secure access to forms and account tools
+- Measure and optimise user journeys
+- Provide relevant content and service updates
+- Support remarketing and ad targeting for B2B campaigns
+- Ensure compliance with applicable laws and security protocols
 
-- **Browser Settings:** Most web browsers allow you to control cookies through their settings. You can set your browser to refuse cookies or to alert you when cookies are being sent. If you disable cookies, some parts of our website may malfunction.
-- **Opt-Out Links:** You can opt out of performance and targeting cookies through various online tools. For example, you can use the Network Advertising Initiative’s opt-out tool or the Digital Advertising Alliance’s opt-out page.
-- **Cookie Consent Management:** When you visit our website, you will see a cookie consent banner that allows you to accept or reject non-essential cookies.
+## Managing Your Cookie Preferences
 
-## Third-Party Cookies
+You can manage or withdraw your cookie consent at any time through:
 
-Our website may contain cookies from third-party services that are not in our control. These cookies are used for various purposes, including analytics and advertising. We encourage you to review the privacy policies of these third parties for more information about their use of cookies.
+- The cookie consent banner on our website
+- Browser settings – allowing you to delete or block cookies globally or per site
+- Third-party tools – such as opt-out pages provided by advertisers (e.g., Google Ads Settings)
 
-## Changes to This Cookie Policy
+**Note:** Disabling certain cookies may affect the functionality and performance of our website.
 
-We may update this Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you when we make significant changes by posting the updated policy on our website with a new effective date.
+## Third-Party Services and Cookies
+
+We may use services from third-party vendors, who may place cookies on your device when you interact with embedded content, external tools, or analytics platforms.
+
+These providers have their own privacy and cookie policies, which we encourage you to review:
+
+- **Google:** https://policies.google.com/technologies/cookies
+- **LinkedIn:** https://www.linkedin.com/legal/cookie-policy
+- **Meta (Facebook):** https://www.facebook.com/policies/cookies
+
+## Changes to This Policy
+
+We may update this Cookie Policy from time to time to reflect changes in law, technology, or service offerings. The latest version will always be available on this page with the above effective date.
+
+We recommend checking this policy periodically to stay informed about how we use cookies and how your data is handled.
 
 ## Contact Us
 
-If you have any questions about our Cookie Policy or our use of cookies, please contact us at:
+If you have any questions or concerns regarding our use of cookies, please contact:
 
-- Email: info@nexoria.ai 
-- Phone <a href="tel:+48573587868">+48573587868</a>
-- Website: https://nexoria.ai 
+<div class="contacts">
+    
+- **Phone**  
+  <span><img src="/images/phone-icon.svg" alt="phone-icon"> [+447450610056](tel:+447450610056)</span>
+
+- **Email**  
+  <span><img src="/images/mail-icon.svg" alt="phone-icon"> [info@neonhrgroup.com](mailto:info@neonhrgroup.com)</span>
+
+- **Website**  
+  <span><img src="/images/website-icon.svg" alt="phone-icon"> [https://neonhrgroup.com](https://neonhrgroup.com)</span>
+
+</div>
