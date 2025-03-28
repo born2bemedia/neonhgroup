@@ -147,7 +147,7 @@ const Header = () => {
                         <Link href="/faq" className="header__menu-link">FAQ</Link>
                       </li>
                       <li className="header__menu-item">
-                        <Link href="/contact-us" className="header__menu-link">Contact Us</Link>
+                        <Link href="/contacts" className="header__menu-link">Contact Us</Link>
                       </li>
                     </ul>
                   </nav>
