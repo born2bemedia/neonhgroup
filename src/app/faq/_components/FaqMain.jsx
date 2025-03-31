@@ -24,9 +24,8 @@ const faqData = [
     {
         title: "Deliverables & Documentation",
         items: [
-            { question: "What kind of documentation do we receive after service completion?", answer: "You can reach us via email or live chat..." },
+            { question: "What kind of documentation do we receive after service completion?", answer: "You receive all finalized HR documents, policies, strategies, reports, and process maps in editable formats." },
             { question: "Are the HR policies and documents legally compliant?", answer: "Yes, all deliverables are built in accordance with local labor laws and best practice standards." },
-            { question: "Can you provide documentation in multiple languages?", answer: "Yes, we offer multilingual documentation upon request, depending on your operational regions." }
         ]
     },
     {
