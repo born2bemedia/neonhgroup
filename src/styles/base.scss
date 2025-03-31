@@ -110,6 +110,7 @@ body {
     border-radius: 100px;
   }
   &.no-scroll {
+    overflow: hidden;
     /* overflow: hidden;
 		padding-right: 10px;
 
