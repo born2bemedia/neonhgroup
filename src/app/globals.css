@@ -87,6 +87,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: 'Gilroy', sans-serif;
   background: linear-gradient(
       to bottom,
       transparent,
