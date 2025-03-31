@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
 
         <GoogleAnalytics gaId="G-3MY5QN7V8N" />
         <PopupsProvider>
-          {/* <Preloader /> */}
+          <Preloader />
           <Header />
           <main className="site">{children}</main>
           <Footer />
