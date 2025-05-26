@@ -10,6 +10,7 @@ import Snipper from "@/icons/loading/Snipper";
 import "@/styles/request-form.scss";
 import Dialog from "@/components/Dialog";
 import { ShieldCheck } from "@/icons/other/ShieldCheck";
+import { excludedCountries } from "@/utils/countries";
 
 // CustomSelect компонент с добавлением класса _active
 const CustomSelect = ({ name, options, ...props }) => {
@@ -250,6 +251,9 @@ function RequestForm() {
                                             </span>
                                             <PhoneInput
                                                 country={countryCode}
+                                                excludeCountries={
+                                                    excludedCountries
+                                                }
                                                 value={field.value}
                                                 onChange={(value) =>
                                                     field.onChange({
