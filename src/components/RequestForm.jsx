@@ -384,8 +384,7 @@ function RequestForm() {
                                                 <div>
                                                     {t(
                                                         "fields.agreeToPolicy.label.0",
-                                                    )}
-                                                    {""}
+                                                    )}{" "}
                                                     <Link href="/privacy-policy">
                                                         {t(
                                                             "fields.agreeToPolicy.label.1",
@@ -393,8 +392,7 @@ function RequestForm() {
                                                     </Link>{" "}
                                                     {t(
                                                         "fields.agreeToPolicy.label.2",
-                                                    )}
-                                                    {""}
+                                                    )}{" "}
                                                     <Link href="/terms-of-use">
                                                         {t(
                                                             "fields.agreeToPolicy.label.3",

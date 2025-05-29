@@ -1,4 +1,57 @@
 {
+    "header": {
+        "title": "NEON HR GROUP",
+        "subtitle": "Flexible. Scalable. HR That Works for You.",
+        "menu": {
+            "services": "Services",
+            "about": "About",
+            "solutions": "Solutions",
+            "cases": "Cases",
+            "our_expertise": "Our Expertise",
+            "faq": "FAQ",
+            "contact": "Contact Us",
+            "assistance": "Assistance"
+        },
+        "submenu": {
+            "recruitment": "Recruitment & Hiring Services",
+            "hr": "HR Consulting & Strategy",
+            "employee": "Employee Assessment & Development",
+            "hr_operations": "HR Operations & Outsourcing",
+            "legal": "Legal & Compliance Services",
+            "employee_engagement": "Employee Engagement & Well-being",
+            "industry_specific": "Industry-Specific HR Services"
+        }
+    },
+    "footer": {
+        "title": "NEON HR GROUP",
+        "subtitle": "Flexible. Scalable. HR That Works for You.",
+        "company": "Company",
+        "services": "Services",
+        "legal": "Legal",
+        "contact": "Contact us",
+        "registeredAddress": "Registered address",
+        "officeAddress": "Office address",
+        "registeredNumber": "Registered number",
+        "allRightsReserved": "All rights reserved",
+        "items": {
+            "0": "Our Expertise",
+            "1": "Cases",
+            "2": "FAQ",
+            "3": "Contact Us",
+            "4": "Recruitment & Hiring Services",
+            "5": "HR Consulting & Strategy",
+            "6": "Employee Assessment & Development",
+            "7": "HR Operations & Outsourcing",
+            "8": "Legal & Compliance Services",
+            "9": "Employee Engagement & Well-being",
+            "10": "Industry-Specific HR Services",
+            "11": "Complex Solutions",
+            "12": "Terms of Use",
+            "13": "Privacy Policy",
+            "14": "Cookie Policy",
+            "15": "Refund Policy"
+        }
+    },
     "home": {
         "hero": {
             "title": "NEON HR GROUP",

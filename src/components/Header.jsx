@@ -13,8 +13,10 @@ import Submenu from "@/icons/other/Submenu";
 import LangSwitcher from "@/components/LangSwitcher";
 import MobileMenu from "@/components/MobileMenu";
 import { cn } from "@/utils/styles";
+import { useTranslations } from "next-intl";
 
 const Header = () => {
+    const t = useTranslations("header");
     const [menuOpened, setMenuOpened] = useState(false);
     const [isActive, setIsActive] = useState(false);
     const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
@@ -110,11 +112,10 @@ const Header = () => {
                                     <LogoWhite />
                                     <div className="wrapper">
                                         <span className="title">
-                                            NEON HR GROUP
+                                            {t("title")}
                                         </span>
                                         <span className="subtitle">
-                                            Flexible. Scalable. HR That Works
-                                            for You.
+                                            {t("subtitle")}
                                         </span>
                                     </div>
                                 </Link>
@@ -124,7 +125,7 @@ const Header = () => {
                                     <ul className="header__menu-list">
                                         <li className="header__menu-item _sublist">
                                             <span>
-                                                Services <Submenu />
+                                                {t("menu.services")} <Submenu />
                                             </span>
                                             <ul className="header__submenu">
                                                 <div className="wrapper">
@@ -137,8 +138,9 @@ const Header = () => {
                                                                 src="/images/menu-icon-01.svg"
                                                                 alt="icon"
                                                             />
-                                                            Recruitment & Hiring
-                                                            Services
+                                                            {t(
+                                                                "submenu.recruitment",
+                                                            )}
                                                         </Link>
                                                     </li>
                                                     <li className="header__submenu-item">
@@ -150,8 +152,7 @@ const Header = () => {
                                                                 src="/images/menu-icon-02.svg"
                                                                 alt="icon"
                                                             />
-                                                            HR Consulting &
-                                                            Strategy
+                                                            {t("submenu.hr")}
                                                         </Link>
                                                     </li>
                                                     <li className="header__submenu-item">
@@ -163,8 +164,9 @@ const Header = () => {
                                                                 src="/images/menu-icon-03.svg"
                                                                 alt="icon"
                                                             />
-                                                            Employee Assessment
-                                                            & Development
+                                                            {t(
+                                                                "submenu.employee",
+                                                            )}
                                                         </Link>
                                                     </li>
                                                     <li className="header__submenu-item">
@@ -176,8 +178,9 @@ const Header = () => {
                                                                 src="/images/menu-icon-04.svg"
                                                                 alt="icon"
                                                             />
-                                                            HR Operations &
-                                                            Outsourcing
+                                                            {t(
+                                                                "submenu.hr_operations",
+                                                            )}
                                                         </Link>
                                                     </li>
                                                     <li className="header__submenu-item">
@@ -189,8 +192,7 @@ const Header = () => {
                                                                 src="/images/menu-icon-05.svg"
                                                                 alt="icon"
                                                             />
-                                                            Legal & Compliance
-                                                            Services
+                                                            {t("submenu.legal")}
                                                         </Link>
                                                     </li>
                                                     <li className="header__submenu-item">
@@ -202,8 +204,9 @@ const Header = () => {
                                                                 src="/images/menu-icon-06.svg"
                                                                 alt="icon"
                                                             />
-                                                            Employee Engagement
-                                                            & Well-being
+                                                            {t(
+                                                                "submenu.employee_engagement",
+                                                            )}
                                                         </Link>
                                                     </li>
                                                     <li className="header__submenu-item">
@@ -215,8 +218,9 @@ const Header = () => {
                                                                 src="/images/menu-icon-07.svg"
                                                                 alt="icon"
                                                             />
-                                                            Industry-Specific HR
-                                                            Services
+                                                            {t(
+                                                                "submenu.industry_specific",
+                                                            )}
                                                         </Link>
                                                     </li>
                                                 </div>
@@ -227,7 +231,7 @@ const Header = () => {
                                                 href="/solutions"
                                                 className="header__menu-link"
                                             >
-                                                Solutions
+                                                {t("menu.solutions")}
                                             </Link>
                                         </li>
                                         <li className="header__menu-item">
@@ -235,7 +239,7 @@ const Header = () => {
                                                 href="/cases"
                                                 className="header__menu-link"
                                             >
-                                                Cases
+                                                {t("menu.cases")}
                                             </Link>
                                         </li>
                                         <li className="header__menu-item">
@@ -243,7 +247,7 @@ const Header = () => {
                                                 href="/our-expertise"
                                                 className="header__menu-link"
                                             >
-                                                Our Expertise
+                                                {t("menu.our_expertise")}
                                             </Link>
                                         </li>
                                         <li className="header__menu-item">
@@ -251,7 +255,7 @@ const Header = () => {
                                                 href="/faq"
                                                 className="header__menu-link"
                                             >
-                                                FAQ
+                                                {t("menu.faq")}
                                             </Link>
                                         </li>
                                         <li className="header__menu-item">
@@ -259,7 +263,7 @@ const Header = () => {
                                                 href="/contacts"
                                                 className="header__menu-link"
                                             >
-                                                Contact Us
+                                                {t("menu.contact")}
                                             </Link>
                                         </li>
                                     </ul>
@@ -283,7 +287,7 @@ const Header = () => {
                                     href="/contacts"
                                     className="header__sssistance"
                                 >
-                                    Assistance
+                                    {t("menu.assistance")}
                                 </Link>
                             </div>
                         </div>
