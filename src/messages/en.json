@@ -251,5 +251,24 @@
             "text": "Your request has been successfully submitted. Our team will review your inquiry and get back to you shortly.",
             "back": "Back to Home"
         }
+    },
+    "contacts": {
+        "title": "Contact Us",
+        "subtitle": "Let’s Talk HR That Works.",
+        "callUs": {
+            "title": "Call Us",
+            "text": "For direct inquiries or consultations"
+        },
+        "emailUs": {
+            "title": "Email Us",
+            "text": "For detailed requests or proposals"
+        },
+        "connectWithUs": "Connect with Us Online",
+        "registeredAddress": "Registered address",
+        "officeAddress": "Office address",
+        "submit": {
+            "title": "Prefer to Submit a Request?",
+            "text": "Use our quick form to tell us more about your business needs."
+        }
     }
 }
