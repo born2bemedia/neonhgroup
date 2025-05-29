@@ -4,8 +4,10 @@ import "@/styles/home/home.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import OrderButton from "@/components/OrderButton";
+import { useTranslations } from "next-intl";
 
 const HomeHave = () => {
+    const t = useTranslations("home.have");
 
     return (
         <section className="home-have">
@@ -17,11 +19,12 @@ const HomeHave = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.1}
-                        className="home-have__col-01">
-                        <h2 className="home-have__title">Have an HR challenge? Submit your issue, and we’ll craft a tailored solution.</h2>
+                        className="home-have__col-01"
+                    >
+                        <h2 className="home-have__title">{t("title")}</h2>
                         <OrderButton
                             className={"home-have__link"}
-                            text={"Get HR Assistance"}
+                            text={t("link")}
                             service={"Get HR Assistance"}
                         />
                     </motion.div>

@@ -48,8 +48,7 @@ const HomeHero = () => {
                             custom={0.2}
                             className="home-hero__text"
                         >
-                            Scalable HR solutions to meet every workforce
-                            challenge.
+                            {t("subtitle")}
                         </motion.p>
                         <motion.div
                             initial="hidden"
@@ -60,7 +59,7 @@ const HomeHero = () => {
                             className="home-hero__buttons"
                         >
                             <Link href="/solutions" className="home-hero__link">
-                                Explore Services
+                                {t("explore")}
                             </Link>
                             <OrderButton
                                 className={"home-hero__link"}

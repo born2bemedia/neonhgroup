@@ -1,7 +1,202 @@
 {
     "home": {
         "hero": {
-            "title": "NEON HR GROUP"
+            "title": "NEON HR GROUP",
+            "subtitle": "Scalable HR solutions to meet every workforce challenge.",
+            "explore": "Explore Services"
+        },
+        "from": {
+            "title": {
+                "0": "From talent acquisition to payroll",
+                "1": "optimization – comprehensive HR solutions",
+                "2": "tailored to your business."
+            },
+            "items": {
+                "0": {
+                    "title": "Recruitment & Hiring",
+                    "text": "Find top talent fast with expert sourcing and seamless hiring.",
+                    "link": "Find Talents"
+                },
+                "1": {
+                    "title": "HR Consulting & Strategy",
+                    "text": "Optimize workforce planning and build strong HR foundations.",
+                    "link": "Optimize HR"
+                },
+                "2": {
+                    "title": "Employee Assessment & Development",
+                    "text": "Elevate performance with skills testing and leadership training.",
+                    "link": "Improve Skills"
+                },
+                "3": {
+                    "title": "HR Operations & Outsourcing",
+                    "text": "Streamline payroll, contracts, and day-to-day HR tasks.",
+                    "link": "Streamline HR"
+                },
+                "4": {
+                    "title": {
+                        "0": "Legal &",
+                        "1": "Compliance Services"
+                    },
+                    "text": "Ensure full labor law compliance and mitigate risks.",
+                    "link": "Stay Compliant"
+                },
+                "5": {
+                    "title": "Employee Engagement & Well-being",
+                    "text": "Boost retention with culture strategies and wellness programs.",
+                    "link": "Engage Team"
+                },
+                "6": {
+                    "title": "Flexible HR Package Solutions",
+                    "text": "Scalable plans to match your business growth and workforce needs.",
+                    "link": "Explore Packages"
+                },
+                "7": {
+                    "title": "Industry-Specific HR Services",
+                    "text": "Customized hiring and HR solutions for your sector.",
+                    "link": "Explore Solutions"
+                }
+            }
+        },
+        "impact": {
+            "title": {
+                "0": "Neon HR Group",
+                "1": "Impact in Numbers"
+            },
+            "text": "Scalable HR solutions to meet every workforce challenge.",
+            "link": "Explore Services",
+            "items": {
+                "0": {
+                    "title": "Businesses HR-Enhanced",
+                    "text": "Helping companies optimize, scale, and strengthen their workforce."
+                },
+                "1": {
+                    "title": "Industries Covered",
+                    "text": "Industry-specific HR expertise across key business sectors."
+                },
+                "2": {
+                    "title": "Conferences Attended & Contributed",
+                    "text": "Staying at the forefront of HR trends and innovations."
+                },
+                "3": {
+                    "title": "HR Experts on Board",
+                    "text": "Helping companies optimize, scale, and strengthen their workforce."
+                },
+                "4": {
+                    "title": "Candidates Screened",
+                    "text": "Helping companies optimize, scale, and strengthen their workforce."
+                }
+            }
+        },
+        "how": {
+            "title": "How We Can Help",
+            "items": {
+                "0": {
+                    "title": "Struggling to Find the Right Talent?",
+                    "text": "We handle sourcing, screening, and hiring top professionals who match your business needs and company culture."
+                },
+                "1": {
+                    "title": "High Employee Turnover?",
+                    "text": "We enhance hiring strategies, onboarding, and engagement initiatives to improve retention and job satisfaction."
+                },
+                "2": {
+                    "title": "Recruitment Taking Too Much Time?",
+                    "text": "Our end-to-end hiring solutions streamline job postings, candidate screening, and interviews—so you can focus on business growth."
+                },
+                "3": {
+                    "title": "Compliance & Legal Risks?",
+                    "text": "We ensure your HR policies, contracts, and labor practices meet regulations, minimizing risks and ensuring legal compliance."
+                },
+                "4": {
+                    "title": "Need Workforce Flexibility?",
+                    "text": "Whether you require temporary staff, contract employees, or permanent hires, we provide adaptable workforce solutions for changing business demands."
+                }
+            }
+        },
+        "have": {
+            "title": "Have an HR challenge? Submit your issue, and we’ll craft a tailored solution.",
+            "link": "Get HR Assistance"
+        },
+        "see": {
+            "title": "See HR Solutions in Action",
+            "text": {
+                "0": "Discover how expert HR strategies drive real business success.",
+                "1": "Have Questions? Find quick answers to common HR challenges."
+            },
+            "link": {
+                "0": "Explore Market Cases",
+                "1": "Visit Our FAQ"
+            }
+        },
+        "lets": {
+            "title": "Let’s Solve Your HR Challenge",
+            "text": "Tell us what you need, and we’ll craft a tailored solution for your business."
+        }
+    },
+    "requestForm": {
+        "errors": {
+            "yourName": "Please enter your full name",
+            "company": "Please enter your company",
+            "website": "Please enter your website",
+            "industry": "Please enter your industry",
+            "phone": "Please provide a phone number",
+            "email": "Please enter your email address",
+            "are": "Please provide who you are",
+            "message": "Please enter your description",
+            "agreeToPolicy": "Please agree to your data processing according to the Neon HR Group policies"
+        },
+        "options": {
+            "hiring_talent_acquisition": "Hiring & Talent Acquisition",
+            "employee_management_retention": "Employee Management & Retention",
+            "payroll_hr_operations": "Payroll & HR Operations",
+            "legal_compliance": "Legal & Compliance",
+            "hr_strategy_consulting": "HR Strategy & Consulting",
+            "not_sure_need_guidance": "Not Sure - Need Guidance"
+        },
+        "fields": {
+            "yourName": {
+                "label": "Full Name",
+                "placeholder": "Enter your full name"
+            },
+            "company": {
+                "label": "Company",
+                "placeholder": "Enter your company"
+            },
+            "website": {
+                "label": "Website",
+                "placeholder": "Enter your website URL"
+            },
+            "industry": {
+                "label": "Industry",
+                "placeholder": "Enter your industry"
+            },
+            "phone": {
+                "label": "Phone"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "Enter your email"
+            },
+            "are": {
+                "label": "Your Are"
+            },
+            "message": {
+                "label": "Case Description",
+                "placeholder": "Please specify..."
+            },
+            "agreeToPolicy": {
+                "label": {
+                    "0": "I agree to the processing of my data in accordance with the",
+                    "1": "Privacy Policy",
+                    "2": "and",
+                    "3": "Terms of Use"
+                }
+            }
+        },
+        "submit": "Submit",
+        "thankYou": {
+            "title": "Thank you for reaching out to Neon HR Group!",
+            "text": "Your request has been successfully submitted. Our team will review your inquiry and get back to you shortly.",
+            "back": "Back to Home"
         }
     }
 }
