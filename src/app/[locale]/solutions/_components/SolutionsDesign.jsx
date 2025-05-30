@@ -5,8 +5,10 @@ import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import OrderButton from "@/components/OrderButton";
 import MarkDark from "@/icons/other/MarkDark";
+import { useTranslations } from "next-intl";
 
 const SolutionsDesign = () => {
+    const t = useTranslations("solutions.design");
 
     return (
         <section className="solutions-design">
@@ -18,7 +20,11 @@ const SolutionsDesign = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.1}
-                        className="solutions-design__title">Designed to Tackle <br /> Specific Business <br /> Challenges</motion.h2>
+                        className="solutions-design__title"
+                    >
+                        {t("title.0")} <br /> {t("title.1")} <br />{" "}
+                        {t("title.2")}
+                    </motion.h2>
                     <div className="solutions-design__items">
                         <motion.div
                             initial="hidden"
@@ -26,45 +32,52 @@ const SolutionsDesign = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.2}
-                            className="solutions-design__item">
-                            <img src="/images/services/solutions-icon-01.svg" alt="icon" className="solutions-design__icon"></img>
-                            <h3 className="solutions-design__package">Initial HR Setup</h3>
+                            className="solutions-design__item"
+                        >
+                            <img
+                                src="/images/services/solutions-icon-01.svg"
+                                alt="icon"
+                                className="solutions-design__icon"
+                            ></img>
+                            <h3 className="solutions-design__package">
+                                {t("items.0.title")}
+                            </h3>
                             <p className="solutions-design__text">
-                                For new businesses establishing HR foundations
+                                {t("items.0.text.0")}
                                 <br />
                                 <br />
-                                We set up fully structured HR processes, ensuring compliance, efficiency, and smooth operations from day one.
+                                {t("items.0.text.1")}
                             </p>
                             <ul className="solutions-design__list">
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    HR Policy Development & Implementation
+                                    {t("items.0.list.0")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Employment Documentation & Contract Management
+                                    {t("items.0.list.1")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Recruitment & Hiring Services
+                                    {t("items.0.list.2")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Payroll Processing & Administration
+                                    {t("items.0.list.3")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Workforce Planning & Talent Mapping
+                                    {t("items.0.list.4")}
                                 </li>
                             </ul>
                             <div className="solutions-design__price">
-                                <div className="from">/from</div>
+                                <div className="from">/{t("from")}</div>
                                 <div className="price">€12 000</div>
                             </div>
                             <OrderButton
                                 className={"solutions-design__link"}
-                                text={"Request Now"}
-                                service={"Initial HR Setup"}
+                                text={t("requestNow")}
+                                service={t("items.0.title")}
                             />
                         </motion.div>
                         <motion.div
@@ -73,45 +86,52 @@ const SolutionsDesign = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.3}
-                            className="solutions-design__item">
-                            <img src="/images/services/solutions-icon-02.svg" alt="icon" className="solutions-design__icon"></img>
-                            <h3 className="solutions-design__package">HR Optimization & Compliance</h3>
+                            className="solutions-design__item"
+                        >
+                            <img
+                                src="/images/services/solutions-icon-02.svg"
+                                alt="icon"
+                                className="solutions-design__icon"
+                            ></img>
+                            <h3 className="solutions-design__package">
+                                {t("items.1.title")}
+                            </h3>
                             <p className="solutions-design__text">
-                                For companies refining HR efficiency and ensuring legal alignment
+                                {t("items.1.text.0")}
                                 <br />
                                 <br />
-                                We analyze, audit, and refine HR processes, ensuring legal compliance, efficiency, and workforce productivity.
+                                {t("items.1.text.1")}
                             </p>
                             <ul className="solutions-design__list">
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    HR Audits & Risk Management
+                                    {t("items.1.list.0")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Labor Law Compliance & Advisory
+                                    {t("items.1.list.1")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Performance Reviews & 360° Feedback
+                                    {t("items.1.list.2")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Compensation & Benefits Structuring
+                                    {t("items.1.list.3")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    HR Technology & Automation Consulting
+                                    {t("items.1.list.4")}
                                 </li>
                             </ul>
                             <div className="solutions-design__price">
-                                <div className="from">/from</div>
+                                <div className="from">/{t("from")}</div>
                                 <div className="price">€15 000</div>
                             </div>
                             <OrderButton
                                 className={"solutions-design__link"}
-                                text={"Request Now"}
-                                service={"HR Optimization & Compliance"}
+                                text={t("requestNow")}
+                                service={t("items.1.title")}
                             />
                         </motion.div>
                         <motion.div
@@ -120,45 +140,52 @@ const SolutionsDesign = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.4}
-                            className="solutions-design__item">
-                            <img src="/images/services/solutions-icon-03.svg" alt="icon" className="solutions-design__icon"></img>
-                            <h3 className="solutions-design__package">Crisis & Workforce Risk Management</h3>
+                            className="solutions-design__item"
+                        >
+                            <img
+                                src="/images/services/solutions-icon-03.svg"
+                                alt="icon"
+                                className="solutions-design__icon"
+                            ></img>
+                            <h3 className="solutions-design__package">
+                                {t("items.2.title")}
+                            </h3>
                             <p className="solutions-design__text">
-                                For businesses handling restructuring, disputes, or workforce risks
+                                {t("items.2.text.0")}
                                 <br />
                                 <br />
-                                We provide expert HR strategies for companies facing workforce restructuring, disputes, or compliance risks.
+                                {t("items.2.text.1")}
                             </p>
                             <ul className="solutions-design__list">
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Workplace Investigations & Dispute Resolution
+                                    {t("items.2.list.0")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Full HR Outsourcing
+                                    {t("items.2.list.1")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Legal & Compliance Advisory
+                                    {t("items.2.list.2")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Leadership Development & Succession Planning
+                                    {t("items.2.list.3")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Flexible Work Arrangements & Policies
+                                    {t("items.2.list.4")}
                                 </li>
                             </ul>
                             <div className="solutions-design__price">
-                                <div className="from">/from</div>
+                                <div className="from">/{t("from")}</div>
                                 <div className="price">€18 000</div>
                             </div>
                             <OrderButton
                                 className={"solutions-design__link"}
-                                text={"Request Now"}
-                                service={"Crisis & Workforce Risk Management"}
+                                text={t("requestNow")}
+                                service={t("items.2.title")}
                             />
                         </motion.div>
                         <motion.div
@@ -167,45 +194,52 @@ const SolutionsDesign = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.2}
-                            className="solutions-design__item">
-                            <img src="/images/services/solutions-icon-04.svg" alt="icon" className="solutions-design__icon"></img>
-                            <h3 className="solutions-design__package">High-Volume & Urgent Hiring Solutions</h3>
+                            className="solutions-design__item"
+                        >
+                            <img
+                                src="/images/services/solutions-icon-04.svg"
+                                alt="icon"
+                                className="solutions-design__icon"
+                            ></img>
+                            <h3 className="solutions-design__package">
+                                {t("items.3.title")}
+                            </h3>
                             <p className="solutions-design__text">
-                                For companies expanding or filling urgent talent gaps
+                                {t("items.3.text.0")}
                                 <br />
                                 <br />
-                                We deploy scalable, rapid hiring strategies to meet workforce expansion needs efficiently.
+                                {t("items.3.text.1")}
                             </p>
                             <ul className="solutions-design__list">
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Mass Hiring & High-Volume Recruitment
+                                    {t("items.3.list.0")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Recruitment Process Outsourcing
+                                    {t("items.3.list.1")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Candidate Screening & Assessments
+                                    {t("items.3.list.2")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Global Talent Acquisition & Relocation
+                                    {t("items.3.list.3")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Employer Branding & Talent Attraction
+                                    {t("items.3.list.4")}
                                 </li>
                             </ul>
                             <div className="solutions-design__price">
-                                <div className="from">/from</div>
+                                <div className="from">/{t("from")}</div>
                                 <div className="price">€14 000</div>
                             </div>
                             <OrderButton
                                 className={"solutions-design__link"}
-                                text={"Request Now"}
-                                service={"High-Volume & Urgent Hiring Solutions"}
+                                text={t("requestNow")}
+                                service={t("items.3.title")}
                             />
                         </motion.div>
                         <motion.div
@@ -214,45 +248,52 @@ const SolutionsDesign = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.3}
-                            className="solutions-design__item">
-                            <img src="/images/services/solutions-icon-05.svg" alt="icon" className="solutions-design__icon"></img>
-                            <h3 className="solutions-design__package">Leadership & Succession Planning</h3>
+                            className="solutions-design__item"
+                        >
+                            <img
+                                src="/images/services/solutions-icon-05.svg"
+                                alt="icon"
+                                className="solutions-design__icon"
+                            ></img>
+                            <h3 className="solutions-design__package">
+                                {t("items.4.title")}
+                            </h3>
                             <p className="solutions-design__text">
-                                For companies preparing for leadership transitions
+                                {t("items.4.text.0")}
                                 <br />
                                 <br />
-                                We help businesses build strong leadership pipelines and ensure smooth succession planning.
+                                {t("items.4.text.1")}
                             </p>
                             <ul className="solutions-design__list">
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Executive Search & Headhunting
+                                    {t("items.4.list.0")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Psychometric & Behavioral Assessments
+                                    {t("items.4.list.1")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Executive & Career Coaching
+                                    {t("items.4.list.2")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Performance Reviews & 360° Feedback
+                                    {t("items.4.list.3")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Succession Planning & Leadership Development
+                                    {t("items.4.list.4")}
                                 </li>
                             </ul>
                             <div className="solutions-design__price">
-                                <div className="from">/from</div>
+                                <div className="from">/{t("from")}</div>
                                 <div className="price">€16 000</div>
                             </div>
                             <OrderButton
                                 className={"solutions-design__link"}
-                                text={"Request Now"}
-                                service={"Leadership & Succession Planning"}
+                                text={t("requestNow")}
+                                service={t("items.4.title")}
                             />
                         </motion.div>
                         <motion.div
@@ -261,45 +302,52 @@ const SolutionsDesign = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.3}
-                            className="solutions-design__item">
-                            <img src="/images/services/solutions-icon-06.svg" alt="icon" className="solutions-design__icon"></img>
-                            <h3 className="solutions-design__package">HR Digital Transformation & Automation</h3>
+                            className="solutions-design__item"
+                        >
+                            <img
+                                src="/images/services/solutions-icon-06.svg"
+                                alt="icon"
+                                className="solutions-design__icon"
+                            ></img>
+                            <h3 className="solutions-design__package">
+                                {t("items.5.title")}
+                            </h3>
                             <p className="solutions-design__text">
-                                For companies modernizing HR operations
+                                {t("items.5.text.0")}
                                 <br />
                                 <br />
-                                We integrate cutting-edge HR technology to automate workflows and enhance data-driven decision-making.
+                                {t("items.5.text.1")}
                             </p>
                             <ul className="solutions-design__list">
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    HR Technology & Automation Consulting
+                                    {t("items.5.list.0")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Remote Work & Virtual HR Solutions
+                                    {t("items.5.list.1")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Payroll Processing & Administration
+                                    {t("items.5.list.2")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    HR Analytics & Data-Driven Insights
+                                    {t("items.5.list.3")}
                                 </li>
                                 <li className="solutions-design__li">
                                     <MarkDark />
-                                    Workforce Planning & Talent Mapping
+                                    {t("items.5.list.4")}
                                 </li>
                             </ul>
                             <div className="solutions-design__price">
-                                <div className="from">/from</div>
+                                <div className="from">/{t("from")}</div>
                                 <div className="price">€20 000</div>
                             </div>
                             <OrderButton
                                 className={"solutions-design__link"}
-                                text={"Request Now"}
-                                service={"HR Digital Transformation & Automation"}
+                                text={t("requestNow")}
+                                service={t("items.5.title")}
                             />
                         </motion.div>
                     </div>

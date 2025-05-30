@@ -270,5 +270,115 @@
             "title": "Prefer to Submit a Request?",
             "text": "Use our quick form to tell us more about your business needs."
         }
+    },
+    "solutions": {
+        "hero": {
+            "title": "HR Solutions for Business Challenges",
+            "text": "Structured. Scalable. Results-Driven. HR strategies tailored to your business needs.",
+            "btnLabel": "Book a Consultation"
+        },
+        "design": {
+            "title": {
+                "0": "Designed to Tackle",
+                "1": "Specific Business",
+                "2": "Challenges"
+            },
+            "requestNow": "Request Now",
+            "from": "from",
+            "items": {
+                "0": {
+                    "title": "Initial HR Setup",
+                    "text": {
+                        "0": "For new businesses establishing HR foundations",
+                        "1": "We set up fully structured HR processes, ensuring compliance, efficiency, and smooth operations from day one."
+                    },
+                    "list": {
+                        "0": "HR Policy Development & Implementation",
+                        "1": "Employment Documentation & Contract Management",
+                        "2": "Recruitment & Hiring Services",
+                        "3": "Payroll Processing & Administration",
+                        "4": "Workforce Planning & Talent Mapping"
+                    }
+                },
+                "1": {
+                    "title": "HR Optimization & Compliance",
+                    "text": {
+                        "0": "For companies refining HR efficiency and ensuring legal alignment",
+                        "1": "We analyze, audit, and refine HR processes, ensuring legal compliance, efficiency, and workforce productivity."
+                    },
+                    "list": {
+                        "0": "HR Audits & Risk Management",
+                        "1": "Labor Law Compliance & Advisory",
+                        "2": "Performance Reviews & 360° Feedback",
+                        "3": "Compensation & Benefits Structuring",
+                        "4": "HR Technology & Automation Consulting"
+                    }
+                },
+                "2": {
+                    "title": "Crisis & Workforce Risk Management",
+                    "text": {
+                        "0": "For businesses handling restructuring, disputes, or workforce risks",
+                        "1": "We provide expert HR strategies for companies facing workforce restructuring, disputes, or compliance risks."
+                    },
+                    "list": {
+                        "0": "Workplace Investigations & Dispute Resolution",
+                        "1": "Full HR Outsourcing",
+                        "2": "Legal & Compliance Advisory",
+                        "3": "Leadership Development & Succession Planning",
+                        "4": "Flexible Work Arrangements & Policies"
+                    }
+                },
+                "3": {
+                    "title": "High-Volume & Urgent Hiring Solutions",
+                    "text": {
+                        "0": "For companies expanding or filling urgent talent gaps",
+                        "1": "We deploy scalable, rapid hiring strategies to meet workforce expansion needs efficiently."
+                    },
+                    "list": {
+                        "0": "Mass Hiring & High-Volume Recruitment",
+                        "1": "Recruitment Process Outsourcing",
+                        "2": "Candidate Screening & Assessments",
+                        "3": "Global Talent Acquisition & Relocation",
+                        "4": "Employer Branding & Talent Attraction"
+                    }
+                },
+                "4": {
+                    "title": "Leadership & Succession Planning",
+                    "text": {
+                        "0": "For companies preparing for leadership transitions",
+                        "1": "We help businesses build strong leadership pipelines and ensure smooth succession planning."
+                    },
+                    "list": {
+                        "0": "Executive Search & Headhunting",
+                        "1": "Psychometric & Behavioral Assessments",
+                        "2": "Executive & Career Coaching",
+                        "3": "Performance Reviews & 360° Feedback",
+                        "4": "Succession Planning & Leadership Development"
+                    }
+                },
+                "5": {
+                    "title": "HR Digital Transformation & Automation",
+                    "text": {
+                        "0": "For companies modernizing HR operations",
+                        "1": "We integrate cutting-edge HR technology to enhance efficiency, reduce costs, and drive workforce innovation."
+                    },
+                    "list": {
+                        "0": "HR Technology & Automation Consulting",
+                        "1": "Remote Work & Virtual HR Solutions",
+                        "2": "Payroll Processing & Administration",
+                        "3": "HR Analytics & Insights",
+                        "4": "Workforce Planning & Talent Mapping"
+                    }
+                }
+            }
+        },
+        "need": {
+            "title": {
+                "0": "Need a Tailored HR",
+                "1": "Solution?"
+            },
+            "text": "Our HR experts are ready to assist. Get a personalized consultation to find the right HR strategy, optimization plan, or workforce solution for your business.",
+            "link": "Contact Us"
+        }
     }
 }

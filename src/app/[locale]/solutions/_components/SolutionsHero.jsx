@@ -4,8 +4,10 @@ import "@/styles/home/home.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import OrderButton from "@/components/OrderButton";
+import { useTranslations } from "next-intl";
 
 const SolutionsHero = () => {
+    const t = useTranslations("solutions.hero");
 
     return (
         <section className="solutions-hero">
@@ -18,24 +20,31 @@ const SolutionsHero = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.1}
-                            className="solutions-hero__title">HR Solutions for Business Challenges</motion.h1>
+                            className="solutions-hero__title"
+                        >
+                            {t("title")}
+                        </motion.h1>
                         <motion.p
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.2}
-                            className="solutions-hero__text">Structured. Scalable. Results-Driven. HR strategies tailored to your business needs.</motion.p>
+                            className="solutions-hero__text"
+                        >
+                            {t("text")}
+                        </motion.p>
                         <motion.div
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.3}
-                            className="solutions-hero__buttons">
+                            className="solutions-hero__buttons"
+                        >
                             <OrderButton
                                 className={"solutions-hero__link"}
-                                text={"Book a Consultation"}
+                                text={t("btnLabel")}
                                 service={"Book a Consultation"}
                             />
                         </motion.div>
@@ -46,7 +55,8 @@ const SolutionsHero = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="solutions-hero__col-02">
+                        className="solutions-hero__col-02"
+                    >
                         <img src="/images/services/img-16.png" alt="image" />
                     </motion.div>
                 </div>
