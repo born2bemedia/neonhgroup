@@ -425,5 +425,66 @@
                 }
             }
         }
+    },
+    "ourExpertise": {
+        "hero": {
+            "title": "Our Expertise in HR Services",
+            "text": "Comprehensive HR solutions. Proven methodology. Results that scale."
+        },
+        "what": {
+            "title": {
+                "0": "What Sets",
+                "1": "Our Expertise Apart"
+            },
+            "items": {
+                "0": {
+                    "title": "360° HR Coverage",
+                    "text": "We offer a complete service portfolio across all HR domains:",
+                    "list": {
+                        "0": "Talent acquisition, planning, and performance management",
+                        "1": "Payroll, outsourcing, compliance, and legal frameworks",
+                        "2": "Employee engagement, leadership, and industry-specific strategies"
+                    }
+                },
+                "1": {
+                    "title": "Data-Driven Insights",
+                    "text": "Every recommendation is backed by insight:",
+                    "list": {
+                        "0": "Quantitative performance benchmarks",
+                        "1": "Our workforce audits identify an average of 17 structural inefficiencies per client",
+                        "2": "Clients see a 22–35% improvement in employee retention within the first 6 months of engagement"
+                    }
+                },
+                "2": {
+                    "title": "Scalable for Any Business Model",
+                    "text": "Whether you're hiring your first employee or managing cross-border teams, our solutions scale with your operations. We specialize in:",
+                    "list": {
+                        "0": "Multi-location HR harmonization",
+                        "1": "Remote and hybrid workforce models",
+                        "2": "High-volume recruitment and onboarding",
+                        "3": "Crisis and compliance response"
+                    }
+                },
+                "3": {
+                    "title": "Expert-Led Delivery",
+                    "text": "Our team includes specialists in the following human resources domains:",
+                    "list": {
+                        "0": "Employment law and international compliance",
+                        "1": "HR technology and automation",
+                        "2": "Organizational psychology and leadership assessment",
+                        "3": "Workforce analytics and restructuring"
+                    }
+                }
+            }
+        },
+        "ourRequest": {
+            "title": {
+                "0": "Request Our",
+                "1": "Full Pricing Details"
+            },
+            "text": "Get a detailed breakdown of our Employee Engagement & Well-being services and discover the best strategies to enhance workplace satisfaction and retention.",
+            "link": "Go to FAQ",
+            "btn": "Request Now"
+        }
     }
 }
