@@ -380,5 +380,50 @@
             "text": "Our HR experts are ready to assist. Get a personalized consultation to find the right HR strategy, optimization plan, or workforce solution for your business.",
             "link": "Contact Us"
         }
+    },
+    "cases": {
+        "hero": {
+            "title": {
+                "0": "HR Success Stories",
+                "1": "Real Cases, Real Impact"
+            },
+            "text": "Strategic HR moves that transformed businesses."
+        },
+        "main": {
+            "read": "Read the Case",
+            "0": {
+                "title": "Apple: The Game-Changing Talent Hire That Revolutionized the Brand",
+                "text": {
+                    "0": "The HR Move",
+                    "1": "Steve Jobs rehires Tim Cook in 1998 to optimize Apple’s supply chain.",
+                    "2": "Key Takeaway",
+                    "3": "The right talent at the right time can redefine a company’s trajectory.",
+                    "4": "The Impact",
+                    "5": "Before Cook joined Apple, the company was losing market share, struggling with inefficient operations, and facing financial instability. Cook, an expert in supply chain management, streamlined Apple’s operations, cut costs, and improved product delivery efficiency. His strategic workforce management turned Apple into one of the most valuable companies in history."
+                }
+            },
+            "1": {
+                "title": "Netflix: Reinventing Corporate HR Culture to Drive Innovation",
+                "text": {
+                    "0": "The HR Move",
+                    "1": "Netflix introduces its “Freedom & Responsibility” HR culture, breaking traditional corporate structures.",
+                    "2": "Key Takeaway",
+                    "3": "HR isn’t just about rules—it’s about creating an environment where top talent thrives.",
+                    "4": "The Impact",
+                    "5": "Netflix’s HR culture transformed from a rigid, rule-based system to a flexible, results-driven environment. This innovative approach allowed the company to scale globally, outperform competitors, and become the world’s leading streaming platform."
+                }
+            },
+            "2": {
+                "title": "Starbucks: Employee Engagement as a Competitive Advantage",
+                "text": {
+                    "0": "The HR Move",
+                    "1": "Starbucks introduced stock ownership, tuition support, and competitive employee benefits to transform its workforce.",
+                    "2": "Key Takeaway",
+                    "3": "When employees are valued, they drive brand success.",
+                    "4": "The Impact",
+                    "5": "In the early 2000s, Starbucks struggled with high turnover and inconsistent service quality. By investing in employee engagement, the company improved retention, boosted productivity, and enhanced customer satisfaction. This strategic HR move turned Starbucks into a global coffee powerhouse."
+                }
+            }
+        }
     }
 }
