@@ -4,7 +4,6 @@ import ServicesNeed from "./_components/ServicesNeed";
 import ServicesNeon from "./_components/ServicesNeon";
 import ServicesRequest from "./_components/ServicesRequest";
 
-
 export const metadata = {
     title: "HR Consulting & Strategy | Neon HR Group",
     description:

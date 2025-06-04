@@ -570,6 +570,10 @@
             "link": "Contact Us"
         }
     },
+    "services": {
+        "from": "from",
+        "requestNow": "Request Now"
+    },
     "recruitmentHiringServices": {
         "hero": {
             "title": "Recruitment & Hiring Services",
@@ -690,6 +694,124 @@
         "need": {
             "title": "Need Hiring Support?",
             "text": "Our recruitment experts are ready to assist. Get a tailored hiring strategy to build the workforce your business needs.",
+            "link": "Contact Us"
+        }
+    },
+    "hrConsultingStrategy": {
+        "hero": {
+            "title": "HR Consulting & Strategy",
+            "text": "Optimized HR. Smarter Workforce. Stronger Business.",
+            "btnLabel": "Book a Consultation"
+        },
+        "how": {
+            "title": {
+                "0": "How HR",
+                "1": "Consulting & Strategy",
+                "2": "Optimizes Your Business"
+            },
+            "items": {
+                "0": {
+                    "title": "Cut Costs & Improve Efficiency",
+                    "text": "We streamline HR operations, optimize payroll, and automate processes to reduce expenses and boost productivity."
+                },
+                "1": {
+                    "title": "Ensure Compliance & Minimize Risks",
+                    "text": "Our policies and legal frameworks protect your business from compliance issues, fines, and disputes."
+                },
+                "2": {
+                    "title": "Enhance Workforce Performance",
+                    "text": "We develop goal-driven KPIs, performance systems, and leadership programs to maximize employee potential."
+                },
+                "3": {
+                    "title": "Plan for Growth with Workforce Strategy",
+                    "text": "Talent mapping and succession planning ensure you have the right people for the expansion of the business in your or new markets."
+                },
+                "4": {
+                    "title": "Digitize & Automate HR Processes",
+                    "text": "We implement modern HR tools for faster, data-driven decision-making and reduced administrative burden."
+                }
+            }
+        },
+        "neon": {
+            "0": {
+                "title": "Essential HR Package",
+                "text": "Small to mid-sized businesses that need fundamental HR frameworks and compliance support.",
+                "list": {
+                    "0": {
+                        "title": "HR Policy Development & Implementation",
+                        "text": "Custom policies for compliance and operational efficiency."
+                    },
+                    "1": {
+                        "title": "Compensation & Benefits Structuring",
+                        "text": "Competitive salary and benefits framework to attract and retain talent."
+                    },
+                    "2": {
+                        "title": "Performance Management & KPI Development",
+                        "text": "Clear goal-setting and employee evaluation systems."
+                    }
+                }
+            },
+            "1": {
+                "title": "Growth HR Package",
+                "text": "For businesses looking to scale and optimize HR processes.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Essential Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "Workforce Planning & Talent Mapping",
+                        "text": "Strategic workforce growth and succession planning."
+                    },
+                    "1": {
+                        "title": "Leadership Development & Succession Planning",
+                        "text": "Preparing high-potential employees for leadership roles."
+                    },
+                    "2": {
+                        "title": "HR Analytics & Data-Driven Insights",
+                        "text": "Using workforce data to optimize recruitment and employee retention."
+                    }
+                }
+            },
+            "2": {
+                "title": "Strategic HR Partner Package",
+                "text": "For businesses needing a fully integrated HR strategy and transformation.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Growth Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "HR Technology & Automation Consulting",
+                        "text": "Implementing digital HR tools and systems for efficiency."
+                    },
+                    "1": {
+                        "title": "Mergers, Acquisitions & Workforce Integration",
+                        "text": "Comprehensive HR support for business mergers and acquisitions."
+                    },
+                    "2": {
+                        "title": "Full HR Strategy Development",
+                        "text": "Aligning HR operations with business goals for long-term workforce success."
+                    }
+                }
+            }
+        },
+        "servicesRequest": {
+            "title": {
+                "0": "Request Our",
+                "1": "Full Pricing Details"
+            },
+            "text": "Get a detailed breakdown of our HR Consulting & Strategy and discover the best solution for your workforce needs.",
+            "link": "Download Full Price List"
+        },
+        "need": {
+            "title": {
+                "0": "Need Expert",
+                "1": "Guidance?"
+            },
+            "text": "Our HR specialists are ready to help. Get a personalized consultation to find the right solutions for your business.",
             "link": "Contact Us"
         }
     }

@@ -9,6 +9,7 @@ import MarkWhite from "@/icons/other/MarkWhite";
 import { useTranslations } from "next-intl";
 
 const ServicesNeon = () => {
+    const ts = useTranslations("services");
     const t = useTranslations("recruitmentHiringServices.neon");
 
     return (
@@ -117,12 +118,12 @@ const ServicesNeon = () => {
                                 </li>
                             </ul>
                             <div className="services-neon__price">
-                                <div className="from">/{t("from")}</div>
+                                <div className="from">/{ts("from")}</div>
                                 <div className="price">€10 000</div>
                             </div>
                             <OrderButton
                                 className={"services-neon__link"}
-                                text={t("requestNow")}
+                                text={ts("requestNow")}
                                 service={"Essential Hiring Package"}
                             />
                         </motion.div>
@@ -218,12 +219,12 @@ const ServicesNeon = () => {
                                 </li>
                             </ul>
                             <div className="services-neon__price _white">
-                                <div className="from">/{t("from")}</div>
+                                <div className="from">/{ts("from")}</div>
                                 <div className="price">€15 000</div>
                             </div>
                             <OrderButton
                                 className={"services-neon__link _white"}
-                                text={t("requestNow")}
+                                text={ts("requestNow")}
                                 service={"Advanced Hiring Package"}
                             />
                         </motion.div>
@@ -291,12 +292,12 @@ const ServicesNeon = () => {
                                 </li>
                             </ul>
                             <div className="services-neon__price">
-                                <div className="from">/{t("from")}</div>
+                                <div className="from">/{ts("from")}</div>
                                 <div className="price">€20 000</div>
                             </div>
                             <OrderButton
                                 className={"services-neon__link"}
-                                text={t("requestNow")}
+                                text={ts("requestNow")}
                                 service={"Strategic Talent Partner Package"}
                             />
                         </motion.div>
