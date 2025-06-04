@@ -3,8 +3,10 @@ import React, { useState, useEffect } from "react";
 import "@/styles/services.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const ServicesOur = () => {
+    const t = useTranslations("legalComplianceServices.our");
 
     return (
         <section className="services-oper">
@@ -16,7 +18,10 @@ const ServicesOur = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.1}
-                        className="services-oper__title">Our Approach to HR <br /> Operations & Outsourcing </motion.h2>
+                        className="services-oper__title"
+                    >
+                        {t("title.0")} <br /> {t("title.1")}
+                    </motion.h2>
                     <div className="services-oper__items">
                         <motion.div
                             initial="hidden"
@@ -24,12 +29,22 @@ const ServicesOur = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.2}
-                            className="services-oper__item">
+                            className="services-oper__item"
+                        >
                             <div className="services-oper__col-01">
-                                <h3 className="services-oper__label">Avoid Costly Fines & Legal Risks</h3>
-                                <p className="services-oper__text">Non-compliance can lead to severe penalties, lawsuits, and reputational damage—we ensure your HR policies align with all regulations.</p>
+                                <h3 className="services-oper__label">
+                                    {t("items.0.title")}
+                                </h3>
+                                <p className="services-oper__text">
+                                    {t("items.0.text")}
+                                </p>
                             </div>
-                            <div className="services-oper__col-02"><img src="/images/services/services-oper-01.jpg" alt="image" /></div>
+                            <div className="services-oper__col-02">
+                                <img
+                                    src="/images/services/services-oper-01.jpg"
+                                    alt="image"
+                                />
+                            </div>
                         </motion.div>
                         <motion.div
                             initial="hidden"
@@ -37,12 +52,22 @@ const ServicesOur = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.3}
-                            className="services-oper__item">
+                            className="services-oper__item"
+                        >
                             <div className="services-oper__col-01">
-                                <h3 className="services-oper__label">Protect Your Workforce & Business Integrity</h3>
-                                <p className="services-oper__text">Clear, legally sound HR frameworks safeguard employee rights, prevent disputes, and strengthen workplace trust.</p>
+                                <h3 className="services-oper__label">
+                                    {t("items.1.title")}
+                                </h3>
+                                <p className="services-oper__text">
+                                    {t("items.1.text")}
+                                </p>
                             </div>
-                            <div className="services-oper__col-02"><img src="/images/services/services-oper-02.jpg" alt="image" /></div>
+                            <div className="services-oper__col-02">
+                                <img
+                                    src="/images/services/services-oper-02.jpg"
+                                    alt="image"
+                                />
+                            </div>
                         </motion.div>
                         <motion.div
                             initial="hidden"
@@ -50,12 +75,22 @@ const ServicesOur = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.3}
-                            className="services-oper__item">
+                            className="services-oper__item"
+                        >
                             <div className="services-oper__col-01">
-                                <h3 className="services-oper__label">Enhance Operational Stability</h3>
-                                <p className="services-oper__text">Compliance-driven HR processes reduce risks, improve workforce efficiency, and ensure smooth business operations.</p>
+                                <h3 className="services-oper__label">
+                                    {t("items.2.title")}
+                                </h3>
+                                <p className="services-oper__text">
+                                    {t("items.2.text")}
+                                </p>
                             </div>
-                            <div className="services-oper__col-02"><img src="/images/services/services-oper-03.jpg" alt="image" /></div>
+                            <div className="services-oper__col-02">
+                                <img
+                                    src="/images/services/services-oper-03.jpg"
+                                    alt="image"
+                                />
+                            </div>
                         </motion.div>
                         <motion.div
                             initial="hidden"
@@ -63,12 +98,22 @@ const ServicesOur = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.4}
-                            className="services-oper__item">
+                            className="services-oper__item"
+                        >
                             <div className="services-oper__col-01">
-                                <h3 className="services-oper__label">Stay Ahead of Changing Regulations</h3>
-                                <p className="services-oper__text">Labor laws evolve—our proactive legal strategies keep your business compliant and protected from future liabilities.</p>
+                                <h3 className="services-oper__label">
+                                    {t("items.3.title")}
+                                </h3>
+                                <p className="services-oper__text">
+                                    {t("items.3.text")}
+                                </p>
                             </div>
-                            <div className="services-oper__col-02"><img src="/images/services/services-oper-04.jpg" alt="image" /></div>
+                            <div className="services-oper__col-02">
+                                <img
+                                    src="/images/services/services-oper-04.jpg"
+                                    alt="image"
+                                />
+                            </div>
                         </motion.div>
                     </div>
                 </div>

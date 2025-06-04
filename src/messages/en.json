@@ -1044,5 +1044,118 @@
             "text": "Our HR specialists are ready to help. Get a personalized consultation to find the right solutions for your business.",
             "link": "Contact Us"
         }
+    },
+    "legalComplianceServices": {
+        "hero": {
+            "title": "Legal & Compliance Services",
+            "text": "Stay Compliant. Minimize Risk. Protect Your Business with Expert HR Legal Solutions.",
+            "btnLabel": "Book a Consultation"
+        },
+        "our": {
+            "title": {
+                "0": "Our Approach to",
+                "1": "Legal & Compliance Services"
+            },
+            "items": {
+                "0": {
+                    "title": "Avoid Costly Fines & Legal Risks",
+                    "text": "Non-compliance can lead to severe penalties, lawsuits, and reputational damage—we ensure your HR policies align with all regulations."
+                },
+                "1": {
+                    "title": "Protect Your Workforce & Business Integrity",
+                    "text": "Clear, legally sound HR frameworks safeguard employee rights, prevent disputes, and strengthen workplace trust."
+                },
+                "2": {
+                    "title": "Enhance Operational Stability",
+                    "text": "Compliance-driven HR processes reduce risks, improve workforce efficiency, and ensure smooth business operations."
+                },
+                "3": {
+                    "title": "Stay Ahead of Changing Regulations",
+                    "text": "Labor laws evolve—our proactive legal strategies keep your business compliant and protected from future liabilities."
+                }
+            }
+        },
+        "neon": {
+            "0": {
+                "title": "Essential Compliance Package",
+                "text": "For businesses needing a basic compliance framework",
+                "list": {
+                    "0": {
+                        "title": "Labor Law Compliance & Advisory",
+                        "text": "Ensuring full alignment with employment regulations."
+                    },
+                    "1": {
+                        "title": "Employment Contract Drafting & Review",
+                        "text": "Legally sound employment agreements."
+                    },
+                    "2": {
+                        "title": "Employee Rights & Legal Guidance",
+                        "text": "Clarifying legal obligations and workplace policies."
+                    }
+                }
+            },
+            "1": {
+                "title": "Advanced Compliance Package",
+                "text": "For businesses looking to optimize HR processes and enhance workforce efficiency.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Essential Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "Workplace Investigations & Dispute Resolution",
+                        "text": "Handling misconduct cases and internal investigations"
+                    },
+                    "1": {
+                        "title": "HR Audits & Risk Management",
+                        "text": "Identifying compliance risks and gaps"
+                    },
+                    "2": {
+                        "title": "Comprehensive Compliance Reports",
+                        "text": "Regular legal assessments and action plans"
+                    }
+                }
+            },
+            "2": {
+                "title": "Strategic Compliance Package",
+                "text": "For businesses looking to optimize HR processes and enhance workforce efficiency.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Advanced Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "Work Visa & Immigration Assistance",
+                        "text": "Managing international hires and compliance"
+                    },
+                    "1": {
+                        "title": "Custom HR Legal Advisory",
+                        "text": "Ongoing legal support tailored to your industry"
+                    },
+                    "2": {
+                        "title": "Dedicated Compliance Manager",
+                        "text": "Personalized risk management and HR legal guidance"
+                    }
+                }
+            }
+        },
+        "servicesRequest": {
+            "title": {
+                "0": "Request Our",
+                "1": "Full Pricing Details"
+            },
+            "text": "Get a detailed breakdown of our Legal & Compliance Services and ensure your business meets every regulation confidently.",
+            "link": "Download Full Price List"
+        },
+        "need": {
+            "title": {
+                "0": "Need Expert",
+                "1": "Guidance?"
+            },
+            "text": "Our HR legal experts are ready to assist. Get a personalized consultation to ensure full compliance, mitigate risks, and protect your business.",
+            "link": "Contact Us"
+        }
     }
 }
