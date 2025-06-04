@@ -3,7 +3,6 @@ import ServicesIndustries from "./_components/ServicesIndustries";
 import ServicesNeed from "./_components/ServicesNeed";
 import ServicesOur from "./_components/ServicesOur";
 
-
 export const metadata = {
     title: "Industry-Specific HR Services | Neon HR Group",
     description:

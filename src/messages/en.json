@@ -1272,5 +1272,82 @@
             "text": "Our HR specialists are ready to help. Get a personalized consultation to improve retention, enhance workplace culture, and boost employee satisfaction.",
             "link": "Contact Us"
         }
+    },
+    "industrySpecificHrServices": {
+        "hero": {
+            "title": "Industry-Specific HR Services",
+            "text": "Tailored HR Solutions. Sector Expertise. Workforce Strategies Built for Your Industry.",
+            "btnLabel": "Book a Consultation"
+        },
+        "our": {
+            "title": {
+                "0": "Why Industry-Specific HR",
+                "1": "Solutions Are Critical for",
+                "2": "Business Growth"
+            },
+            "items": {
+                "0": {
+                    "title": "Right Talent for the Right Industry",
+                    "text": "Generic hiring doesn’t work—specialized HR ensures your workforce has the exact skills and expertise needed to drive success in your sector."
+                },
+                "1": {
+                    "title": "Compliance & Risk Management",
+                    "text": "Each industry has unique labor laws. Industry-specific HR strategies keep you compliant and reduce legal risks and operational disruptions."
+                },
+                "2": {
+                    "title": "Scalable Workforce Solutions",
+                    "text": "Whether expanding locally or globally, tailored HR services ensure seamless scaling with workforce strategies built for your industry’s demands."
+                },
+                "3": {
+                    "title": "Higher Productivity & Competitive Edge",
+                    "text": "HR solutions aligned with industry best practices enhance efficiency, reduce turnover, and create a workforce that drives innovation and growth."
+                }
+            }
+        },
+        "industries": {
+            "title": "Industries We Serve",
+            "items": {
+                "0": {
+                    "title": "Tech & IT",
+                    "text": "Hiring the wrong tech talent can lead to costly delays and security risks. Our expert-driven approach ensures skilled developers and engineers who align with your business needs."
+                },
+                "1": {
+                    "title": "Finance & Banking",
+                    "text": "The finance sector demands precision and regulatory compliance. We provide HR solutions that secure top financial professionals while ensuring risk-free hiring."
+                },
+                "2": {
+                    "title": "Healthcare & Medical Staffing",
+                    "text": "In healthcare, staff shortages and underqualified hires can be critical. Our solutions connect you with certified professionals to maintain high-quality patient care."
+                },
+                "3": {
+                    "title": "Manufacturing & Industrial Workforce",
+                    "text": "Inefficient workforce management can halt production and increase costs. We ensure skilled labor supply and seamless workforce operations."
+                },
+                "4": {
+                    "title": "Retail & Hospitality",
+                    "text": "High turnover in these industries reduces customer experience and operational efficiency. Our hiring solutions deliver reliable, service-driven professionals."
+                },
+                "5": {
+                    "title": "Creative & Marketing",
+                    "text": "Generic hiring fails to find the right creative talent. We source highly skilled designers, marketers, and content creators to elevate your brand."
+                },
+                "6": {
+                    "title": "Legal & Compliance",
+                    "text": "Mishires in legal and compliance can expose your business to major risks. Our staffing ensures highly qualified legal and regulatory professionals."
+                },
+                "7": {
+                    "title": "Real Estate & Construction",
+                    "text": "Delays and compliance issues can cost projects millions. We provide workforce planning solutions to ensure smooth and timely execution."
+                }
+            }
+        },
+        "need": {
+            "title": {
+                "0": "Have an HR",
+                "1": "Challenge?"
+            },
+            "text": "Submit your issue, and we’ll craft a tailored solution.",
+            "link": "Contact Us"
+        }
     }
 }
