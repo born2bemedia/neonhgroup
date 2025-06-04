@@ -569,5 +569,128 @@
             },
             "link": "Contact Us"
         }
+    },
+    "recruitmentHiringServices": {
+        "hero": {
+            "title": "Recruitment & Hiring Services",
+            "text": "Find. Hire. Grow. Build your workforce with the right talent, every time.",
+            "btnLabel": "Book a Consultation"
+        },
+        "our": {
+            "title": {
+                "0": "Our Approach to",
+                "1": "Workforce Formation"
+            },
+            "items": {
+                "0": {
+                    "title": "Precision Talent Matching",
+                    "text": "We don’t just fill positions—we find the right candidates who align with your business goals, culture, and long-term vision."
+                },
+                "1": {
+                    "title": "Speed & Efficiency",
+                    "text": "With optimized processes and advanced sourcing techniques, we reduce hiring time while ensuring quality recruitment."
+                },
+                "2": {
+                    "title": "Global Reach, Local Expertise",
+                    "text": "From executive search to international recruitment, we connect businesses with top professionals worldwide while understanding local market dynamics."
+                },
+                "3": {
+                    "title": "Flexible & Scalable Solutions",
+                    "text": "Whether you need one key hire or a full workforce expansion, our tailored recruitment services adapt to your business needs."
+                }
+            }
+        },
+        "neon": {
+            "title": "Neon HR Group Offer",
+            "from": "from",
+            "requestNow": "Request Now",
+            "items": {
+                "0": {
+                    "title": "Essential Hiring Package",
+                    "text": "For businesses needing targeted recruitment support",
+                    "list": {
+                        "0": {
+                            "title": "Permanent Staffing",
+                            "text": "Sourcing, screening, and shortlisting full-time candidates"
+                        },
+                        "1": {
+                            "title": "Candidate Screening & Assessments",
+                            "text": "Background checks, skill evaluations, and cultural fit analysis"
+                        },
+                        "2": {
+                            "title": "Employer Branding Consultation",
+                            "text": "Enhancing job descriptions and positioning your company attractively to candidates"
+                        }
+                    }
+                },
+                "1": {
+                    "title": "Advanced Hiring Package",
+                    "text": "For businesses scaling teams or managing multiple hires",
+                    "desc": {
+                        "0": "Includes Everything in the",
+                        "1": "Essential Package",
+                        "2": "Plus"
+                    },
+                    "list": {
+                        "0": {
+                            "title": "Executive Search & Headhunting",
+                            "text": "Finding top-tier talent for leadership roles."
+                        },
+                        "1": {
+                            "title": "Temporary & Contract Staffing",
+                            "text": "Providing short-term and project-based employees."
+                        },
+                        "2": {
+                            "title": "Mass Hiring & High-Volume Recruitment",
+                            "text": "Structured hiring for growing businesses."
+                        },
+                        "3": {
+                            "title": "Diversity & Inclusion Hiring Strategies",
+                            "text": "Implementing unbiased recruitment processes to build diverse teams."
+                        }
+                    }
+                },
+                "2": {
+                    "title": "Strategic Talent Acquisition",
+                    "text": "For companies looking to build a long-term talent pipeline",
+                    "desc": {
+                        "0": "Includes Everything in the",
+                        "1": "Advanced Package",
+                        "2": "Plus"
+                    },
+                    "list": {
+                        "0": {
+                            "title": "Recruitment Process Outsourcing",
+                            "text": "Full-cycle talent acquisition management"
+                        },
+                        "1": {
+                            "title": "Global Talent Acquisition & Relocation",
+                            "text": "Sourcing international candidates and handling relocation logistics"
+                        },
+                        "2": {
+                            "title": "Employer Branding & Talent Attraction",
+                            "text": "Comprehensive employer branding strategies for higher candidate engagement"
+                        },
+                        "3": {
+                            "title": "Dedicated Recruitment Manager",
+                            "text": "Personalized hiring support and strategy"
+                        }
+                    }
+                }
+            }
+        },
+        "servicesRequest": {
+            "title": {
+                "0": "Request Our",
+                "1": "Full Pricing Details"
+            },
+            "text": "Get a detailed breakdown of our Recruitment & Hiring Services and discover the best solution for your workforce needs.",
+            "link": "Download Full Price List"
+        },
+        "need": {
+            "title": "Need Hiring Support?",
+            "text": "Our recruitment experts are ready to assist. Get a tailored hiring strategy to build the workforce your business needs.",
+            "link": "Contact Us"
+        }
     }
 }

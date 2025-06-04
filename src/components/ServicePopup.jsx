@@ -10,6 +10,7 @@ import ArrowRight from "@/icons/slider/ArrowRight";
 import CloseIcon from "@/icons/other/CloseIcon";
 import Snipper from "@/icons/loading/Snipper";
 import Link from "next/link";
+import { excludedCountries } from "@/utils/countries";
 /* import clsx from "clsx"; */
 
 const ServicePopup = () => {
