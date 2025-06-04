@@ -3,8 +3,10 @@ import React, { useState, useEffect } from "react";
 import "@/styles/services.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const ServicesOur = () => {
+    const t = useTranslations("hrOperationsOutsourcing.our");
 
     return (
         <section className="services-app">
@@ -16,7 +18,10 @@ const ServicesOur = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.2}
-                        className="services-app__title">Our Approach to HR <br /> Operations & Outsourcing </motion.h2>
+                        className="services-app__title"
+                    >
+                        {t("title.0")} <br /> {t("title.1")}
+                    </motion.h2>
                     <div className="services-app__items">
                         <motion.div
                             initial="hidden"
@@ -24,12 +29,22 @@ const ServicesOur = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.1}
-                            className="services-app__item">
+                            className="services-app__item"
+                        >
                             <div className="services-app__col-01">
-                                <h3 className="services-app__label">Fully Integrated HR Management</h3>
-                                <p className="services-app__text">We provide end-to-end HR solutions, from payroll and compliance to employee onboarding and records management. No fragmented processes—just seamless, centralized HR operations.</p>
+                                <h3 className="services-app__label">
+                                    {t("items.0.title")}
+                                </h3>
+                                <p className="services-app__text">
+                                    {t("items.0.text")}
+                                </p>
                             </div>
-                            <div className="services-app__col-02"><img src="/images/services/our-app-01.jpg" alt="image" /></div>
+                            <div className="services-app__col-02">
+                                <img
+                                    src="/images/services/our-app-01.jpg"
+                                    alt="image"
+                                />
+                            </div>
                         </motion.div>
                         <motion.div
                             initial="hidden"
@@ -37,12 +52,22 @@ const ServicesOur = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.2}
-                            className="services-app__item">
+                            className="services-app__item"
+                        >
                             <div className="services-app__col-01">
-                                <h3 className="services-app__label">Scalable & Custom-Tailored Outsourcing</h3>
-                                <p className="services-app__text">Your HR needs evolve, and so do our solutions. Whether you require partial outsourcing, complete HR department management, or project-based support, we adapt to your business model, ensuring flexibility without compromise.</p>
+                                <h3 className="services-app__label">
+                                    {t("items.1.title")}
+                                </h3>
+                                <p className="services-app__text">
+                                    {t("items.1.text")}
+                                </p>
                             </div>
-                            <div className="services-app__col-02"><img src="/images/services/our-app-02.jpg" alt="image" /></div>
+                            <div className="services-app__col-02">
+                                <img
+                                    src="/images/services/our-app-02.jpg"
+                                    alt="image"
+                                />
+                            </div>
                         </motion.div>
                         <motion.div
                             initial="hidden"
@@ -50,12 +75,22 @@ const ServicesOur = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.3}
-                            className="services-app__item">
+                            className="services-app__item"
+                        >
                             <div className="services-app__col-01">
-                                <h3 className="services-app__label">Advanced HR Automation & Technology</h3>
-                                <p className="services-app__text">We leverage HR software, AI-powered analytics, and digital workforce solutions to streamline operations, eliminate inefficiencies, and reduce administrative workload—saving time and costs.</p>
+                                <h3 className="services-app__label">
+                                    {t("items.2.title")}
+                                </h3>
+                                <p className="services-app__text">
+                                    {t("items.2.text")}
+                                </p>
                             </div>
-                            <div className="services-app__col-02"><img src="/images/services/our-app-03.jpg" alt="image" /></div>
+                            <div className="services-app__col-02">
+                                <img
+                                    src="/images/services/our-app-03.jpg"
+                                    alt="image"
+                                />
+                            </div>
                         </motion.div>
                         <motion.div
                             initial="hidden"
@@ -63,13 +98,22 @@ const ServicesOur = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.4}
-                            className="services-app__item">
+                            className="services-app__item"
+                        >
                             <div className="services-app__col-01">
-                                <h3 className="services-app__label">Compliance-First Approach with Risk Mitigation</h3>
-                                <p className="services-app__text">We ensure full legal compliance, risk management, and labor law alignment, helping businesses avoid fines, lawsuits, and operational disruptions. HR isn’t a liability with us—it’s a secure, optimized function that drives business stability.
+                                <h3 className="services-app__label">
+                                    {t("items.3.title")}
+                                </h3>
+                                <p className="services-app__text">
+                                    {t("items.3.text")}
                                 </p>
                             </div>
-                            <div className="services-app__col-02"><img src="/images/services/our-app-04.jpg" alt="image" /></div>
+                            <div className="services-app__col-02">
+                                <img
+                                    src="/images/services/our-app-04.jpg"
+                                    alt="image"
+                                />
+                            </div>
                         </motion.div>
                     </div>
                 </div>

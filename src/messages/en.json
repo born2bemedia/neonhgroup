@@ -931,5 +931,102 @@
             "text": "Our HR specialists are ready to help. Get a personalized consultation to find the right solutions for your business.",
             "link": "Contact Us"
         }
+    },
+    "hrOperationsOutsourcing": {
+        "hero": {
+            "title": "HR Operations & Outsourcing",
+            "text": "Streamline. Optimize. Scale. Efficient HR solutions tailored for your business.",
+            "btnLabel": "Book a Consultation"
+        },
+        "our": {
+            "title": {
+                "0": "Our Approach to",
+                "1": "HR Operations & Outsourcing"
+            },
+            "items": {
+                "0": {
+                    "title": "Fully Integrated HR Management",
+                    "text": "We provide end-to-end HR solutions, from payroll and compliance to employee onboarding and records management. No fragmented processes—just seamless, centralized HR operations."
+                },
+                "1": {
+                    "title": "Scalable & Flexible HR Solutions",
+                    "text": "Your HR needs evolve, and so do our solutions. Whether you require partial outsourcing, complete HR department management, or project-based support, we adapt to your business model, ensuring flexibility without compromise."
+                },
+                "2": {
+                    "title": "Advanced HR Automation & Technology",
+                    "text": "We leverage HR software, AI-powered analytics, and digital workforce solutions to streamline operations, eliminate inefficiencies, and reduce administrative workload—saving time and costs."
+                },
+                "3": {
+                    "title": "Compliance-First Approach with Risk Mitigation",
+                    "text": "We ensure full legal compliance, risk management, and labor law alignment, helping businesses avoid fines, lawsuits, and operational disruptions. HR isn’t a liability with us—it’s a secure, optimized function that drives business stability."
+                }
+            }
+        },
+        "neon": {
+            "0": {
+                "title": "Essential HR Operations Package",
+                "text": "For businesses looking to streamline basic HR functions",
+                "list": {
+                    "0": {
+                        "title": "Payroll Processing & Administration",
+                        "text": "Accurate payroll management with full compliance."
+                    },
+                    "1": {
+                        "title": "Employee Onboarding & Offboarding",
+                        "text": "Structured hiring and exit procedures."
+                    },
+                    "2": {
+                        "title": "Employment Documentation & Contract Management",
+                        "text": "Legally compliant employment paperwork."
+                    }
+                }
+            },
+            "1": {
+                "title": "Advanced HR Operations Package",
+                "text": "For businesses looking to optimize HR processes and enhance workforce efficiency.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Essential Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "HR Shared Services",
+                        "text": "Standardized HR operations across business locations."
+                    },
+                    "1": {
+                        "title": "Remote Work & Virtual HR Solutions",
+                        "text": "HR systems and policies for hybrid and remote teams."
+                    },
+                    "2": {
+                        "title": "Performance Tracking & Compliance Support",
+                        "text": "Ensuring workforce efficiency and regulatory adherence."
+                    }
+                }
+            },
+            "2": {
+                "title": "Strategic HR Operations Package",
+                "text": "For businesses looking to optimize HR processes and enhance workforce efficiency.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Advanced Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "Full HR Outsourcing",
+                        "text": "Complete HR function management, including recruitment, payroll, compliance, and workforce performance."
+                    },
+                    "1": {
+                        "title": "Customized Workforce Strategy",
+                        "text": "Aligning HR operations with business growth."
+                    },
+                    "2": {
+                        "title": "Dedicated HR Manager",
+                        "text": "A senior HR professional overseeing your entire workforce management."
+                    }
+                }
+            }
+        }
     }
 }

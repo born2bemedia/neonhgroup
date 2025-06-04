@@ -4,8 +4,11 @@ import "@/styles/services.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import OrderButton from "@/components/OrderButton";
+import { useTranslations } from "next-intl";
 
 const ServicesHero = () => {
+    const t = useTranslations("hrOperationsOutsourcing.hero");
+
     return (
         <section className="services-hero">
             <div className="services-hero__container _container">
@@ -18,7 +21,7 @@ const ServicesHero = () => {
                         custom={0.2}
                         className="services-hero__title"
                     >
-                        HR Operations & Outsourcing
+                        {t("title")}
                     </motion.h1>
                     <motion.p
                         initial="hidden"
@@ -28,12 +31,11 @@ const ServicesHero = () => {
                         custom={0.3}
                         className="services-hero__text"
                     >
-                        Streamline. Optimize. Scale. Efficient HR solutions
-                        tailored for your business.
+                        {t("text")}
                     </motion.p>
                     <OrderButton
                         className={"services-hero__link"}
-                        text={"Book a Consultation"}
+                        text={t("btnLabel")}
                         service={"Book a Consultation"}
                     />
                 </div>
