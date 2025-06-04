@@ -1027,6 +1027,22 @@
                     }
                 }
             }
+        },
+        "servicesRequest": {
+            "title": {
+                "0": "Request Our",
+                "1": "Full Pricing Details"
+            },
+            "text": "Get a detailed breakdown of our HR Operations & Outsourcing and discover the best solution for your workforce needs.",
+            "link": "Download Full Price List"
+        },
+        "need": {
+            "title": {
+                "0": "Need Expert",
+                "1": "Guidance?"
+            },
+            "text": "Our HR specialists are ready to help. Get a personalized consultation to find the right solutions for your business.",
+            "link": "Contact Us"
         }
     }
 }
