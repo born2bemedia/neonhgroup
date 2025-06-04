@@ -814,5 +814,122 @@
             "text": "Our HR specialists are ready to help. Get a personalized consultation to find the right solutions for your business.",
             "link": "Contact Us"
         }
+    },
+    "employeeAssessmentDevelopment": {
+        "hero": {
+            "title": {
+                "0": "Employee",
+                "1": "Assessment & Development"
+            },
+            "text": "Evaluate Talent. Develop Potential. Drive Performance.",
+            "btnLabel": "Book a Consultation"
+        },
+        "our": {
+            "title": {
+                "0": "Our Approach to",
+                "1": "Employee Assessment &",
+                "2": "Development"
+            },
+            "items": {
+                "0": {
+                    "title": "Data-Driven Talent Evaluation",
+                    "text": "We use AI-powered assessment tools, real-world simulations, and competency-based testing to deliver objective, measurable insights into employee skills and potential."
+                },
+                "1": {
+                    "title": "Behavioral & Leadership Profiling",
+                    "text": "Our psychometric evaluations, cognitive ability tests, and behavioral analytics help identify high-potential leaders, team dynamics, and areas for growth in your workforce."
+                },
+                "2": {
+                    "title": "Personalized Growth Plans",
+                    "text": "We design personalized employee development plans based on assessment results, ensuring targeted training, leadership coaching, and upskilling initiatives align with business goals."
+                },
+                "3": {
+                    "title": "Industry-Specific Benchmarking",
+                    "text": "We compare your employees’ performance against industry standards and competitor benchmarks, providing clear growth strategies and workforce optimization plans."
+                }
+            }
+        },
+        "neon": {
+            "0": {
+                "title": "Essential Assessment Package",
+                "text": "For businesses needing a basic assessment framework",
+                "list": {
+                    "0": {
+                        "title": "Skills & Competency Testing",
+                        "text": "Identifying strengths and skill gaps."
+                    },
+                    "1": {
+                        "title": "Psychometric & Behavioral Assessments",
+                        "text": "Evaluating employee personality and work styles."
+                    },
+                    "2": {
+                        "title": "Performance Reviews & 360° Feedback",
+                        "text": "Structured evaluation for role optimization."
+                    }
+                }
+            },
+            "1": {
+                "title": "Growth Development Package",
+                "text": "For businesses looking to scale and optimize HR processes.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Essential Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "Executive & Career Coaching",
+                        "text": "One-on-one mentorship and leadership development."
+                    },
+                    "1": {
+                        "title": "Employee Training & Upskilling Programs",
+                        "text": "Customized learning paths for skill enhancement."
+                    },
+                    "2": {
+                        "title": "Custom Development Roadmaps",
+                        "text": "Individualized career growth planning."
+                    }
+                }
+            },
+            "2": {
+                "title": "Strategic Workforce Optimization Package",
+                "text": "For businesses looking to optimize their workforce and enhance performance.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Growth Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "Leadership & Team Development",
+                        "text": "Preparing the next generation of business leaders"
+                    },
+                    "1": {
+                        "title": "Industry-Specific Benchmarking",
+                        "text": "Comparing employee skills against market standards"
+                    },
+                    "2": {
+                        "title": "Comprehensive Workforce Analytics",
+                        "text": "Data-driven insights for strategic HR decisions"
+                    }
+                }
+            }
+        },
+        "servicesRequest": {
+            "title": {
+                "0": "Request Our",
+                "1": "Full Pricing Details"
+            },
+            "text": "Get a detailed breakdown of our Employee Assessment & Development and discover the best solution for your workforce needs.",
+            "link": "Download Full Price List"
+        },
+        "need": {
+            "title": {
+                "0": "Need Expert",
+                "1": "Guidance?"
+            },
+            "text": "Our HR specialists are ready to help. Get a personalized consultation to find the right solutions for your business.",
+            "link": "Contact Us"
+        }
     }
 }
