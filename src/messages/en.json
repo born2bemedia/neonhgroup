@@ -1157,5 +1157,120 @@
             "text": "Our HR legal experts are ready to assist. Get a personalized consultation to ensure full compliance, mitigate risks, and protect your business.",
             "link": "Contact Us"
         }
+    },
+    "employeeEngagementWellBeing": {
+        "hero": {
+            "title": "Employee Engagement & Well-being",
+            "text": "Motivate. Retain. Thrive. Build a workplace where employees succeed and businesses grow.",
+            "btnLabel": "Book a Consultation"
+        },
+        "our": {
+            "title": {
+                "0": "Employee Engagement &",
+                "1": "Well-being"
+            },
+            "items": {
+                "0": {
+                    "title": "Boost Productivity & Performance",
+                    "text": "Engaged and healthy employees work smarter, innovate faster, and drive business success."
+                },
+                "1": {
+                    "title": "Reduce Turnover & Hiring Costs",
+                    "text": "A strong well-being strategy keeps top talent, lowers attrition, and saves on recruitment expenses."
+                },
+                "2": {
+                    "title": "Enhance Workplace Culture & Reputation",
+                    "text": "Companies prioritizing employee well-being attract better talent and build a strong employer brand."
+                },
+                "3": {
+                    "title": "Prevent Burnout & Reduce Absenteeism",
+                    "text": "A well-supported workforce means fewer sick days, lower stress levels, and a healthier work environment."
+                }
+            }
+        },
+        "neon": {
+            "0": {
+                "title": "Essential Engagement Package",
+                "text": "For businesses looking to improve employee satisfaction and retention",
+                "list": {
+                    "0": {
+                        "title": "Employee Satisfaction & Retention Strategies",
+                        "text": "Custom plans to improve workplace loyalty."
+                    },
+                    "1": {
+                        "title": "Employee Recognition & Rewards Programs",
+                        "text": "Structured appreciation and incentive programs."
+                    },
+                    "2": {
+                        "title": "Workplace Culture & Engagement Initiatives",
+                        "text": "Creating a more positive and collaborative work environment."
+                    }
+                }
+            },
+            "1": {
+                "title": "Advanced Legal Protection Package",
+                "text": "For businesses looking to optimize HR processes and enhance workforce efficiency.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Essential Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "Mental Health & Wellness Programs",
+                        "text": "Stress management, wellness coaching, and support resources."
+                    },
+                    "1": {
+                        "title": "Conflict Resolution & Mediation",
+                        "text": "Structured strategies to handle workplace disputes."
+                    },
+                    "2": {
+                        "title": "Flexible Work Arrangements & Policies",
+                        "text": "Implementing hybrid work models and customized work schedules."
+                    }
+                }
+            },
+            "2": {
+                "title": "Strategic Compliance & Global Workforce Package",
+                "text": "For businesses looking to optimize HR processes and enhance workforce efficiency.",
+                "desc": {
+                    "0": "Includes Everything in the",
+                    "1": "Advanced Package",
+                    "2": "Plus"
+                },
+                "list": {
+                    "0": {
+                        "title": "Leadership-Driven Culture Development",
+                        "text": "Programs to align leadership with engagement goalss"
+                    },
+                    "1": {
+                        "title": "Comprehensive Employee Experience Audit",
+                        "text": "In-depth analysis to enhance engagement strategies"
+                    },
+                    "2": {
+                        "title": "Ongoing HR Support for Engagement & Retention",
+                        "text": "Dedicated consultation to sustain long-term improvements"
+                    }
+                }
+            }
+        },
+        "servicesRequest": {
+            "title": {
+                "0": "Request Our",
+                "1": "Full Pricing Details"
+            },
+            "text": "Get a detailed breakdown of our Employee Engagement & Well-being and discover the best solution for your workforce needs.",
+            "link": "Download Full Price List"
+        },
+        "need": {
+            "title": {
+                "0": "Need Employee",
+                "1": "Engagement &",
+                "2": "Well-being",
+                "3": "Support?"
+            },
+            "text": "Our HR specialists are ready to help. Get a personalized consultation to improve retention, enhance workplace culture, and boost employee satisfaction.",
+            "link": "Contact Us"
+        }
     }
 }

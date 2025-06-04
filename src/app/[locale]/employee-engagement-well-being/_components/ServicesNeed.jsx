@@ -4,8 +4,10 @@ import "@/styles/services.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const ServicesNeed = () => {
+    const t = useTranslations("employeeEngagementWellBeing.need");
 
     return (
         <section className="services-need">
@@ -18,9 +20,15 @@ const ServicesNeed = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.2}
-                            className="services-need__title">Need Employee <br /> Engagement & <br /> Well-being <br /> Support?</motion.h2>
-                        <p className="services-need__text">Our HR specialists are ready to help. Get a personalized consultation to improve retention, enhance workplace culture, and boost employee satisfaction.</p>
-                        <Link href="/contacts" className="services-need__link">Contact Us</Link>
+                            className="services-need__title"
+                        >
+                            {t("title.0")} <br /> {t("title.1")} <br />{" "}
+                            {t("title.2")} <br /> {t("title.3")}
+                        </motion.h2>
+                        <p className="services-need__text">{t("text")}</p>
+                        <Link href="/contacts" className="services-need__link">
+                            {t("link")}
+                        </Link>
                     </div>
                     <motion.div
                         initial="hidden"
@@ -28,7 +36,10 @@ const ServicesNeed = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="services-need__col-02"><img src="/images/services/img-12.png" alt="image" /></motion.div>
+                        className="services-need__col-02"
+                    >
+                        <img src="/images/services/img-12.png" alt="image" />
+                    </motion.div>
                 </div>
             </div>
         </section>
