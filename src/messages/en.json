@@ -486,5 +486,88 @@
             "link": "Go to FAQ",
             "btn": "Request Now"
         }
+    },
+    "faq": {
+        "hero": {
+            "title": "FAQ",
+            "text": "Learn how our HR services work, what to expect, and how we support your business."
+        },
+        "data": {
+            "serviceDelivery": {
+                "title": "Service Delivery & Approach",
+                "items": {
+                    "0": {
+                        "question": "How do you deliver your HR services—on-site or remotely?",
+                        "answer": "We operate fully remotely, allowing us to support clients across regions without compromising quality or responsiveness."
+                    },
+                    "1": {
+                        "question": "Are your services customized or based on pre-set templates?",
+                        "answer": "All our solutions are tailored to each client’s business needs, industry specifics, and workforce structure."
+                    },
+                    "2": {
+                        "question": "What is the typical timeline for implementing a full HR solution?",
+                        "answer": "Depending on scope, delivery takes between 3 to 8 weeks, with clear milestones communicated throughout the process."
+                    }
+                }
+            },
+            "communicationSupport": {
+                "title": "Communication & Support",
+                "items": {
+                    "0": {
+                        "question": "Will I have a dedicated contact or team during the service period?",
+                        "answer": "Yes, you’ll have a dedicated HR expert or project manager assigned to oversee your solution from start to finish."
+                    },
+                    "1": {
+                        "question": "How do we communicate during the project—calls, emails, or tools?",
+                        "answer": "We work through email, scheduled video calls, and project management tools as preferred by the client."
+                    },
+                    "2": {
+                        "question": "Do you offer post-project support or follow-ups?",
+                        "answer": "Yes, all major solutions include a post-delivery check-in and optional ongoing support packages."
+                    }
+                }
+            },
+            "deliverablesDocumentation": {
+                "title": "Deliverables & Documentation",
+                "items": {
+                    "0": {
+                        "question": "What kind of documentation do we receive after service completion?",
+                        "answer": "You receive all finalized HR documents, policies, strategies, reports, and process maps in editable formats."
+                    },
+                    "1": {
+                        "question": "Are the HR policies and documents legally compliant?",
+                        "answer": "Yes, all deliverables are built in accordance with local labor laws and best practice standards."
+                    }
+                }
+            },
+            "processesWorkflow": {
+                "title": "Processes & Workflow",
+                "items": {
+                    "0": {
+                        "question": "How do you start the collaboration process?",
+                        "answer": "It begins with a consultation and brief analysis of your current HR state, followed by a detailed service proposal."
+                    },
+                    "1": {
+                        "question": "Can I combine multiple services into one project?",
+                        "answer": "Absolutely. We often combine several services into custom-built solutions based on your company’s needs."
+                    },
+                    "2": {
+                        "question": "Do you work with businesses in all industries?",
+                        "answer": "Yes, our expertise spans over 10+ sectors, and all services are adjusted to industry-specific requirements."
+                    }
+                }
+            }
+        },
+        "need": {
+            "title": {
+                "0": "Still Have",
+                "1": "Questions?"
+            },
+            "text": {
+                "0": "Our team is here to help. Get in touch and we’ll provide the",
+                "1": "answers you need."
+            },
+            "link": "Contact Us"
+        }
     }
 }

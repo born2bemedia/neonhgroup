@@ -4,8 +4,10 @@ import "@/styles/cases.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const FaqNeed = () => {
+    const t = useTranslations("faq.need");
 
     return (
         <section className="case-need">
@@ -18,18 +20,30 @@ const FaqNeed = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.2}
-                            className="case-need__title">Still Have <br /> Questions?</motion.h2>
+                            className="case-need__title"
+                        >
+                            {t("title.0")} <br /> {t("title.1")}?
+                        </motion.h2>
                         <motion.p
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             custom={0.3}
-                            className="case-need__text">Our team is here to help. Get in touch and we’ll provide the <br /> answers you need.</motion.p>
-                        <Link href="/contacts" className="case-need__link">Contact Us</Link>
+                            className="case-need__text"
+                        >
+                            {t("text.0")} <br /> {t("text.1")}
+                        </motion.p>
+                        <Link href="/contacts" className="case-need__link">
+                            {t("link")}
+                        </Link>
                     </div>
                     <div className="case-need__col-02">
-                        <img src="/images/faq-01.png" alt="image" className="case-need__image" />
+                        <img
+                            src="/images/faq-01.png"
+                            alt="image"
+                            className="case-need__image"
+                        />
                     </div>
                 </div>
             </div>
