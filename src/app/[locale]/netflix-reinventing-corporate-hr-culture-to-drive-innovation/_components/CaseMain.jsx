@@ -3,8 +3,10 @@ import React, { useState, useEffect } from "react";
 import "@/styles/cases.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const CaseMain = () => {
+    const t = useTranslations("netflixReinventing.main");
 
     return (
         <section className="case-main">
@@ -16,26 +18,41 @@ const CaseMain = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.2}
-                        className="case-main__title">The HR Move</motion.h2>
+                        className="case-main__title"
+                    >
+                        {t("0.title")}
+                    </motion.h2>
                     <motion.div
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="case-main__text">
-                        In the early 2000s, Netflix transitioned from a DVD rental service into a digital media company. But to lead a digital revolution, the company needed an entirely different kind of workforce—one that was fast, agile, and highly autonomous.
+                        className="case-main__text"
+                    >
+                        {t("0.text")}
                         <br />
                         <br />
-                        Traditional corporate HR systems—with rigid policies, approval hierarchies, and standardized processes—weren't designed for innovation. That's when Netflix introduced its now-famous "Freedom & Responsibility" culture, a radical HR strategy that redefined how the company operated.
-                        <b>The key shift wasn't just procedural—it was philosophical:</b>
+                        {t("0.text2")} <b>{t("0.subtitle")}</b>
                         <ul>
-                            <li><b>No fixed vacation policies</b> – employees took time off as needed</li>
-                            <li><b>No approvals for expenses</b> – act in the company's best interest</li>
-                            <li><b>No micromanagement</b> – only accountability for results</li>
-                            <li><b>Performance-focused retention</b> – top talent stayed, and average performers were respectfully let go</li>
+                            <li>
+                                <b>{t("0.list.0.title")}</b> –{" "}
+                                {t("0.list.0.text")}
+                            </li>
+                            <li>
+                                <b>{t("0.list.1.title")}</b> –{" "}
+                                {t("0.list.1.text")}
+                            </li>
+                            <li>
+                                <b>{t("0.list.2.title")}</b> –{" "}
+                                {t("0.list.2.text")}
+                            </li>
+                            <li>
+                                <b>{t("0.list.3.title")}</b> –{" "}
+                                {t("0.list.3.text")}
+                            </li>
                         </ul>
-                        This culture change was more than a set of policies—it was a bold HR transformation that placed trust, autonomy, and high expectations at the core of the employee experience.
+                        {t("0.text3")}
                     </motion.div>
                     <motion.h2
                         initial="hidden"
@@ -43,25 +60,44 @@ const CaseMain = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="case-main__title">The Impact</motion.h2>
+                        className="case-main__title"
+                    >
+                        {t("1.title")}
+                    </motion.h2>
                     <motion.div
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="case-main__text">
-                        Netflix's HR transformation unlocked a new kind of workforce performance. Employees were no longer bound by bureaucracy—they were empowered to act, innovate, and take ownership.
+                        className="case-main__text"
+                    >
+                        {t("1.text")}
                         <br />
                         <br />
-                        Here's what happened next:
+                        {t("1.text2")}
                         <ul>
-                            <li>The company <b>moved faster</b> than its competitors, making bold product and content decisions</li>
-                            <li>Netflix attracted and retained <b>high-performing talent</b> from the tech and media industries</li>
-                            <li>The flat, trust-based culture helped the company <b>scale globally</b> without collapsing under process-heavy corporate models</li>
-                            <li>This HR approach fueled the transition from <b>DVD service to a $200+ billion global streaming leader</b></li>
+                            <li>
+                                <b>{t("1.list.0.text1")}</b>{" "}
+                                <b>{t("1.list.0.text2")}</b>{" "}
+                                <b>{t("1.list.0.text3")}</b>
+                            </li>
+                            <li>
+                                <b>{t("1.list.1.text1")}</b>{" "}
+                                <b>{t("1.list.1.text2")}</b>{" "}
+                                <b>{t("1.list.1.text3")}</b>
+                            </li>
+                            <li>
+                                <b>{t("1.list.2.text1")}</b>{" "}
+                                <b>{t("1.list.2.text2")}</b>{" "}
+                                <b>{t("1.list.2.text3")}</b>
+                            </li>
+                            <li>
+                                {t("1.list.3.text1")}{" "}
+                                <b>{t("1.list.3.text2")}</b>
+                            </li>
                         </ul>
-                        Once shared online, Netflix's internal HR document became one of the most influential business culture documents in history. Leaders from across industries began to study and replicate Netflix's approach.
+                        {t("1.text3")}
                     </motion.div>
                     <motion.h2
                         initial="hidden"
@@ -69,18 +105,22 @@ const CaseMain = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="case-main__title">The Business Result</motion.h2>
+                        className="case-main__title"
+                    >
+                        {t("2.title")}
+                    </motion.h2>
                     <motion.div
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="case-main__text">
-                        Without that cultural shift, Netflix could not have become what it is today. Its business model depended on rapid innovation, quick pivots, and constant experimentation—none of which would have survived in a traditional HR framework.
+                        className="case-main__text"
+                    >
+                        {t("2.text")}
                         <br />
                         <br />
-                        What looked like an internal HR experiment became one of the most pivotal strategic moves in the company's history.
+                        {t("2.text2")}
                     </motion.div>
                     <motion.h2
                         initial="hidden"
@@ -88,15 +128,19 @@ const CaseMain = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="case-main__title">Key Takeaway for Your Business</motion.h2>
+                        className="case-main__title"
+                    >
+                        {t("3.title")}
+                    </motion.h2>
                     <motion.div
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="case-main__text">
-                        Strategic HR isn't just about hiring and processes—it's about shaping the organization you want to become. A high-performance culture doesn't happen by accident. It's designed.
+                        className="case-main__text"
+                    >
+                        {t("3.text")}
                     </motion.div>
                 </div>
             </div>

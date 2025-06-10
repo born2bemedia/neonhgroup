@@ -3,8 +3,10 @@ import React, { useState, useEffect } from "react";
 import "@/styles/cases.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const CaseHero = () => {
+    const t = useTranslations("netflixReinventing.hero");
 
     return (
         <section className="case-hero _two">
@@ -16,15 +18,19 @@ const CaseHero = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.2}
-                        className="case-hero__label">A bold HR transformation that turned autonomy into innovation—and built a global market leader.</motion.h2>
+                        className="case-hero__label"
+                    >
+                        {t("tag")}
+                    </motion.h2>
                     <motion.h1
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="case-hero__title">
-                        Netflix Case Study: Culture-Driven HR <br /> That Powered Global Growth
+                        className="case-hero__title"
+                    >
+                        {t("title.0")} <br /> {t("title.1")}
                     </motion.h1>
                 </div>
             </div>

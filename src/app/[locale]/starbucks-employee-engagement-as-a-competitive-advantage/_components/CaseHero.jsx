@@ -3,8 +3,10 @@ import React, { useState, useEffect } from "react";
 import "@/styles/cases.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const CaseHero = () => {
+    const t = useTranslations("starbucksEmployeeEngagement.hero");
 
     return (
         <section className="case-hero _three">
@@ -16,15 +18,20 @@ const CaseHero = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.2}
-                        className="case-hero__label">A people-first HR approach that transformed staff into brand ambassadors—and powered long-term growth.</motion.h2>
+                        className="case-hero__label"
+                    >
+                        {t("tag")}
+                    </motion.h2>
                     <motion.h1
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         custom={0.3}
-                        className="case-hero__title">
-                        Starbucks Case Study: Employee <br /> Engagement That Fueled Global <br /> Expansion
+                        className="case-hero__title"
+                    >
+                        {t("title.0")} <br /> {t("title.1")} <br />{" "}
+                        {t("title.2")}
                     </motion.h1>
                 </div>
             </div>

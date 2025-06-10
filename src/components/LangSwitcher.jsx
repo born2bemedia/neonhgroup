@@ -1,9 +1,24 @@
 import ArrowDown from "@/icons/other/ArrowDown";
-import { useState } from "react";
+import { useCallback, useState } from "react";
+import { useLocale } from "next-intl";
+import { usePathname, useRouter } from "next/navigation";
+
+const languages = ["en", "de", "it"];
 
 const LangSwitcher = () => {
-    const [currentLang, setCurrentLang] = useState("EN");
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+    const router = useRouter();
+    const pathname = usePathname();
+    const currentLocale = useLocale();
+
+    const changeLanguage = (newLocale) => {
+        const segments = pathname.split("/");
+        segments[1] = newLocale;
+        const newPath = segments.join("/");
+        router.replace(newPath);
+        setIsDropdownOpen(false);
+    };
 
     return (
         <div style={{ position: "relative", display: "inline-block" }}>
@@ -23,7 +38,7 @@ const LangSwitcher = () => {
                 }}
             >
                 <img
-                    src={`/images/${currentLang}.svg`}
+                    src={`/images/${currentLocale}.svg`}
                     style={{
                         width: "24px",
                         height: "24px",
@@ -37,7 +52,7 @@ const LangSwitcher = () => {
                         lineHeight: "16px",
                     }}
                 >
-                    {currentLang}
+                    {currentLocale.toUpperCase()}
                 </span>
                 <ArrowDown />
             </button>
@@ -69,6 +84,7 @@ const LangSwitcher = () => {
                             color: "#020513",
                             fontSize: "16px",
                         }}
+                        onClick={() => changeLanguage("en")}
                     >
                         <img src="/images/EN.svg" />
                         EN
@@ -83,6 +99,7 @@ const LangSwitcher = () => {
                             color: "#020513",
                             fontSize: "16px",
                         }}
+                        onClick={() => changeLanguage("de")}
                     >
                         <img src="/images/DE.svg" />
                         DE
@@ -97,6 +114,7 @@ const LangSwitcher = () => {
                             color: "#020513",
                             fontSize: "16px",
                         }}
+                        onClick={() => changeLanguage("it")}
                     >
                         <img src="/images/IT.svg" />
                         IT
