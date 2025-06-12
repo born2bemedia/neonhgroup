@@ -30,8 +30,8 @@ export async function generateMetadata({ params: { locale } }) {
     };
 }
 
-const PrivacyPolicy = async () => {
-    const page = await getPage("privacy-policy");
+const PrivacyPolicy = async ({ params: { locale } }) => {
+    const page = await getPage("privacy-policy", locale);
 
     return (
         <>

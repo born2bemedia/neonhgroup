@@ -69,8 +69,6 @@ const ServicePopup = () => {
             service: `${currentService} Request`,
         };
 
-        console.log("Form values being submitted: ", valuesWithService);
-
         try {
             const response = await fetch("/api/emails/order", {
                 method: "POST",

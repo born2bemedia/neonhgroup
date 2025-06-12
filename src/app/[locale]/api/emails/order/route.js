@@ -80,7 +80,6 @@ export async function POST(request) {
     await transporter.sendMail(mailOptionsRecipient);
     await transporter.sendMail(mailOptionsClient);
 
-    console.log("Emails sent successfully.");
     return NextResponse.json({ message: "Success: emails were sent" });
   } catch (error) {
     console.error("Error sending emails:", error);
