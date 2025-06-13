@@ -4,7 +4,6 @@
     @include adaptiv-value("padding-top", 100, 50, 1);
     @include adaptiv-value("padding-bottom", 100, 50, 1);
     &__container {
-        max-width: 650px;
         width: 100%;
         margin: 0 auto;
         padding: 0 16px;
@@ -20,10 +19,11 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        word-break: break-word;
     }
 
     &__date {
-        margin: 12px 0 0 0;
+        margin: 12px 0 128px 0;
         color: #020513;
         font-family: "Gilroy", sans-serif;
         font-size: 16px;
@@ -31,10 +31,16 @@
         font-weight: 400;
         line-height: normal;
         text-align: center;
+
+        @media (max-width: 768px) {
+            margin-bottom: 64px;
+        }
     }
 
     &__content {
         @include adaptiv-value("margin-top", 128, 64, 1);
+        max-width: 650px;
+        margin: 0 auto;
         h2 {
             color: #020513;
             font-family: "Gilroy", sans-serif;
@@ -202,10 +208,10 @@
             }
         }
 
-        .bottom { 
+        .bottom {
             margin: 64px 0 0 0;
             padding: 24px;
-            background-color: #F6F6F6;
+            background-color: #f6f6f6;
         }
     }
 }

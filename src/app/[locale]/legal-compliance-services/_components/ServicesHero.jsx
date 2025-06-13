@@ -1,0 +1,57 @@
+"use client";
+import React, { useState, useEffect } from "react";
+import "@/styles/services.scss";
+import { fadeInUp } from "@/utils/animations";
+import { motion } from "framer-motion";
+import OrderButton from "@/components/OrderButton";
+import { useTranslations } from "next-intl";
+
+const ServicesHero = () => {
+    const t = useTranslations("legalComplianceServices.hero");
+
+    return (
+        <section className="services-hero">
+            <div className="services-hero__container _container">
+                <div className="services-hero__body">
+                    <motion.h1
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInUp}
+                        custom={0.1}
+                        className="services-hero__title"
+                    >
+                        {t("title")}
+                    </motion.h1>
+                    <motion.p
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInUp}
+                        custom={0.2}
+                        className="services-hero__text"
+                    >
+                        {t("text")}
+                    </motion.p>
+                    <OrderButton
+                        className={"services-hero__link"}
+                        text={t("btnLabel")}
+                        service={"Book a Consultation"}
+                    />
+                </div>
+            </div>
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                custom={0.3}
+                className="services-hero__image"
+            >
+                <img src="/images/services/img-09.jpg" alt="image" />
+            </motion.div>
+        </section>
+    );
+};
+
+export default ServicesHero;

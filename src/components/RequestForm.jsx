@@ -11,6 +11,7 @@ import "@/styles/request-form.scss";
 import Dialog from "@/components/Dialog";
 import { ShieldCheck } from "@/icons/other/ShieldCheck";
 import { excludedCountries } from "@/utils/countries";
+import { useTranslations } from "next-intl";
 
 // CustomSelect компонент с добавлением класса _active
 const CustomSelect = ({ name, options, ...props }) => {
@@ -53,24 +54,23 @@ const CustomSelect = ({ name, options, ...props }) => {
 };
 
 function RequestForm() {
+    const t = useTranslations("requestForm");
+
     const countryCode = useCountryCode();
     const [isSuccess, setIsSuccess] = useState(false);
 
     const validationSchema = Yup.object({
-        yourName: Yup.string().required("Please enter your full name"),
-        company: Yup.string().required("Please enter your company"),
-        website: Yup.string().required("Please enter your website"),
-        industry: Yup.string().required("Please enter your industry"),
-        phone: Yup.string().required("Please provide a phone number"),
+        yourName: Yup.string().required(t("errors.yourName")),
+        company: Yup.string().required(t("errors.company")),
+        website: Yup.string().required(t("errors.website")),
+        industry: Yup.string().required(t("errors.industry")),
+        phone: Yup.string().required(t("errors.phone")),
         email: Yup.string()
-            .email("Please enter your email address")
-            .required("Please enter your email address"),
-        are: Yup.array().min(1, "Please provide who you are"),
-        message: Yup.string().required("Please enter your description"),
-        agreeToPolicy: Yup.boolean().oneOf(
-            [true],
-            "Please agree to your data processing according to the Neon HR Group policies",
-        ),
+            .email(t("errors.email"))
+            .required(t("errors.email")),
+        are: Yup.array().min(1, t("errors.are")),
+        message: Yup.string().required(t("errors.message")),
+        agreeToPolicy: Yup.boolean().oneOf([true], t("errors.agreeToPolicy")),
     });
 
     const initialValues = {
@@ -117,16 +117,25 @@ function RequestForm() {
     const options = [
         {
             value: "hiring_talent_acquisition",
-            label: "Hiring & Talent Acquisition",
+            label: t("options.hiring_talent_acquisition"),
         },
         {
             value: "employee_management_retention",
-            label: "Employee Management & Retention",
+            label: t("options.employee_management_retention"),
         },
-        { value: "payroll_hr_operations", label: "Payroll & HR Operations" },
-        { value: "legal_compliance", label: "Legal & Compliance" },
-        { value: "hr_strategy_consulting", label: "HR Strategy & Consulting" },
-        { value: "not_sure_need_guidance", label: "Not Sure - Need Guidance" },
+        {
+            value: "payroll_hr_operations",
+            label: t("options.payroll_hr_operations"),
+        },
+        { value: "legal_compliance", label: t("options.legal_compliance") },
+        {
+            value: "hr_strategy_consulting",
+            label: t("options.hr_strategy_consulting"),
+        },
+        {
+            value: "not_sure_need_guidance",
+            label: t("options.not_sure_need_guidance"),
+        },
     ];
 
     return (
@@ -146,7 +155,7 @@ function RequestForm() {
                                     {({ field, meta }) => (
                                         <>
                                             <span className="label">
-                                                Full Name
+                                                {t("fields.yourName.label")}
                                                 {meta.touched && meta.error && (
                                                     <div className="error">
                                                         ({meta.error})
@@ -156,7 +165,9 @@ function RequestForm() {
                                             <input
                                                 {...field}
                                                 type="text"
-                                                placeholder="Enter your full name"
+                                                placeholder={t(
+                                                    "fields.yourName.placeholder",
+                                                )}
                                             />
                                         </>
                                     )}
@@ -170,7 +181,7 @@ function RequestForm() {
                                     {({ field, meta }) => (
                                         <>
                                             <span className="label">
-                                                Company{" "}
+                                                {t("fields.company.label")}
                                                 {meta.touched && meta.error && (
                                                     <div className="error">
                                                         ({meta.error})
@@ -180,7 +191,9 @@ function RequestForm() {
                                             <input
                                                 {...field}
                                                 type="text"
-                                                placeholder="Enter your company"
+                                                placeholder={t(
+                                                    "fields.company.placeholder",
+                                                )}
                                             />
                                         </>
                                     )}
@@ -194,7 +207,7 @@ function RequestForm() {
                                     {({ field, meta }) => (
                                         <>
                                             <span className="label">
-                                                Website{" "}
+                                                {t("fields.website.label")}
                                                 {meta.touched && meta.error && (
                                                     <div className="error">
                                                         ({meta.error})
@@ -204,7 +217,9 @@ function RequestForm() {
                                             <input
                                                 {...field}
                                                 type="text"
-                                                placeholder="Enter your website URL"
+                                                placeholder={t(
+                                                    "fields.website.placeholder",
+                                                )}
                                             />
                                         </>
                                     )}
@@ -218,7 +233,7 @@ function RequestForm() {
                                     {({ field, meta }) => (
                                         <>
                                             <span className="label">
-                                                Industry{" "}
+                                                {t("fields.industry.label")}
                                                 {meta.touched && meta.error && (
                                                     <div className="error">
                                                         ({meta.error})
@@ -228,7 +243,9 @@ function RequestForm() {
                                             <input
                                                 {...field}
                                                 type="text"
-                                                placeholder="Enter your industry"
+                                                placeholder={t(
+                                                    "fields.industry.placeholder",
+                                                )}
                                             />
                                         </>
                                     )}
@@ -242,7 +259,7 @@ function RequestForm() {
                                     {({ field, meta }) => (
                                         <>
                                             <span className="label">
-                                                Phone{" "}
+                                                {t("fields.phone.label")}
                                                 {meta.touched && meta.error && (
                                                     <div className="error">
                                                         ({meta.error})
@@ -276,7 +293,7 @@ function RequestForm() {
                                     {({ field, meta }) => (
                                         <>
                                             <span className="label">
-                                                Email{" "}
+                                                {t("fields.email.label")}
                                                 {meta.touched && meta.error && (
                                                     <div className="error">
                                                         ({meta.error})
@@ -286,7 +303,9 @@ function RequestForm() {
                                             <input
                                                 {...field}
                                                 type="email"
-                                                placeholder="Enter your email"
+                                                placeholder={t(
+                                                    "fields.email.placeholder",
+                                                )}
                                             />
                                         </>
                                     )}
@@ -300,7 +319,7 @@ function RequestForm() {
                                     {({ field, form, meta }) => (
                                         <>
                                             <span className="label">
-                                                Your Are{" "}
+                                                {t("fields.are.label")}
                                                 {meta.touched && meta.error && (
                                                     <div className="error">
                                                         ({meta.error})
@@ -329,7 +348,7 @@ function RequestForm() {
                                         {({ field, meta }) => (
                                             <>
                                                 <span className="label">
-                                                    Case Description
+                                                    {t("fields.message.label")}
                                                     {meta.touched &&
                                                         meta.error && (
                                                             <div className="error">
@@ -339,7 +358,9 @@ function RequestForm() {
                                                 </span>
                                                 <textarea
                                                     {...field}
-                                                    placeholder="Please specify..."
+                                                    placeholder={t(
+                                                        "fields.message.placeholder",
+                                                    )}
                                                 />
                                             </>
                                         )}
@@ -361,17 +382,22 @@ function RequestForm() {
                                                     type="checkbox"
                                                 />
                                                 <div>
-                                                    I agree to the processing of
-                                                    my data in accordance with
-                                                    the{" "}
+                                                    {t(
+                                                        "fields.agreeToPolicy.label.0",
+                                                    )}{" "}
                                                     <Link href="/privacy-policy">
-                                                        Privacy Policy
+                                                        {t(
+                                                            "fields.agreeToPolicy.label.1",
+                                                        )}
                                                     </Link>{" "}
-                                                    and{" "}
+                                                    {t(
+                                                        "fields.agreeToPolicy.label.2",
+                                                    )}{" "}
                                                     <Link href="/terms-of-use">
-                                                        Terms of Use
+                                                        {t(
+                                                            "fields.agreeToPolicy.label.3",
+                                                        )}
                                                     </Link>
-                                                    .
                                                 </div>
                                             </label>
                                             {meta.touched && meta.error && (
@@ -389,7 +415,7 @@ function RequestForm() {
                                 className="button"
                                 disabled={isSubmitting}
                             >
-                                Submit
+                                {t("submit")}
                             </button>
                             {isSubmitting && (
                                 <div className="loading-icon">
@@ -407,20 +433,16 @@ function RequestForm() {
                                         />
                                     </span>
                                     <span className="title">
-                                        Thank you for reaching out to Neon HR
-                                        Group!
+                                        {t("thankYou.title")}
                                     </span>
                                     <span className="text">
-                                        Your request has been successfully
-                                        submitted. Our team will review your
-                                        inquiry and get back to you
-                                        shortly.{" "}
+                                        {t("thankYou.text")}
                                     </span>
                                     <button
                                         className="button"
                                         onClick={() => window.location.reload()}
                                     >
-                                        Back
+                                        {t("thankYou.back")}
                                     </button>
                                 </div>
                             </div>
@@ -432,15 +454,11 @@ function RequestForm() {
                 <section className="contentDialog">
                     <section className="contentDialogInfo">
                         <ShieldCheck />
-                        <h3>Thank you for reaching out to Neon HR Group!</h3>
-                        <p>
-                            Your request has been successfully submitted. Our
-                            team will review your inquiry and get back to you
-                            shortly.
-                        </p>
+                        <h3>{t("thankYou.title")}</h3>
+                        <p>{t("thankYou.text")}</p>
                     </section>
                     <Link href="/" className="dialogBtn">
-                        Back to Home
+                        {t("thankYou.back")}
                     </Link>
                 </section>
             </Dialog>
