@@ -11,7 +11,10 @@ export async function getPost(slug, locale) {
         fileSlug = `DE-${slug}`;
     }
 
-    const text = await readFile(`./src/lib/newsroom/${fileSlug}.md`, "utf8");
+    const text = await readFile(
+        join(process.cwd(), `src/lib/newsroom`, `${fileSlug}.md`),
+        "utf8",
+    );
 
     const {
         content,
