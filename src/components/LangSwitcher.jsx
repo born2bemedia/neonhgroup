@@ -38,7 +38,7 @@ const LangSwitcher = () => {
                 }}
             >
                 <img
-                    src={`/images/${currentLocale}.svg`}
+                    src={`/images/${currentLocale.toUpperCase()}.svg`}
                     style={{
                         width: "24px",
                         height: "24px",
