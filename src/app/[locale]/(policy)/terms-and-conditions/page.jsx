@@ -19,7 +19,8 @@ export async function generateStaticParams() {
     return params;
 }
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }) {
+    const { locale } = await params;
     const page = await getPage("terms-and-conditions", locale);
 
     return {
@@ -31,7 +32,8 @@ export async function generateMetadata({ params: { locale } }) {
     };
 }
 
-const TermsAndConditions = async ({ params: { locale } }) => {
+const TermsAndConditions = async ({ params }) => {
+    const { locale } = await params;
     const page = await getPage("terms-and-conditions", locale);
 
     return (

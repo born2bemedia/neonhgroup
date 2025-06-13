@@ -1,6 +1,7 @@
 import { readdir, readFile } from "node:fs/promises";
 import matter from "gray-matter";
 import { marked } from "marked";
+import { join } from "path";
 
 export async function getPost(slug, locale) {
     let fileSlug = slug;
@@ -10,7 +11,11 @@ export async function getPost(slug, locale) {
         fileSlug = `DE-${slug}`;
     }
 
-    const text = await readFile(`./src/lib/newsroom/${fileSlug}.md`, "utf8");
+    const text = await readFile(
+        join(process.cwd(), `src/lib/newsroom`, `${fileSlug}.md`),
+        "utf8",
+    );
+
     const {
         content,
         data: { title, seo_title, seo_description, thumbnail },
@@ -36,7 +41,11 @@ export async function getSlugs() {
 export async function getPage(slug, locale) {
     const fileSlug = `${locale.toUpperCase()}-${slug}`;
 
-    const text = await readFile(`./src/lib/policies/${fileSlug}.md`, "utf8");
+    const text = await readFile(
+        join(process.cwd(), `src/lib/policies`, `${fileSlug}.md`),
+        "utf8",
+    );
+
     const {
         content,
         data: { title, date },
