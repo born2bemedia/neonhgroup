@@ -71,7 +71,7 @@ const LangSwitcher = () => {
                         border: "1px solid #ECECEE",
                         borderRadius: "0px",
                         width: "110px",
-                        zIndex: "999",
+                        zIndex: "998",
                     }}
                 >
                     <li
