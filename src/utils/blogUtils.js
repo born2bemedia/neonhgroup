@@ -37,6 +37,7 @@ export async function getSlugs() {
 export async function getPage(slug, locale) {
     const fileSlug = `${locale.toUpperCase()}-${slug}`;
 
+    // not good solutions
     let text = "";
     if (locale === "it") {
         text = await readFile(`./src/lib/policies/IT-${slug}.md`, "utf8");
