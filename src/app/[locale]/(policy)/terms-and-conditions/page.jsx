@@ -21,7 +21,6 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
     const { locale } = await params;
-
     const page = await getPage("terms-and-conditions", locale);
 
     return {
@@ -33,10 +32,27 @@ export async function generateMetadata({ params }) {
     };
 }
 
-const TermsAndConditions = async () => {
-    // const page = await getPage("terms-and-conditions", locale);
+const TermsAndConditions = async ({ params }) => {
+    const { locale } = await params;
+    const page = await getPage("terms-and-conditions", locale);
 
-    return <>Policy</>;
+    return (
+        <>
+            <div className="policy-head"></div>
+            <section className="policy">
+                <div className="policy__container">
+                    <div className="policy__body">
+                        <h1 className="policy__title">{page.title}</h1>
+                        <PolicyDate />
+                        <article
+                            dangerouslySetInnerHTML={{ __html: page.body }}
+                            className="policy__content"
+                        />
+                    </div>
+                </div>
+            </section>
+        </>
+    );
 };
 
 export default TermsAndConditions;

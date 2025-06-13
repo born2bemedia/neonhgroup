@@ -35,16 +35,16 @@ export async function getSlugs() {
 }
 
 export async function getPage(slug, locale) {
-    let fileSlug = slug;
-    if (locale === "it") {
-        fileSlug = `IT-${slug}`;
-    } else if (locale === "de") {
-        fileSlug = `DE-${slug}`;
-    } else {
-        fileSlug = `EN-${slug}`;
-    }
+    const fileSlug = `${locale.toUpperCase()}-${slug}`;
 
-    const text = await readFile(`./src/lib/policies/${fileSlug}.md`, "utf8");
+    let text = "";
+    if (locale === "it") {
+        text = await readFile(`./src/lib/policies/IT-${slug}.md`, "utf8");
+    } else if (locale === "de") {
+        text = await readFile(`./src/lib/policies/DE-${slug}.md`, "utf8");
+    } else {
+        text = await readFile(`./src/lib/policies/EN-${slug}.md`, "utf8");
+    }
 
     const {
         content,
