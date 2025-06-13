@@ -11,6 +11,7 @@ export async function getPost(slug, locale) {
     }
 
     const text = await readFile(`./src/lib/newsroom/${fileSlug}.md`, "utf8");
+
     const {
         content,
         data: { title, seo_title, seo_description, thumbnail },
@@ -34,9 +35,17 @@ export async function getSlugs() {
 }
 
 export async function getPage(slug, locale) {
-    const fileSlug = `${locale.toUpperCase()}-${slug}`;
+    let fileSlug = slug;
+    if (locale === "it") {
+        fileSlug = `IT-${slug}`;
+    } else if (locale === "de") {
+        fileSlug = `DE-${slug}`;
+    } else {
+        fileSlug = `EN-${slug}`;
+    }
 
     const text = await readFile(`./src/lib/policies/${fileSlug}.md`, "utf8");
+
     const {
         content,
         data: { title, date },
