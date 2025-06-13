@@ -3,34 +3,6 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import { join } from "path";
 
-export async function getPost(slug, locale) {
-    let fileSlug = slug;
-    if (locale === "it") {
-        fileSlug = `IT-${slug}`;
-    } else if (locale === "de") {
-        fileSlug = `DE-${slug}`;
-    }
-
-    const text = await readFile(
-        join(process.cwd(), `src/lib/newsroom`, `${fileSlug}.md`),
-        "utf8",
-    );
-
-    const {
-        content,
-        data: { title, seo_title, seo_description, thumbnail },
-    } = matter(text);
-    const body = marked(content);
-    return {
-        slug: fileSlug,
-        title,
-        seo_title,
-        seo_description,
-        thumbnail,
-        body,
-    };
-}
-
 export async function getSlugs() {
     const files = await readdir("./src/lib/newsroom");
     return files
