@@ -13,6 +13,7 @@ import ServicePopup from "@/components/ServicePopup";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
+import { CookieConsent } from "@/components/cookie-consent";
 
 const gilroy = localFont({
     src: [
@@ -67,6 +68,7 @@ export default async function RootLayout({ children, params }) {
                         {/* <OrderPopup /> */}
                         <ServicePopup />
                     </PopupsProvider>
+                    <CookieConsent />
                 </NextIntlClientProvider>
             </body>
         </html>
