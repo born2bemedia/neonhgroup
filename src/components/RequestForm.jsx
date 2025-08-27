@@ -13,6 +13,8 @@ import { ShieldCheck } from "@/icons/other/ShieldCheck";
 import { excludedCountries } from "@/utils/countries";
 import { useTranslations } from "next-intl";
 
+import ReCaptcha from "react-google-recaptcha";
+
 // CustomSelect компонент с добавлением класса _active
 const CustomSelect = ({ name, options, ...props }) => {
     const { setFieldValue, setFieldTouched, errors, touched, values } =
@@ -54,6 +56,8 @@ const CustomSelect = ({ name, options, ...props }) => {
 };
 
 function RequestForm() {
+    const [isCaptchaValid, setIsCaptchaValid] = useState(false);
+
     const t = useTranslations("requestForm");
 
     const countryCode = useCountryCode();
@@ -112,6 +116,10 @@ function RequestForm() {
             setStatus({ success: false });
             setSubmitting(false);
         }
+    };
+
+    const onCaptchaChange = (value) => {
+        setIsCaptchaValid(!!value);
     };
 
     const options = [
@@ -409,11 +417,17 @@ function RequestForm() {
                                     )}
                                 </Field>
                             </div>
-
+                            <ReCaptcha
+                                sitekey={
+                                    process.env
+                                        .NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? ""
+                                }
+                                onChange={onCaptchaChange}
+                            />
                             <button
                                 type="submit"
                                 className="button"
-                                disabled={isSubmitting}
+                                disabled={isSubmitting || !isCaptchaValid}
                             >
                                 {t("submit")}
                             </button>
