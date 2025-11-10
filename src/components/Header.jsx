@@ -66,10 +66,10 @@ const Header = () => {
                                     </li>
                                     <li className="header__contact">
                                         <Link
-                                            href="tel:447450610056"
+                                            href="tel:+447453176173"
                                             className="header__contact-link"
                                         >
-                                            +447450610056
+                                            +447453176173
                                         </Link>
                                     </li>
                                 </ul>
