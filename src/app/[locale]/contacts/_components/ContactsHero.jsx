@@ -26,7 +26,7 @@ const ContactsHero = () => {
                                     {t("callUs.text")}
                                 </p>
                                 <Link
-                                    href="tel:+447450610056"
+                                    href="tel:+447453176173"
                                     className="contacts-hero__link"
                                 >
                                     <svg
@@ -41,7 +41,7 @@ const ContactsHero = () => {
                                             fill="#FF5900"
                                         />
                                     </svg>
-                                    +447450610056
+                                    +447453176173
                                 </Link>
                             </div>
                             <div className="contacts-hero__col">

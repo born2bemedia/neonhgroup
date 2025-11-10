@@ -162,7 +162,7 @@ Per domande, richieste o chiarimenti relativi ai presenti Termini e Condizioni, 
 <div class="contacts">
     
 - **Telefono**  
-  <span><img src="/images/phone-icon.svg" alt="phone-icon"> [+447450610056](tel:+447450610056)</span>
+  <span><img src="/images/phone-icon.svg" alt="phone-icon"> [+447453176173](tel:+447453176173)</span>
 
 - **Email**  
   <span><img src="/images/mail-icon.svg" alt="phone-icon"> [info@neonhrgroup.com](mailto:info@neonhrgroup.com)</span>

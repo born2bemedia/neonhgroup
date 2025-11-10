@@ -249,7 +249,7 @@ Se hai domande o dubbi riguardanti questa Informativa sulla Privacy o l’utiliz
 - **Titolare del trattamento**  
   <span><img src="/images/ltd-icon.svg" alt="phone-icon"> [Neonhire LTD](https://neonhrgroup.com)</span>
 - **Telefono**  
-  <span><img src="/images/phone-icon.svg" alt="phone-icon"> [+447450610056](tel:+447450610056)</span>
+  <span><img src="/images/phone-icon.svg" alt="phone-icon"> [+447453176173](tel:+447453176173)</span>
 
 - **Email**  
   <span><img src="/images/mail-icon.svg" alt="phone-icon"> [info@neonhrgroup.com](mailto:info@neonhrgroup.com)</span>
