@@ -19,7 +19,8 @@ export async function generateStaticParams() {
     return params;
 }
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }) {
+    const { locale } = await params;
     const page = await getPage("refund-policy", locale);
 
     return {
